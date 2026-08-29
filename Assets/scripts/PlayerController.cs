@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections.Generic;
 
 public class PlayerController : MonoBehaviour
 {
@@ -11,13 +12,14 @@ public class PlayerController : MonoBehaviour
     private Animator anim;
     private float moveInput;
     private bool facingRight = true;
+    private List<Collider2D> hitEnemiesThisSwing = new List<Collider2D>();
 
     [Header("Ataque")]
     public Transform attackPoint; // O pontinho vazio na ponta da espada
     public float attackRange = 0.5f; // O tamanho do alcance da espada
     public LayerMask enemyLayers; // Apenas a layer "Enemy"
     public int attackDamage = 10;
-    public float attackCooldown = 0.5f; // Tempo mínimo entre ataques
+    public float attackCooldown = 0.5f; // Tempo minimo entre ataques
     private float nextAttackTime = 0f;
 
     void Start()
@@ -28,21 +30,21 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-        // 1. Captura o movimento (A/D ou Setas)
+        // Captura o movimento (A/D ou Setas)
         moveInput = Input.GetAxisRaw("Horizontal");
 
-        // 2. Avisa o Animator para tocar a animação de Run ou Idle
+        // Avisa o Animator para tocar a animacao de Run ou Idle
         anim.SetFloat("Speed", Mathf.Abs(moveInput));
 
-        // 3. Vira o personagem
+        // Vira o personagem
         if (moveInput > 0 && !facingRight) Flip();
         else if (moveInput < 0 && facingRight) Flip();
 
-        // 4. Lógica de Ataque (Botão esquerdo do Mouse ou tecla J)
+        // Logica de Ataque (Botao esquerdo do Mouse ou tecla J)
         // O Time.time >= nextAttackTime impede o spam de ataque
         if ((Input.GetButtonDown("Fire1") || Input.GetKeyDown(KeyCode.J)) && Time.time >= nextAttackTime)
         {
-            Debug.Log("Botão pressionado");
+            Debug.Log("Botao pressionado");
             Attack();
             nextAttackTime = Time.time + 1f / attackCooldown; // Define o cooldown
         }
@@ -50,7 +52,7 @@ public class PlayerController : MonoBehaviour
 
     void FixedUpdate()
     {
-        // Aplica a velocidade física
+        // aplica a velocidade fisica
         rb.linearVelocity = new Vector2(moveInput * moveSpeed, rb.linearVelocity.y);
     }
 
@@ -65,19 +67,36 @@ public class PlayerController : MonoBehaviour
 
     void Attack()
     {
-        // Impede ataque se ainda está no cooldown
+        // Impede ataque se ainda esta no cooldown
         if (Time.time < nextAttackTime) return;
         nextAttackTime = Time.time + attackCooldown;
         Debug.Log("ATAQUE DISPARADO");
+        hitEnemiesThisSwing.Clear();
         anim.SetTrigger("Attack");
-        Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
-        foreach (Collider2D enemy in hitEnemies)
-    {
-        enemy.GetComponent<EnemyHealth>()?.TakeDamage(attackDamage);
     }
-}
 
-    // Desenha o círculo de ataque no Editor (para você ajustar o alcance)
+    public void applyDamage()
+    {
+        Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
+        
+        foreach (Collider2D enemy in hitEnemies)
+        {
+            if (!hitEnemiesThisSwing.Contains(enemy))
+            {
+                // adiciona inimigo na lista para nao bater de novo
+                hitEnemiesThisSwing.Add(enemy);
+                enemy.GetComponent<EnemyHealth>()?.TakeDamage(attackDamage);
+            }
+        }
+    }
+
+        // limpa a lista de inimigos atingidos
+    public void ResetHitList()
+    {
+        hitEnemiesThisSwing.Clear();
+    }
+
+    // Desenha o circulo de ataque no Editor
     void OnDrawGizmosSelected()
     {
         if (attackPoint == null) return;
