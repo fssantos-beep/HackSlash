@@ -14,20 +14,20 @@ public class EnemySpawner : MonoBehaviour
         if (Time.time >= nextSpawnTime)
         {
             SpawnEnemy();
-            // define a hora do proximo spawn
+            // Define a hora do proximo spawn
             nextSpawnTime = Time.time + spawnRate; 
         }
     }
 
     void SpawnEnemy()
     {
-        // escolhe um numero aleatorio entre 0 e a quantidade de pontos de spawn
+        // Escolhe um numero aleatorio entre 0 e a quantidade de pontos de spawn
         int randomIndex = Random.Range(0, spawnPoints.Length);
         
-        // pega o ponto de spawn sorteado
+        // Pega o ponto de spawn sorteado
         Transform spawnPoint = spawnPoints[randomIndex];
 
-        // cria o inimigo naquela posicao e rotacao
+        // Cria o inimigo naquela posicao e rotacao
         Instantiate(enemyPrefab, spawnPoint.position, spawnPoint.rotation);
     }
 }

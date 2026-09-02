@@ -2,13 +2,23 @@ using UnityEngine;
 
 public class AnimationReceiver : MonoBehaviour
 {
-    public PlayerController PlayerController;
+    private PlayerController playerController;
 
-    public void applyDamage()
+    void Awake()
     {
-        if (PlayerController != null)
+        playerController = GetComponentInParent<PlayerController>();
+        if (playerController == null)
         {
-            PlayerController.applyDamage(); 
+            playerController = GetComponent<PlayerController>();
+        }
+    }
+
+    // Trigga dano na hora do impacto da animacao
+    public void TriggerDamage()
+    {
+        if (playerController != null)
+        {
+            playerController.OnAttackImpact();
         }
     }
 }
