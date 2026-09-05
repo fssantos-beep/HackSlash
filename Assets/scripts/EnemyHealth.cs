@@ -6,7 +6,10 @@ public class EnemyHealth : MonoBehaviour
 {
     [Header("Vida")]
     public int maxHealth = 30;
-    private int currentHealth;
+    public int currentHealth;
+
+    [Header("Recompensa")]
+    public int xpReward = 10; // Quanto XP esse inimigo da ao morrer (altera no inspector)
 
     [Header("Feedback Visual")]
     public float flashDuration = 0.15f;   // Quanto tempo fica vermelho
@@ -14,46 +17,53 @@ public class EnemyHealth : MonoBehaviour
     private SpriteRenderer spriteRenderer;
     private Color originalColor;          // Guarda a cor original pra voltar depois
 
+    // faz o inimigo iniciar com vida full
+    void Awake()
+    {
+        currentHealth = maxHealth;
+        
+        spriteRenderer = GetComponentInChildren<SpriteRenderer>();
+        if (spriteRenderer != null) 
+            originalColor = spriteRenderer.color;
+    }
+
     void Start()
     {
         currentHealth = maxHealth;
         spriteRenderer = GetComponentInChildren<SpriteRenderer>();
-        
-        // Salva a cor original do sprite
-        if (spriteRenderer != null)
-        {
-            originalColor = spriteRenderer.color;
-        }
+        if (spriteRenderer != null) originalColor = spriteRenderer.color;
     }
-
-    // Chamado pelo PlayerController quando o player acerta o inimigo
+    
     public void TakeDamage(int damage)
     {
         currentHealth -= damage;
-        Debug.Log($"{gameObject.name} recebeu {damage} de dano! Vida: {currentHealth}/{maxHealth}");
-
-        // Toca o flash vermelho
-        StartCoroutine(FlashRed());
-
-        if (currentHealth <= 0)
+        // Avisa a barra de vida para atualizar
+        EnemyHealthBar bar = GetComponentInChildren<EnemyHealthBar>();
+        if (bar != null)
         {
-            Die();
+            bar.UpdateBar();
         }
+        StartCoroutine(FlashRed());
+        if (currentHealth <= 0) Die();
     }
 
-    // Flash vermelho: pinta o sprite de vermelho e volta pra cor original
     IEnumerator FlashRed()
     {
         if (spriteRenderer == null) yield break;
-
         spriteRenderer.color = hitColor;
         yield return new WaitForSeconds(flashDuration);
         spriteRenderer.color = originalColor;
     }
-    
+
     void Die()
     {
-        Debug.Log($"{gameObject.name} morreu!");
+        // Avisa o HUD para dar XP ao jogador
+        if (PlayerHUD.Instance != null)
+        {
+            PlayerHUD.Instance.AddXP(xpReward);
+        }
+
+        Debug.Log($"{gameObject.name} morreu e deu {xpReward} XP!");
         Destroy(gameObject);
     }
 }

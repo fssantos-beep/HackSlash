@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &6210446629746626870
+--- !u!1 &8096835450542062724
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,11 +8,12 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 823638744118187140}
-  - component: {fileID: 5147021221515597117}
-  - component: {fileID: 2123843472570208957}
-  - component: {fileID: 1546371041276904362}
-  - component: {fileID: 625607238826893418}
+  - component: {fileID: 3250591422946048310}
+  - component: {fileID: 6998497305688881295}
+  - component: {fileID: 4254534804887633679}
+  - component: {fileID: 3677080224543698456}
+  - component: {fileID: 3376809973961461208}
+  - component: {fileID: 860246687893549287}
   m_Layer: 6
   m_Name: Dummy
   m_TagString: Untagged
@@ -20,29 +21,29 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &823638744118187140
+--- !u!4 &3250591422946048310
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6210446629746626870}
+  m_GameObject: {fileID: 8096835450542062724}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.65, y: -7.98, z: 0}
+  m_LocalPosition: {x: 105, y: 59.3, z: 0}
   m_LocalScale: {x: 1, y: 2.6, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &5147021221515597117
+--- !u!212 &6998497305688881295
 SpriteRenderer:
   serializedVersion: 2
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6210446629746626870}
+  m_GameObject: {fileID: 8096835450542062724}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -94,26 +95,30 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!114 &2123843472570208957
+--- !u!114 &4254534804887633679
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6210446629746626870}
+  m_GameObject: {fileID: 8096835450542062724}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 65fd121f720f2f84cb4d5d4f36b6def3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyHealth
   maxHealth: 30
---- !u!70 &1546371041276904362
+  currentHealth: 0
+  xpReward: 10
+  flashDuration: 0.15
+  hitColor: {r: 1, g: 0, b: 0, a: 1}
+--- !u!70 &3677080224543698456
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6210446629746626870}
+  m_GameObject: {fileID: 8096835450542062724}
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
@@ -144,14 +149,14 @@ CapsuleCollider2D:
   m_Offset: {x: -0, y: 0.01}
   m_Size: {x: 0.8, y: 1.98}
   m_Direction: 0
---- !u!50 &625607238826893418
+--- !u!50 &3376809973961461208
 Rigidbody2D:
   serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6210446629746626870}
+  m_GameObject: {fileID: 8096835450542062724}
   m_BodyType: 1
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
@@ -171,3 +176,16 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &860246687893549287
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8096835450542062724}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f63117604d1610244b9c69200507bda2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyContactDamage
+  contactDamage: 10
