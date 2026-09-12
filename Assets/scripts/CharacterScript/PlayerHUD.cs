@@ -2,15 +2,13 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
-
 public class PlayerHUD : MonoBehaviour
 {
-    // Singleton: Permite que outros scripts acessem este HUD facilmente
     public static PlayerHUD Instance; 
 
     [Header("Referências UI")]
     public Slider healthBar;
-    public TextMeshProUGUI xpText; // Se estiver usando TextMeshPro, mude para TextMeshProUGUI
+    public TextMeshProUGUI xpText;
 
     private int currentXP = 0;
 
