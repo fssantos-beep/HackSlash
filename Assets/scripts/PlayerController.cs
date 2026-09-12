@@ -2,15 +2,12 @@ using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 
-public class PlayerController : MonoBehaviour
+public class PlayerController : MonoBehaviour, IAttackable
 {
-    // REFERENCIAS
-    // Tudo que o player precisa "conversar" com outras partes do jogo
-    // precisa arrastar tudo isso no Inspector
     [Header("Referências")]
     public Rigidbody2D rb;
     public Animator animator;
-    public Transform attackPoint;      // ponto onde o "raio" do ataque é desenhado
+    public Transform attackPoint;      // ponto onde o ataque é desenhado
     public Transform groundCheck;      // ponto usado so pra saber se o pe ta tocando o chao
     public SpriteRenderer spriteRenderer;
 
@@ -32,7 +29,7 @@ public class PlayerController : MonoBehaviour
     public float basicAttackDamage = 10f;
     public float basicAttackRange = 0.5f;
     public float attackCooldown = 0.2f;              // tempo minimo entre ataques normais
-    public float attackCooldownAfterDash = 0.3f;     // cooldown um pouco maior depois de um dash, pra nao spammar ataque saindo do dash
+    public float attackCooldownAfterDash = 0.3f;     // cooldown maior após o dash, pra evitar spam saindo dele
     private float nextAttackTime = 0f;
 
     [Header("Dash")]
@@ -49,14 +46,12 @@ public class PlayerController : MonoBehaviour
 
     private bool isAttacking = false;
 
-    // HIT TRACKING
-    // Evita que o mesmo inimigo tome dano varias vezes num unico ataque
-    // (sem isso, um dash de 0.3s podia acertar o mesmo bicho 15x por causa do FixedUpdate/Update)
+    // Evita que o mesmo inimigo tome dano várias vezes num único ataque
+    // (sem isso, um dash de 0.3s podia acertar o mesmo bicho várias vezes por causa do FixedUpdate/Update)
     private HashSet<Collider2D> hitEnemies = new HashSet<Collider2D>();
 
     void Awake()
     {
-        // fallback: se o SpriteRenderer nao estiver no inspector tenta achar automaticamente nos filhos do objeto
         if (spriteRenderer == null)
             spriteRenderer = GetComponentInChildren<SpriteRenderer>();
     }
@@ -65,14 +60,13 @@ public class PlayerController : MonoBehaviour
     {
         horizontalInput = Input.GetAxisRaw("Horizontal");
 
-        // Vira o sprite e o ponto de ataque pro lado que o jogador esta andando
+        // Vira o sprite e o ponto de ataque pro lado que o jogador está andando
         if (spriteRenderer != null && horizontalInput != 0)
         {
             facingRight = horizontalInput > 0;
             spriteRenderer.flipX = !facingRight;
 
-            // Reposiciona o attackPoint espelhando o X,
-            // assim o ataque sempre sai na frente do personagem, nao atras
+            // Espelha o X do attackPoint pra garantir que o ataque saia na frente do personagem
             if (attackPoint != null)
             {
                 Vector3 attackPos = attackPoint.localPosition;
@@ -93,7 +87,6 @@ public class PlayerController : MonoBehaviour
             animator.SetTrigger("Jump");
         }
 
-        // Ataque clique esquerdo
         if (Input.GetMouseButtonDown(0))
         {
             // Se ja estamos dando dash e ainda nao ativamos o dash attack,
@@ -103,16 +96,13 @@ public class PlayerController : MonoBehaviour
                 dashAttackActivated = true;
                 animator.SetTrigger("DashAttack");
             }
-            // Caso contrario, e só o ataque basico normal, respeitando o cooldown
             else if (!isAttacking && !isDashing && Time.time >= nextAttackTime)
             {
                 StartCoroutine(BasicAttackRoutine());
             }
         }
 
-        // DASH tambem com cooldown pra nao virar dash infinito
-        if ((Input.GetKeyDown(KeyCode.LeftShift))
-            && !isAttacking && !isDashing && Time.time >= nextDashTime)
+        if (Input.GetKeyDown(KeyCode.LeftShift) && !isAttacking && !isDashing && Time.time >= nextDashTime)
         {
             StartCoroutine(DashRoutine());
         }
@@ -126,34 +116,28 @@ public class PlayerController : MonoBehaviour
         }
         else if (isAttacking)
         {
-            // Trava o movimento horizontal enquanto ataca, pra nao "deslizar atacando"
+            // Trava o movimento horizontal enquanto ataca, pra não "deslizar atacando"
             rb.linearVelocity = new Vector2(0f, rb.linearVelocity.y);
         }
-        // (durante o dash a velocidade é controlada direto na DashRoutine
+        // Durante o dash a velocidade é controlada direto na DashRoutine
 
         animator.SetFloat("Speed", Mathf.Abs(horizontalInput));
     }
 
-    // ATAQUE BASICO
     IEnumerator BasicAttackRoutine()
     {
         isAttacking = true;
         nextAttackTime = Time.time + attackCooldown;
         hitEnemies.Clear(); // comeca um ataque novo, entao limpa quem ja foi atingido antes
-
         animator.SetTrigger("Attack");
-
-        // Espera a duracao da animacao antes de liberar o personagem de novo.
-        // Obs: esse 0.5s é fixo se a animacao de ataque mudar de duracao,
-        // precisa ajustar aqui tambem (ideal seria pegar do proprio clip, mas
-        // pra manter simples ficou hardcoded)
+ 
+        // Duração fixa pra combinar com a animação. Se a animação mudar de tempo,
+        // ajustar aqui também (idealmente isso viria do próprio clip)
         yield return new WaitForSeconds(0.5f);
-
+ 
         isAttacking = false;
-        hitEnemies.Clear(); // limpa de novo so pra garantir que nao sobrou nada preso no set
     }
 
-    // DASH
     IEnumerator DashRoutine()
     {
         isDashing = true;
@@ -178,10 +162,9 @@ public class PlayerController : MonoBehaviour
                 ApplyDashAttackDamage();
             }
 
-            yield return null; // espera o proximo frame
+            yield return null;
         }
 
-        // Fim do dash: zera a velocidade horizontal e libera o personagem de novo
         rb.linearVelocity = new Vector2(0f, rb.linearVelocity.y);
         isDashing = false;
         dashAttackActivated = false;
@@ -189,10 +172,10 @@ public class PlayerController : MonoBehaviour
         hitEnemies.Clear();
     }
 
-    // Aplicar dano do atk basico
+    // Chamado via Animation Event no frame de impacto do ataque básico
     public void OnAttackImpact()
     {
-        // Se o dash attack tiver sido ativado, usa os valores dele em vez do ataque normal
+        // Se o dash attack estiver ativo, usa os valores dele em vez do ataque normal
         // isso cobre o caso de o Animation Event do ataque comum disparar durante um dash attack
         float currentDamage = dashAttackActivated ? dashAttackDamage : basicAttackDamage;
         float currentRange = dashAttackActivated ? dashAttackRange : basicAttackRange;
@@ -201,7 +184,6 @@ public class PlayerController : MonoBehaviour
 
         foreach (Collider2D enemy in hitEnemiesInRange)
         {
-            // So aplica dano se esse inimigo ainda nao foi atingido nesse golpe
             if (!hitEnemies.Contains(enemy))
             {
                 EnemyHealth enemyHealth = enemy.GetComponent<EnemyHealth>();
@@ -214,7 +196,6 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    // APLICAR DANO DO DASH ATTACK
     private void ApplyDashAttackDamage()
     {
         Collider2D[] enemiesInRange = Physics2D.OverlapCircleAll(attackPoint.position, dashAttackRange, enemyLayers);

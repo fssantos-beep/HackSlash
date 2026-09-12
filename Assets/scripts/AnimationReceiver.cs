@@ -2,23 +2,31 @@ using UnityEngine;
 
 public class AnimationReceiver : MonoBehaviour
 {
-    private PlayerController playerController;
+    private IAttackable attackable;
 
     void Awake()
     {
-        playerController = GetComponentInParent<PlayerController>();
-        if (playerController == null)
+        // Procura o script no objeto pai primeiro
+        attackable = GetComponentInParent<IAttackable>();
+
+        // Se não achou, tenta no próprio objeto
+        if (attackable == null)
         {
-            playerController = GetComponent<PlayerController>();
+            attackable = GetComponent<IAttackable>();
+        }
+
+        if (attackable == null)
+        {
+            Debug.LogError("AnimationReceiver: nenhum personagem com IAttackable encontrado!");
         }
     }
 
     // Trigga dano na hora do impacto da animacao
     public void TriggerDamage()
     {
-        if (playerController != null)
+        if (attackable != null)
         {
-            playerController.OnAttackImpact();
+            attackable.OnAttackImpact();
         }
     }
 }

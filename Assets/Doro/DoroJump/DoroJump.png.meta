@@ -1,0 +1,322 @@
+fileFormatVersion: 2
+guid: bea567c824d004d439c63e2aa768537d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6516639911458407054
+    second: DoroJump_0
+  - first:
+      213: -8621955094300160128
+    second: DoroJump_1
+  - first:
+      213: 3427055173713706426
+    second: DoroJump_2
+  - first:
+      213: -4429798206539007654
+    second: DoroJump_3
+  - first:
+      213: -1641316842289046595
+    second: DoroJump_4
+  - first:
+      213: -451611754112711122
+    second: DoroJump_5
+  - first:
+      213: 3043615814205992651
+    second: DoroJump_6
+  - first:
+      213: 7463681263658910826
+    second: DoroJump_7
+  - first:
+      213: 5706668771855345578
+    second: DoroJump_8
+  - first:
+      213: 4499428794048246738
+    second: DoroJump_9
+  - first:
+      213: 8308450063774957824
+    second: DoroJump_10
+  - first:
+      213: -8335040108079204868
+    second: DoroJump_11
+  - first:
+      213: -34333300090176734
+    second: DoroJump_12
+  - first:
+      213: -7823188123852213432
+    second: DoroJump_13
+  - first:
+      213: 701585463176837317
+    second: DoroJump_14
+  - first:
+      213: 8450638842110170275
+    second: DoroJump_15
+  - first:
+      213: 3586253968043401777
+    second: DoroJump_16
+  - first:
+      213: -8035296819109162688
+    second: DoroJump_17
+  - first:
+      213: 1384380987815836353
+    second: DoroJump_18
+  - first:
+      213: 4978878548661697192
+    second: DoroJump_19
+  - first:
+      213: -951971290088474601
+    second: DoroJump_20
+  - first:
+      213: 2975582317839428768
+    second: DoroJump_21
+  - first:
+      213: 7851532140149669255
+    second: DoroJump_22
+  - first:
+      213: -8066484065835704678
+    second: DoroJump_23
+  - first:
+      213: 2387744893822470515
+    second: DoroJump_24
+  - first:
+      213: -7656308334656913211
+    second: DoroJump_25
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DoroJump_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 8
+        width: 236
+        height: 229
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27d7364f68e3095a0800000000000000
+      internalID: -6516639911458407054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoroJump_1
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 20
+        width: 287
+        height: 248
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08f8ed6d589a85880800000000000000
+      internalID: -8621955094300160128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoroJump_2
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 16
+        width: 249
+        height: 302
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abdbedee5885f8f20800000000000000
+      internalID: 3427055173713706426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoroJump_10
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 0
+        width: 311
+        height: 233
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 001c06d105b8d4370800000000000000
+      internalID: 8308450063774957824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 59694ac0154111544a6765db535c404d
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      DoroJump_0: -6516639911458407054
+      DoroJump_1: -8621955094300160128
+      DoroJump_10: 8308450063774957824
+      DoroJump_11: -8335040108079204868
+      DoroJump_12: -34333300090176734
+      DoroJump_13: -7823188123852213432
+      DoroJump_14: 701585463176837317
+      DoroJump_15: 8450638842110170275
+      DoroJump_16: 3586253968043401777
+      DoroJump_17: -8035296819109162688
+      DoroJump_18: 1384380987815836353
+      DoroJump_19: 4978878548661697192
+      DoroJump_2: 3427055173713706426
+      DoroJump_20: -951971290088474601
+      DoroJump_21: 2975582317839428768
+      DoroJump_22: 7851532140149669255
+      DoroJump_23: -8066484065835704678
+      DoroJump_24: 2387744893822470515
+      DoroJump_25: -7656308334656913211
+      DoroJump_3: -4429798206539007654
+      DoroJump_4: -1641316842289046595
+      DoroJump_5: -451611754112711122
+      DoroJump_6: 3043615814205992651
+      DoroJump_7: 7463681263658910826
+      DoroJump_8: 5706668771855345578
+      DoroJump_9: 4499428794048246738
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
