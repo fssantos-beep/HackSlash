@@ -28,6 +28,18 @@ AnimationClip:
       value: {fileID: 6710578149189132937, guid: ffcfcba6a74a656488789f20291996d6, type: 3}
     - time: 0.25
       value: {fileID: -2541335251094428770, guid: ffcfcba6a74a656488789f20291996d6, type: 3}
+    - time: 0.33333334
+      value: {fileID: 247394043, guid: ffcfcba6a74a656488789f20291996d6, type: 3}
+    - time: 0.41666666
+      value: {fileID: 567063571, guid: ffcfcba6a74a656488789f20291996d6, type: 3}
+    - time: 0.5
+      value: {fileID: -1848664311, guid: ffcfcba6a74a656488789f20291996d6, type: 3}
+    - time: 0.5833333
+      value: {fileID: -1582491869, guid: ffcfcba6a74a656488789f20291996d6, type: 3}
+    - time: 0.6666667
+      value: {fileID: -450291505, guid: ffcfcba6a74a656488789f20291996d6, type: 3}
+    - time: 0.75
+      value: {fileID: 612261916, guid: ffcfcba6a74a656488789f20291996d6, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -54,12 +66,18 @@ AnimationClip:
     - {fileID: -3410787291790206850, guid: ffcfcba6a74a656488789f20291996d6, type: 3}
     - {fileID: 6710578149189132937, guid: ffcfcba6a74a656488789f20291996d6, type: 3}
     - {fileID: -2541335251094428770, guid: ffcfcba6a74a656488789f20291996d6, type: 3}
+    - {fileID: 247394043, guid: ffcfcba6a74a656488789f20291996d6, type: 3}
+    - {fileID: 567063571, guid: ffcfcba6a74a656488789f20291996d6, type: 3}
+    - {fileID: -1848664311, guid: ffcfcba6a74a656488789f20291996d6, type: 3}
+    - {fileID: -1582491869, guid: ffcfcba6a74a656488789f20291996d6, type: 3}
+    - {fileID: -450291505, guid: ffcfcba6a74a656488789f20291996d6, type: 3}
+    - {fileID: 612261916, guid: ffcfcba6a74a656488789f20291996d6, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.26666668
+    m_StopTime: 0.76666665
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -79,7 +97,14 @@ AnimationClip:
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
   m_Events:
-  - time: 0.083333336
+  - time: 0.16666667
+    functionName: TriggerDamage
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.5833333
     functionName: TriggerDamage
     data: 
     objectReferenceParameter: {fileID: 0}

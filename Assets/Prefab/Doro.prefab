@@ -97,6 +97,8 @@ MonoBehaviour:
   attackDamage: 20
   attackRange: 0.23
   attackCooldown: 0.5
+  heavyAttackDamage: 40
+  heavyAttackCooldown: 1.5
   forcaDash: 8.8
   dashTime: 0.2
   dashCooldown: 1

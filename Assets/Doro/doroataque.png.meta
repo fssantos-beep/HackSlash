@@ -1,0 +1,1014 @@
+fileFormatVersion: 2
+guid: 6243f3cdbf088e5439c57b30bc8d4fd4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3732986405982230048
+    second: doroataque_0
+  - first:
+      213: 3127871781876454286
+    second: doroataque_1
+  - first:
+      213: -4090301168198715478
+    second: doroataque_2
+  - first:
+      213: 9079899092243362557
+    second: doroataque_3
+  - first:
+      213: 680083711973968572
+    second: doroataque_4
+  - first:
+      213: 2401373400831982911
+    second: doroataque_5
+  - first:
+      213: -2966596316954236377
+    second: doroataque_6
+  - first:
+      213: -1523496973955027084
+    second: doroataque_7
+  - first:
+      213: -3132218881437592023
+    second: doroataque_8
+  - first:
+      213: -1082322388544678036
+    second: doroataque_9
+  - first:
+      213: -7710051994099255649
+    second: doroataque_10
+  - first:
+      213: -4750933249142600378
+    second: doroataque_11
+  - first:
+      213: 4816220179322161194
+    second: doroataque_12
+  - first:
+      213: -3755427737291258966
+    second: doroataque_13
+  - first:
+      213: 5727957635767308418
+    second: doroataque_14
+  - first:
+      213: 3740566229615952824
+    second: doroataque_15
+  - first:
+      213: 7271209101227333812
+    second: doroataque_16
+  - first:
+      213: -1727884454265528283
+    second: doroataque_17
+  - first:
+      213: -5228642258558313454
+    second: doroataque_18
+  - first:
+      213: -4521899604491662553
+    second: doroataque_19
+  - first:
+      213: -4970625145792312792
+    second: doroataque_20
+  - first:
+      213: -6087987968363336258
+    second: doroataque_21
+  - first:
+      213: -2834616177345965922
+    second: doroataque_22
+  - first:
+      213: -2259777794972348306
+    second: doroataque_23
+  - first:
+      213: 574701305740780950
+    second: doroataque_24
+  - first:
+      213: -2794121936373296884
+    second: doroataque_25
+  - first:
+      213: -7340468510543609616
+    second: doroataque_26
+  - first:
+      213: 6282059478302923890
+    second: doroataque_27
+  - first:
+      213: -8515543940968154357
+    second: doroataque_28
+  - first:
+      213: 1247152414958206707
+    second: doroataque_29
+  - first:
+      213: -7171380845003815963
+    second: doroataque_30
+  - first:
+      213: 4005392201078985631
+    second: doroataque_31
+  - first:
+      213: 8654369754217846299
+    second: doroataque_32
+  - first:
+      213: -8624093219374739916
+    second: doroataque_33
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: doroataque_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 681
+        width: 167
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 026dee7ab5b3ec330800000000000000
+      internalID: 3732986405982230048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doroataque_1
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 739
+        width: 216
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e83d6bd30de686b20800000000000000
+      internalID: 3127871781876454286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doroataque_2
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 483
+        width: 234
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa7762542c45c37c0800000000000000
+      internalID: -4090301168198715478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doroataque_3
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 735
+        width: 241
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df2be85fd18420e70800000000000000
+      internalID: 9079899092243362557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doroataque_4
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 465
+        width: 229
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbaccb56884207900800000000000000
+      internalID: 680083711973968572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doroataque_5
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 455
+        width: 295
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3d79a19264635120800000000000000
+      internalID: 2401373400831982911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doroataque_6
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 687
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72ae5ff0e5884d6d0800000000000000
+      internalID: -2966596316954236377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doroataque_7
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 692
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47f2703f2937bdae0800000000000000
+      internalID: -1523496973955027084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doroataque_8
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 725
+        width: 257
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9261425c58f1884d0800000000000000
+      internalID: -3132218881437592023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doroataque_9
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 709
+        width: 261
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c679752a581daf0f0800000000000000
+      internalID: -1082322388544678036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doroataque_10
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 703
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f96fbeb9f84600590800000000000000
+      internalID: -7710051994099255649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doroataque_11
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 718
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64d4345a16b411eb0800000000000000
+      internalID: -4750933249142600378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doroataque_12
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 510
+        width: 227
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a28c0945cb6a6d240800000000000000
+      internalID: 4816220179322161194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doroataque_13
+      rect:
+        serializedVersion: 2
+        x: 1270
+        y: 737
+        width: 217
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa30b1bbe5a02ebc0800000000000000
+      internalID: -3755427737291258966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doroataque_14
+      rect:
+        serializedVersion: 2
+        x: 1278
+        y: 481
+        width: 211
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28095682f1bcd7f40800000000000000
+      internalID: 5727957635767308418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doroataque_15
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 494
+        width: 31
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b3c41fda2929e330800000000000000
+      internalID: 3740566229615952824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doroataque_16
+      rect:
+        serializedVersion: 2
+        x: 1228
+        y: 502
+        width: 35
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b81e3e272688e460800000000000000
+      internalID: 7271209101227333812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doroataque_17
+      rect:
+        serializedVersion: 2
+        x: 1228
+        y: 505
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 520659a5e325508e0800000000000000
+      internalID: -1727884454265528283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doroataque_18
+      rect:
+        serializedVersion: 2
+        x: 1486
+        y: 495
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21c190181912077b0800000000000000
+      internalID: -5228642258558313454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doroataque_19
+      rect:
+        serializedVersion: 2
+        x: 1470
+        y: 487
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72b8b4c844cfe31c0800000000000000
+      internalID: -4521899604491662553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doroataque_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 249
+        width: 369
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82acc61f3cac40bb0800000000000000
+      internalID: -4970625145792312792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doroataque_21
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 255
+        width: 202
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebde9d4c23f138ba0800000000000000
+      internalID: -6087987968363336258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doroataque_22
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 237
+        width: 235
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e90d7baea9b69a8d0800000000000000
+      internalID: -2834616177345965922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doroataque_23
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 209
+        width: 331
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e609b5b7118a3a0e0800000000000000
+      internalID: -2259777794972348306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doroataque_24
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 243
+        width: 239
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 695e1aceacfb9f700800000000000000
+      internalID: 574701305740780950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doroataque_25
+      rect:
+        serializedVersion: 2
+        x: 1336
+        y: 253
+        width: 200
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c01d75b17e84939d0800000000000000
+      internalID: -2794121936373296884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doroataque_26
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 27
+        width: 537
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f08b18f7ca612a90800000000000000
+      internalID: -7340468510543609616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doroataque_27
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 231
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27c1f1ecfcb5e2750800000000000000
+      internalID: 6282059478302923890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doroataque_28
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 215
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0bfc5927e5b2d980800000000000000
+      internalID: -8515543940968154357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doroataque_29
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 225
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3feba528386ce4110800000000000000
+      internalID: 1247152414958206707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doroataque_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 77
+        width: 5
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e3c188fd132a7c90800000000000000
+      internalID: -7171380845003815963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doroataque_31
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 35
+        width: 199
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f93de634cf2069730800000000000000
+      internalID: 4005392201078985631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doroataque_32
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 23
+        width: 327
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b161a0b407f7a1870800000000000000
+      internalID: 8654369754217846299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doroataque_33
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 33
+        width: 207
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43e405dc8e0115880800000000000000
+      internalID: -8624093219374739916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      doroataque_0: 3732986405982230048
+      doroataque_1: 3127871781876454286
+      doroataque_10: -7710051994099255649
+      doroataque_11: -4750933249142600378
+      doroataque_12: 4816220179322161194
+      doroataque_13: -3755427737291258966
+      doroataque_14: 5727957635767308418
+      doroataque_15: 3740566229615952824
+      doroataque_16: 7271209101227333812
+      doroataque_17: -1727884454265528283
+      doroataque_18: -5228642258558313454
+      doroataque_19: -4521899604491662553
+      doroataque_2: -4090301168198715478
+      doroataque_20: -4970625145792312792
+      doroataque_21: -6087987968363336258
+      doroataque_22: -2834616177345965922
+      doroataque_23: -2259777794972348306
+      doroataque_24: 574701305740780950
+      doroataque_25: -2794121936373296884
+      doroataque_26: -7340468510543609616
+      doroataque_27: 6282059478302923890
+      doroataque_28: -8515543940968154357
+      doroataque_29: 1247152414958206707
+      doroataque_3: 9079899092243362557
+      doroataque_30: -7171380845003815963
+      doroataque_31: 4005392201078985631
+      doroataque_32: 8654369754217846299
+      doroataque_33: -8624093219374739916
+      doroataque_4: 680083711973968572
+      doroataque_5: 2401373400831982911
+      doroataque_6: -2966596316954236377
+      doroataque_7: -1523496973955027084
+      doroataque_8: -3132218881437592023
+      doroataque_9: -1082322388544678036
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

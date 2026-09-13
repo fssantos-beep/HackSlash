@@ -31,6 +31,12 @@ public class DoroController : MonoBehaviour, IAttackable
     private float nextAttackTime = 0f;
     private bool isAttacking = false;
 
+    [Header("Heavy Attack")]
+    public int heavyAttackDamage = 40;
+    public float heavyAttackCooldown = 1.5f;
+    private float nextHeavyAttackTime = 0f;
+    private int currentAttackDamage; // Guarda o dano do ataque atual para o impacto
+
     [Header("Dash")]
     public float forcaDash = 15f;
     public float dashTime = 0.2f;
@@ -72,11 +78,19 @@ public class DoroController : MonoBehaviour, IAttackable
             animator.SetTrigger("Jump");
         }
 
+        // Ataque Normal (Clique Esquerdo)
         if (Input.GetMouseButtonDown(0) && !isAttacking && !isDashing && Time.time >= nextAttackTime)
         {
             StartCoroutine(AttackRoutine());
         }
 
+        // Heavy Attack (Clique Direito)
+        if (Input.GetMouseButtonDown(1) && !isAttacking && !isDashing && Time.time >= nextHeavyAttackTime)
+        {
+            StartCoroutine(HeavyAttackRoutine());
+        }
+
+        // Dash (Shift Esquerdo)
         if (Input.GetKeyDown(KeyCode.LeftShift) && !isAttacking && !isDashing && Time.time >= nextDashTime)
         {
             StartCoroutine(DashRoutine());
@@ -103,10 +117,24 @@ public class DoroController : MonoBehaviour, IAttackable
     {
         isAttacking = true;
         nextAttackTime = Time.time + attackCooldown;
-
+        
+        currentAttackDamage = attackDamage;
         animator.SetTrigger("Attack");
 
         yield return new WaitForSeconds(0.5f); // Duração aproximada da animação de ataque
+
+        isAttacking = false;
+    }
+
+    // Coroutine do Ataque Pesado
+    IEnumerator HeavyAttackRoutine()
+    {
+        isAttacking = true;
+        nextHeavyAttackTime = Time.time + heavyAttackCooldown;
+        
+        currentAttackDamage = heavyAttackDamage;
+        animator.SetTrigger("HeavyAttack");
+        yield return new WaitForSeconds(0.8f); 
 
         isAttacking = false;
     }
@@ -147,7 +175,7 @@ public class DoroController : MonoBehaviour, IAttackable
             EnemyHealth enemyHealth = hit.GetComponent<EnemyHealth>();
             if (enemyHealth != null)
             {
-                enemyHealth.TakeDamage(attackDamage);
+                enemyHealth.TakeDamage(currentAttackDamage);
 
                 if (enemyHealth.currentHealth <= 0 && PlayerHUD.Instance != null)
                 {

@@ -1,0 +1,1612 @@
+fileFormatVersion: 2
+guid: 19b8ceeb09526de40abc632b38aae515
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5800581529203624000
+    second: dorojumpfall_0
+  - first:
+      213: -5350656607733002480
+    second: dorojumpfall_1
+  - first:
+      213: -3936980589780821369
+    second: dorojumpfall_2
+  - first:
+      213: -2591008132097819620
+    second: dorojumpfall_3
+  - first:
+      213: 8321274713094236361
+    second: dorojumpfall_4
+  - first:
+      213: -5844199243753252939
+    second: dorojumpfall_5
+  - first:
+      213: 1137115721061297870
+    second: dorojumpfall_6
+  - first:
+      213: 8465161041989269283
+    second: dorojumpfall_7
+  - first:
+      213: 1715120575067360740
+    second: dorojumpfall_8
+  - first:
+      213: 6035312915139297713
+    second: dorojumpfall_9
+  - first:
+      213: 3223507220520405834
+    second: dorojumpfall_10
+  - first:
+      213: 6400306010887769870
+    second: dorojumpfall_11
+  - first:
+      213: 8774691650731031122
+    second: dorojumpfall_12
+  - first:
+      213: 8465852747286245173
+    second: dorojumpfall_13
+  - first:
+      213: 3721672869583305974
+    second: dorojumpfall_14
+  - first:
+      213: 7750973534688644087
+    second: dorojumpfall_15
+  - first:
+      213: -2422580938192500115
+    second: dorojumpfall_16
+  - first:
+      213: 2544135249111508118
+    second: dorojumpfall_17
+  - first:
+      213: -3578831909407601677
+    second: dorojumpfall_18
+  - first:
+      213: -189674739427396918
+    second: dorojumpfall_19
+  - first:
+      213: 6802151653741902816
+    second: dorojumpfall_20
+  - first:
+      213: 1403772093548336820
+    second: dorojumpfall_21
+  - first:
+      213: 4197759014984275698
+    second: dorojumpfall_22
+  - first:
+      213: 2567882926667778953
+    second: dorojumpfall_23
+  - first:
+      213: -804974354219713736
+    second: dorojumpfall_24
+  - first:
+      213: -1399987125093496113
+    second: dorojumpfall_25
+  - first:
+      213: 2779101033099570471
+    second: dorojumpfall_26
+  - first:
+      213: 511789067994500181
+    second: dorojumpfall_27
+  - first:
+      213: -1863717383968707900
+    second: dorojumpfall_28
+  - first:
+      213: 7282400748829283439
+    second: dorojumpfall_29
+  - first:
+      213: -8668726017089595322
+    second: dorojumpfall_30
+  - first:
+      213: -9197022234161490541
+    second: dorojumpfall_31
+  - first:
+      213: -8452628243368769529
+    second: dorojumpfall_32
+  - first:
+      213: -4235911641122508108
+    second: dorojumpfall_33
+  - first:
+      213: 8769282715316164215
+    second: dorojumpfall_34
+  - first:
+      213: -2807633821042505568
+    second: dorojumpfall_35
+  - first:
+      213: 6470035334778103460
+    second: dorojumpfall_36
+  - first:
+      213: 5236423088732076499
+    second: dorojumpfall_37
+  - first:
+      213: -5849426050950782295
+    second: dorojumpfall_38
+  - first:
+      213: 5944423197831994764
+    second: dorojumpfall_39
+  - first:
+      213: 2616948891634581654
+    second: dorojumpfall_40
+  - first:
+      213: 7257394323610635099
+    second: dorojumpfall_41
+  - first:
+      213: 6166043003439519858
+    second: dorojumpfall_42
+  - first:
+      213: 6333034417108144596
+    second: dorojumpfall_43
+  - first:
+      213: 2888002231347681132
+    second: dorojumpfall_44
+  - first:
+      213: -7742410299282660007
+    second: dorojumpfall_45
+  - first:
+      213: -1309644644066770258
+    second: dorojumpfall_46
+  - first:
+      213: 6847304416022762368
+    second: dorojumpfall_47
+  - first:
+      213: -4495559848674835712
+    second: dorojumpfall_48
+  - first:
+      213: 3514391548382501716
+    second: dorojumpfall_49
+  - first:
+      213: -401631218604428730
+    second: dorojumpfall_50
+  - first:
+      213: -4055196167865000129
+    second: dorojumpfall_51
+  - first:
+      213: 3466010956860713496
+    second: dorojumpfall_52
+  - first:
+      213: -5845144246887659261
+    second: dorojumpfall_53
+  - first:
+      213: -7472589386906203821
+    second: dorojumpfall_54
+  - first:
+      213: -1164171572521836931
+    second: dorojumpfall_55
+  - first:
+      213: -2261942382573881419
+    second: dorojumpfall_56
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: dorojumpfall_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 525
+        width: 523
+        height: 475
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 048cfd20b2ecf7050800000000000000
+      internalID: 5800581529203624000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dorojumpfall_1
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 627
+        width: 379
+        height: 379
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01f4afc0a26aeb5b0800000000000000
+      internalID: -5350656607733002480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dorojumpfall_2
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 895
+        width: 77
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78a918a33090d59c0800000000000000
+      internalID: -3936980589780821369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dorojumpfall_3
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 555
+        width: 365
+        height: 436
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1c3924e4d3ea0cd0800000000000000
+      internalID: -2591008132097819620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dorojumpfall_4
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 667
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c82c68734b1b7370800000000000000
+      internalID: 8321274713094236361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dorojumpfall_5
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 671
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b71b7f60cb35eea0800000000000000
+      internalID: -5844199243753252939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dorojumpfall_6
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 671
+        width: 334
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eceee5e39b8d7cf00800000000000000
+      internalID: 1137115721061297870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dorojumpfall_7
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 657
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 327fe3a0e1b4a7570800000000000000
+      internalID: 8465161041989269283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dorojumpfall_8
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 689
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ed8adf63155dc710800000000000000
+      internalID: 1715120575067360740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dorojumpfall_9
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 647
+        width: 14
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b1843fae1db1c350800000000000000
+      internalID: 6035312915139297713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dorojumpfall_10
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 678
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4b860afcb23cbc20800000000000000
+      internalID: 3223507220520405834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dorojumpfall_11
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 669
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0f43c8186472d850800000000000000
+      internalID: 6400306010887769870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dorojumpfall_12
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 621
+        width: 37
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25ab867e097f5c970800000000000000
+      internalID: 8774691650731031122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dorojumpfall_13
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 419
+        width: 249
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53fe2ca3830cc7570800000000000000
+      internalID: 8465852747286245173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dorojumpfall_14
+      rect:
+        serializedVersion: 2
+        x: 1132
+        y: 645
+        width: 21
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fcb8b1b1c906a330800000000000000
+      internalID: 3721672869583305974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dorojumpfall_15
+      rect:
+        serializedVersion: 2
+        x: 1312
+        y: 627
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fb02960d5df09b60800000000000000
+      internalID: 7750973534688644087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dorojumpfall_16
+      rect:
+        serializedVersion: 2
+        x: 1442
+        y: 610
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6a476bd873416ed0800000000000000
+      internalID: -2422580938192500115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dorojumpfall_17
+      rect:
+        serializedVersion: 2
+        x: 1462
+        y: 621
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69467d797859e4320800000000000000
+      internalID: 2544135249111508118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dorojumpfall_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 583
+        width: 5
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fb4de0075f655ec0800000000000000
+      internalID: -3578831909407601677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dorojumpfall_19
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 350
+        width: 247
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac2b09554d32e5df0800000000000000
+      internalID: -189674739427396918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dorojumpfall_20
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 279
+        width: 303
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0eb3f95c3e8166e50800000000000000
+      internalID: 6802151653741902816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dorojumpfall_21
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 551
+        width: 31
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b61e8518433b7310800000000000000
+      internalID: 1403772093548336820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dorojumpfall_22
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 542
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f6d4dc559f614a30800000000000000
+      internalID: 4197759014984275698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dorojumpfall_23
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 225
+        width: 347
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98bc2d4aae3f2a320800000000000000
+      internalID: 2567882926667778953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dorojumpfall_24
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 511
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83b3f6bf61824d4f0800000000000000
+      internalID: -804974354219713736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dorojumpfall_25
+      rect:
+        serializedVersion: 2
+        x: 1462
+        y: 444
+        width: 31
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fca8eae802f329ce0800000000000000
+      internalID: -1399987125093496113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dorojumpfall_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 389
+        width: 193
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72d22d05aa9519620800000000000000
+      internalID: 2779101033099570471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dorojumpfall_27
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 407
+        width: 53
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55c8dbd127d3a1700800000000000000
+      internalID: 511789067994500181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dorojumpfall_28
+      rect:
+        serializedVersion: 2
+        x: 1478
+        y: 447
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ca23d6e9eeb226e0800000000000000
+      internalID: -1863717383968707900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dorojumpfall_29
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 397
+        width: 29
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f641202b5e8401560800000000000000
+      internalID: 7282400748829283439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dorojumpfall_30
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 421
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6481038cd9f72b780800000000000000
+      internalID: -8668726017089595322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dorojumpfall_31
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 311
+        width: 85
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3955f65810d9d5080800000000000000
+      internalID: -9197022234161490541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dorojumpfall_32
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 393
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7080297856b32ba80800000000000000
+      internalID: -8452628243368769529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dorojumpfall_33
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 383
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b273f22ec40735c0800000000000000
+      internalID: -4235911641122508108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dorojumpfall_34
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 379
+        width: 31
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 776946dfa20c2b970800000000000000
+      internalID: 8769282715316164215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dorojumpfall_35
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 383
+        width: 35
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a8836d4ae74909d0800000000000000
+      internalID: -2807633821042505568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dorojumpfall_36
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 327
+        width: 79
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a6aca57bde2ac950800000000000000
+      internalID: 6470035334778103460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dorojumpfall_37
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 337
+        width: 145
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d977813e038ba840800000000000000
+      internalID: 5236423088732076499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dorojumpfall_38
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 355
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a2a92d8ff9a2dea0800000000000000
+      internalID: -5849426050950782295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dorojumpfall_39
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 333
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8d1e5d4765de7250800000000000000
+      internalID: 5944423197831994764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dorojumpfall_40
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 325
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6904b39d625415420800000000000000
+      internalID: 2616948891634581654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dorojumpfall_41
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 321
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5b8fbd9fa177b460800000000000000
+      internalID: 7257394323610635099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dorojumpfall_42
+      rect:
+        serializedVersion: 2
+        x: 1372
+        y: 274
+        width: 81
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2789bc9417f229550800000000000000
+      internalID: 6166043003439519858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dorojumpfall_43
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 301
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d1dd0e9f3573e750800000000000000
+      internalID: 6333034417108144596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dorojumpfall_44
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 21
+        width: 277
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6793066abe341820800000000000000
+      internalID: 2888002231347681132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dorojumpfall_45
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 37
+        width: 357
+        height: 283
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9556ee59ade6d8490800000000000000
+      internalID: -7742410299282660007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dorojumpfall_46
+      rect:
+        serializedVersion: 2
+        x: 1262
+        y: 289
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea24860922533dde0800000000000000
+      internalID: -1309644644066770258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dorojumpfall_47
+      rect:
+        serializedVersion: 2
+        x: 1282
+        y: 307
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 083100a7613860f50800000000000000
+      internalID: 6847304416022762368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dorojumpfall_48
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 41
+        width: 295
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0034a39d2209c91c0800000000000000
+      internalID: -4495559848674835712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dorojumpfall_49
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 271
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45b59f24e70a5c030800000000000000
+      internalID: 3514391548382501716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dorojumpfall_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 195
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 642306cd88e1d6af0800000000000000
+      internalID: -401631218604428730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dorojumpfall_51
+      rect:
+        serializedVersion: 2
+        x: 1478
+        y: 245
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3f91e7129c09b7c0800000000000000
+      internalID: -4055196167865000129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dorojumpfall_52
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 29
+        width: 343
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81a6b4ff99eb91030800000000000000
+      internalID: 3466010956860713496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dorojumpfall_53
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 217
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 309c75fb640e1eea0800000000000000
+      internalID: -5845144246887659261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dorojumpfall_54
+      rect:
+        serializedVersion: 2
+        x: 1228
+        y: 203
+        width: 39
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3590a194b870c4890800000000000000
+      internalID: -7472589386906203821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dorojumpfall_55
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 185
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7e5a327f1808dfe0800000000000000
+      internalID: -1164171572521836931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dorojumpfall_56
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 35
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b778482367fb90e0800000000000000
+      internalID: -2261942382573881419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      dorojumpfall_0: 5800581529203624000
+      dorojumpfall_1: -5350656607733002480
+      dorojumpfall_10: 3223507220520405834
+      dorojumpfall_11: 6400306010887769870
+      dorojumpfall_12: 8774691650731031122
+      dorojumpfall_13: 8465852747286245173
+      dorojumpfall_14: 3721672869583305974
+      dorojumpfall_15: 7750973534688644087
+      dorojumpfall_16: -2422580938192500115
+      dorojumpfall_17: 2544135249111508118
+      dorojumpfall_18: -3578831909407601677
+      dorojumpfall_19: -189674739427396918
+      dorojumpfall_2: -3936980589780821369
+      dorojumpfall_20: 6802151653741902816
+      dorojumpfall_21: 1403772093548336820
+      dorojumpfall_22: 4197759014984275698
+      dorojumpfall_23: 2567882926667778953
+      dorojumpfall_24: -804974354219713736
+      dorojumpfall_25: -1399987125093496113
+      dorojumpfall_26: 2779101033099570471
+      dorojumpfall_27: 511789067994500181
+      dorojumpfall_28: -1863717383968707900
+      dorojumpfall_29: 7282400748829283439
+      dorojumpfall_3: -2591008132097819620
+      dorojumpfall_30: -8668726017089595322
+      dorojumpfall_31: -9197022234161490541
+      dorojumpfall_32: -8452628243368769529
+      dorojumpfall_33: -4235911641122508108
+      dorojumpfall_34: 8769282715316164215
+      dorojumpfall_35: -2807633821042505568
+      dorojumpfall_36: 6470035334778103460
+      dorojumpfall_37: 5236423088732076499
+      dorojumpfall_38: -5849426050950782295
+      dorojumpfall_39: 5944423197831994764
+      dorojumpfall_4: 8321274713094236361
+      dorojumpfall_40: 2616948891634581654
+      dorojumpfall_41: 7257394323610635099
+      dorojumpfall_42: 6166043003439519858
+      dorojumpfall_43: 6333034417108144596
+      dorojumpfall_44: 2888002231347681132
+      dorojumpfall_45: -7742410299282660007
+      dorojumpfall_46: -1309644644066770258
+      dorojumpfall_47: 6847304416022762368
+      dorojumpfall_48: -4495559848674835712
+      dorojumpfall_49: 3514391548382501716
+      dorojumpfall_5: -5844199243753252939
+      dorojumpfall_50: -401631218604428730
+      dorojumpfall_51: -4055196167865000129
+      dorojumpfall_52: 3466010956860713496
+      dorojumpfall_53: -5845144246887659261
+      dorojumpfall_54: -7472589386906203821
+      dorojumpfall_55: -1164171572521836931
+      dorojumpfall_56: -2261942382573881419
+      dorojumpfall_6: 1137115721061297870
+      dorojumpfall_7: 8465161041989269283
+      dorojumpfall_8: 1715120575067360740
+      dorojumpfall_9: 6035312915139297713
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

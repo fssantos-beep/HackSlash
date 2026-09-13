@@ -188,28 +188,6 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: DoroJump_0
-      rect:
-        serializedVersion: 2
-        x: 9
-        y: 8
-        width: 236
-        height: 229
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 27d7364f68e3095a0800000000000000
-      internalID: -6516639911458407054
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: DoroJump_1
       rect:
         serializedVersion: 2
@@ -271,6 +249,28 @@ TextureImporter:
       bones: []
       spriteID: 001c06d105b8d4370800000000000000
       internalID: 8308450063774957824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoroJump_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 11
+        width: 240
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 177d39b2f57d5db46901302a7b7e2d46
+      internalID: -6516639911458407054
       vertices: []
       indices: 
       edges: []
