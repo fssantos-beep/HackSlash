@@ -2,23 +2,23 @@ using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 
-public class ValinaController : MonoBehaviour, IAttackable
+public class ValinaController : MonoBehaviour, IAttackable, IUpgradable
 {
     [Header("Referências")]
     public Rigidbody2D rb;
     public Animator animator;
     public Transform attackPoint;      // ponto onde o ataque é desenhado
-    public Transform groundCheck;      // ponto usado so pra saber se o pe ta tocando o chao
+    public Transform groundCheck;      // ponto usado pra saber se o pé está tocando o chão
     public SpriteRenderer spriteRenderer;
 
     [Header("Camadas")]
-    public LayerMask groundLayer;   // o que conta como "chao" pro OverlapCircle
+    public LayerMask groundLayer;   // o que conta como "chão" pro OverlapCircle
     public LayerMask enemyLayers;   // o que conta como "inimigo" pro dano
 
     [Header("Movimentação")]
     public float moveSpeed = 7f;
     private float horizontalInput;     // -1, 0 ou 1, vindo do Input.GetAxisRaw
-    private bool facingRight = true;   // pra saber pra que lado o personagem olha
+    private bool facingRight = true;   // pra saber pra que lado o personagem está olhando
 
     [Header("Pulo")]
     public float jumpForce = 12f;
@@ -28,7 +28,7 @@ public class ValinaController : MonoBehaviour, IAttackable
     [Header("Ataque Básico")]
     public float basicAttackDamage = 10f;
     public float basicAttackRange = 0.5f;
-    public float attackCooldown = 0.2f;              // tempo minimo entre ataques normais
+    public float attackCooldown = 0.2f;              // tempo mínimo entre ataques normais
     public float attackCooldownAfterDash = 0.3f;     // cooldown maior após o dash, pra evitar spam saindo dele
     private float nextAttackTime = 0f;
 
@@ -42,7 +42,7 @@ public class ValinaController : MonoBehaviour, IAttackable
     [Header("Dash Attack")]
     public float dashAttackDamage = 20f;
     public float dashAttackRange = 0.8f;
-    private bool dashAttackActivated = false;  // vira true se o jogador apertar ataque NO MEIO do dash
+    private bool dashAttackActivated = false;  // vira true se o jogador atacar NO MEIO do dash
 
     private bool isAttacking = false;
 
@@ -75,12 +75,11 @@ public class ValinaController : MonoBehaviour, IAttackable
             }
         }
 
-        // Checagem de chao via um circulo invisivel embaixo do personagem
+        // Checagem de chão usando um círculo invisível embaixo do personagem
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
         animator.SetBool("isGrounded", isGrounded);
 
-        // PULO
-        // Só pula se estiver no chao e nao estiver travado atacando ou dando dash
+        // Só pula se estiver no chão e não estiver travado atacando ou dando dash
         if (Input.GetButtonDown("Jump") && isGrounded && !isAttacking && !isDashing)
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
@@ -89,8 +88,8 @@ public class ValinaController : MonoBehaviour, IAttackable
 
         if (Input.GetMouseButtonDown(0))
         {
-            // Se ja estamos dando dash e ainda nao ativamos o dash attack,
-            // isso vira um "ataque especial" saindo do dash
+            // Se já estamos no dash e o dash attack ainda não foi ativado,
+            // esse clique vira o "ataque especial" saindo do dash
             if (isDashing && !dashAttackActivated)
             {
                 dashAttackActivated = true;
@@ -128,13 +127,14 @@ public class ValinaController : MonoBehaviour, IAttackable
     {
         isAttacking = true;
         nextAttackTime = Time.time + attackCooldown;
-        hitEnemies.Clear(); // comeca um ataque novo, entao limpa quem ja foi atingido antes
+        hitEnemies.Clear(); // novo ataque, então limpa quem já foi atingido antes
+
         animator.SetTrigger("Attack");
- 
+
         // Duração fixa pra combinar com a animação. Se a animação mudar de tempo,
         // ajustar aqui também (idealmente isso viria do próprio clip)
         yield return new WaitForSeconds(0.5f);
- 
+
         isAttacking = false;
     }
 
@@ -150,13 +150,13 @@ public class ValinaController : MonoBehaviour, IAttackable
         float dashDirection = facingRight ? 1f : -1f;
         float dashEndTime = Time.time + dashDuration;
 
-        // Empurra o personagem na direcao do dash frame a frame ate acabar o tempo
+        // Empurra o personagem na direção do dash frame a frame até acabar o tempo
         while (Time.time < dashEndTime)
         {
             rb.linearVelocity = new Vector2(dashDirection * dashSpeed, rb.linearVelocity.y);
 
-            // Se o jogador apertou ataque durante o dash, vai aplicando dano
-            // continuamente (o hitEnemies garante que cada inimigo so leva uma vez)
+            // Se o jogador ativou o dash attack, aplica dano continuamente
+            // (o hitEnemies garante que cada inimigo só leva uma vez)
             if (dashAttackActivated)
             {
                 ApplyDashAttackDamage();
@@ -176,7 +176,7 @@ public class ValinaController : MonoBehaviour, IAttackable
     public void OnAttackImpact()
     {
         // Se o dash attack estiver ativo, usa os valores dele em vez do ataque normal
-        // isso cobre o caso de o Animation Event do ataque comum disparar durante um dash attack
+        // (cobre o caso do Animation Event do ataque comum disparar durante um dash attack)
         float currentDamage = dashAttackActivated ? dashAttackDamage : basicAttackDamage;
         float currentRange = dashAttackActivated ? dashAttackRange : basicAttackRange;
 
@@ -190,7 +190,7 @@ public class ValinaController : MonoBehaviour, IAttackable
                 if (enemyHealth != null)
                 {
                     enemyHealth.TakeDamage((int)currentDamage);
-                    hitEnemies.Add(enemy); // marca esse inimigo como "ja tomou dano"
+                    hitEnemies.Add(enemy);
                 }
             }
         }
@@ -214,7 +214,36 @@ public class ValinaController : MonoBehaviour, IAttackable
         }
     }
 
-    // So pra debug visual no Editor, mostra os raios de ataque e a area de chao
+    // Aplica o efeito do item escolhido na tela de level-up
+    public void ApplyUpgrade(ItemData.EffectType effectType, float value)
+    {
+        switch (effectType)
+        {
+            case ItemData.EffectType.AttackDamage:
+                basicAttackDamage += value;
+                break;
+
+            case ItemData.EffectType.MoveSpeed:
+                moveSpeed += value;
+                break;
+
+            case ItemData.EffectType.AttackRange:
+                basicAttackRange += value;
+                break;
+
+            case ItemData.EffectType.MaxHealth:
+                // Depende de um método em PlayerHealth pra aumentar o máximo
+                // (ex: IncreaseMaxHealth(int amount)). Adicionar lá se ainda não existir.
+                PlayerHealth playerHealth = GetComponent<PlayerHealth>();
+                if (playerHealth != null)
+                {
+                    playerHealth.IncreaseMaxHealth((int)value);
+                }
+                break;
+        }
+    }
+
+    // Debug visual no Editor: mostra o alcance de ataque e a área de checagem de chão
     void OnDrawGizmosSelected()
     {
         if (attackPoint != null)

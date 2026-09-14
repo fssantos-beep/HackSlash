@@ -77,4 +77,16 @@ public class PlayerHealth : MonoBehaviour
         Debug.Log("Player morreu!");
         gameObject.SetActive(false); // Desativa o player (futuro: tela de Game Over)
     }
+
+    // Chamado pelo item de upgrade de vida máxima na tela de level-up
+    public void IncreaseMaxHealth(int amount)
+    {
+        maxHealth += amount;
+        currentHealth += amount; // cura a diferença também, pra não sobrar barra vazia proporcionalmente
+
+        if (PlayerHUD.Instance != null)
+        {
+            PlayerHUD.Instance.UpdateHealth(currentHealth, maxHealth);
+        }
+    }
 }

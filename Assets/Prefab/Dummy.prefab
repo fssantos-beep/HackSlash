@@ -109,7 +109,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EnemyHealth
   maxHealth: 30
   currentHealth: 0
-  xpReward: 10
+  xpReward: 100
   flashDuration: 0.15
   hitColor: {r: 1, g: 0, b: 0, a: 1}
 --- !u!70 &3677080224543698456

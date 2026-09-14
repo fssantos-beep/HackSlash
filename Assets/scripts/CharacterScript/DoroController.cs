@@ -1,7 +1,7 @@
 using UnityEngine;
 using System.Collections;
 
-public class DoroController : MonoBehaviour, IAttackable
+public class DoroController : MonoBehaviour, IAttackable, IUpgradable
 {
     [Header("Referências")]
     public Rigidbody2D rb;
@@ -191,6 +191,33 @@ public class DoroController : MonoBehaviour, IAttackable
         if (playerHealth != null)
         {
             playerHealth.TakeDamage(damage);
+        }
+    }
+
+    // Aplica o efeito do item escolhido na tela de level-up
+    public void ApplyUpgrade(ItemData.EffectType effectType, float value)
+    {
+        switch (effectType)
+        {
+            case ItemData.EffectType.AttackDamage:
+                attackDamage += (int)value;
+                break;
+
+            case ItemData.EffectType.MoveSpeed:
+                velocidade += value;
+                break;
+
+            case ItemData.EffectType.AttackRange:
+                attackRange += value;
+                break;
+
+            case ItemData.EffectType.MaxHealth:
+                PlayerHealth playerHealth = GetComponent<PlayerHealth>();
+                if (playerHealth != null)
+                {
+                    playerHealth.IncreaseMaxHealth((int)value);
+                }
+                break;
         }
     }
 
