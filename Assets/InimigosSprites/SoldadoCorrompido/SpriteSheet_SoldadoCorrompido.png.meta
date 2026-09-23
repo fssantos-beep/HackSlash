@@ -1,0 +1,956 @@
+fileFormatVersion: 2
+guid: ca5c97d88bc9fad4ba738ef4b8e27479
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6905969345132055244
+    second: SpriteSheet_SoldadoCorrompido_0
+  - first:
+      213: 3258189042429105974
+    second: SpriteSheet_SoldadoCorrompido_1
+  - first:
+      213: 7040038079881805782
+    second: SpriteSheet_SoldadoCorrompido_2
+  - first:
+      213: 3540143801933797684
+    second: SpriteSheet_SoldadoCorrompido_3
+  - first:
+      213: 7053696221386632755
+    second: SpriteSheet_SoldadoCorrompido_4
+  - first:
+      213: 3649114505890562676
+    second: SpriteSheet_SoldadoCorrompido_5
+  - first:
+      213: -1930547314766598196
+    second: SpriteSheet_SoldadoCorrompido_6
+  - first:
+      213: -1225892499411490529
+    second: SpriteSheet_SoldadoCorrompido_7
+  - first:
+      213: -256103647891731021
+    second: SpriteSheet_SoldadoCorrompido_8
+  - first:
+      213: -1583904686557977108
+    second: SpriteSheet_SoldadoCorrompido_9
+  - first:
+      213: 2582819021403893925
+    second: SpriteSheet_SoldadoCorrompido_10
+  - first:
+      213: 6677220655487805675
+    second: SpriteSheet_SoldadoCorrompido_11
+  - first:
+      213: 2186552974042877271
+    second: SpriteSheet_SoldadoCorrompido_12
+  - first:
+      213: 7347479931831650221
+    second: SpriteSheet_SoldadoCorrompido_13
+  - first:
+      213: -2108216648446048695
+    second: SpriteSheet_SoldadoCorrompido_14
+  - first:
+      213: 1271031520307501524
+    second: SpriteSheet_SoldadoCorrompido_15
+  - first:
+      213: -6885366534760864843
+    second: SpriteSheet_SoldadoCorrompido_16
+  - first:
+      213: 4426420546832525648
+    second: SpriteSheet_SoldadoCorrompido_17
+  - first:
+      213: 3810554585849604575
+    second: SpriteSheet_SoldadoCorrompido_18
+  - first:
+      213: -165545210414828556
+    second: SpriteSheet_SoldadoCorrompido_19
+  - first:
+      213: -9080038367864230381
+    second: SpriteSheet_SoldadoCorrompido_20
+  - first:
+      213: 9080604921650769896
+    second: SpriteSheet_SoldadoCorrompido_21
+  - first:
+      213: -8589678327939696494
+    second: SpriteSheet_SoldadoCorrompido_22
+  - first:
+      213: 8692522339628446980
+    second: SpriteSheet_SoldadoCorrompido_23
+  - first:
+      213: 7122990090927283190
+    second: SpriteSheet_SoldadoCorrompido_24
+  - first:
+      213: -4312177168486023467
+    second: SpriteSheet_SoldadoCorrompido_25
+  - first:
+      213: 2909288948939103506
+    second: SpriteSheet_SoldadoCorrompido_26
+  - first:
+      213: -1549960560127687007
+    second: SpriteSheet_SoldadoCorrompido_27
+  - first:
+      213: -5347448009393950249
+    second: SpriteSheet_SoldadoCorrompido_28
+  - first:
+      213: -8450946336308832245
+    second: SpriteSheet_SoldadoCorrompido_29
+  - first:
+      213: 1050541400226993307
+    second: SpriteSheet_SoldadoCorrompido_30
+  - first:
+      213: 3053941397931935650
+    second: SpriteSheet_SoldadoCorrompido_31
+  - first:
+      213: -6292840292990520305
+    second: SpriteSheet_SoldadoCorrompido_32
+  - first:
+      213: 6300279709139751057
+    second: SpriteSheet_SoldadoCorrompido_33
+  - first:
+      213: 2643645916672405123
+    second: SpriteSheet_SoldadoCorrompido_34
+  - first:
+      213: 2795245730822825796
+    second: SpriteSheet_SoldadoCorrompido_35
+  - first:
+      213: -7124564951276160103
+    second: SpriteSheet_SoldadoCorrompido_36
+  - first:
+      213: 3507503605453497204
+    second: SpriteSheet_SoldadoCorrompido_37
+  - first:
+      213: 3007723917434018417
+    second: SpriteSheet_SoldadoCorrompido_38
+  - first:
+      213: 4157592792769639281
+    second: SpriteSheet_SoldadoCorrompido_39
+  - first:
+      213: -8426668691407557860
+    second: SpriteSheet_SoldadoCorrompido_40
+  - first:
+      213: -566981256686118024
+    second: SpriteSheet_SoldadoCorrompido_41
+  - first:
+      213: 1607045772137316146
+    second: SpriteSheet_SoldadoCorrompido_42
+  - first:
+      213: -3988959061425409327
+    second: SpriteSheet_SoldadoCorrompido_43
+  - first:
+      213: 6705143999696498459
+    second: SpriteSheet_SoldadoCorrompido_44
+  - first:
+      213: 4500625485184028559
+    second: SpriteSheet_SoldadoCorrompido_45
+  - first:
+      213: -7863692397224458456
+    second: SpriteSheet_SoldadoCorrompido_46
+  - first:
+      213: -7342723983132473057
+    second: SpriteSheet_SoldadoCorrompido_47
+  - first:
+      213: 4634277696637922467
+    second: SpriteSheet_SoldadoCorrompido_48
+  - first:
+      213: 1393611577289762306
+    second: SpriteSheet_SoldadoCorrompido_49
+  - first:
+      213: 2124189198964399799
+    second: SpriteSheet_SoldadoCorrompido_50
+  - first:
+      213: -2096437003636474574
+    second: SpriteSheet_SoldadoCorrompido_51
+  - first:
+      213: 8788042830721335125
+    second: SpriteSheet_SoldadoCorrompido_52
+  - first:
+      213: 8081624273792482595
+    second: SpriteSheet_SoldadoCorrompido_53
+  - first:
+      213: -1722908790713321272
+    second: SpriteSheet_SoldadoCorrompido_54
+  - first:
+      213: 7703557425239989918
+    second: SpriteSheet_SoldadoCorrompido_55
+  - first:
+      213: 7705821643104705922
+    second: SpriteSheet_SoldadoCorrompido_56
+  - first:
+      213: -393164859576324233
+    second: SpriteSheet_SoldadoCorrompido_57
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SpriteSheet_SoldadoCorrompido_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 797
+        width: 233
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cca455ea78ee6df50800000000000000
+      internalID: 6905969345132055244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_SoldadoCorrompido_1
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 797
+        width: 139
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6379e05eba9673d20800000000000000
+      internalID: 3258189042429105974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_SoldadoCorrompido_2
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 785
+        width: 145
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dff39c755d33b160800000000000000
+      internalID: 7040038079881805782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_SoldadoCorrompido_3
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 795
+        width: 173
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4399018080e112130800000000000000
+      internalID: 3540143801933797684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_SoldadoCorrompido_4
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 582
+        width: 148
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33ee34d5753c3e160800000000000000
+      internalID: 7053696221386632755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_SoldadoCorrompido_5
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 775
+        width: 197
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 472055c2f4244a230800000000000000
+      internalID: 3649114505890562676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_SoldadoCorrompido_6
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 775
+        width: 153
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccfa04912715535e0800000000000000
+      internalID: -1930547314766598196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_SoldadoCorrompido_7
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 581
+        width: 147
+        height: 179
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1923cf4441ccfee0800000000000000
+      internalID: -1225892499411490529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_SoldadoCorrompido_8
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 584
+        width: 159
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bd4bb1d613227cf0800000000000000
+      internalID: -256103647891731021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_SoldadoCorrompido_9
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 585
+        width: 147
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce5a2a75417d40ae0800000000000000
+      internalID: -1583904686557977108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_SoldadoCorrompido_10
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 580
+        width: 173
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a0b6e1373408d320800000000000000
+      internalID: 2582819021403893925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_SoldadoCorrompido_11
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 578
+        width: 193
+        height: 178
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be860490fc04aac50800000000000000
+      internalID: 6677220655487805675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_SoldadoCorrompido_12
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 573
+        width: 151
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75d46645852385e10800000000000000
+      internalID: 2186552974042877271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_SoldadoCorrompido_13
+      rect:
+        serializedVersion: 2
+        x: 1259
+        y: 571
+        width: 165
+        height: 169
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da70323c11e77f560800000000000000
+      internalID: 7347479931831650221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_SoldadoCorrompido_14
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 353
+        width: 162
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9460fc7c02c1eb2e0800000000000000
+      internalID: -2108216648446048695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_SoldadoCorrompido_15
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 364
+        width: 178
+        height: 206
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d9d04afe6c93a110800000000000000
+      internalID: 1271031520307501524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_SoldadoCorrompido_16
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 344
+        width: 233
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b3673bed934270a0800000000000000
+      internalID: -6885366534760864843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_SoldadoCorrompido_17
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 340
+        width: 214
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0596170090ecd6d30800000000000000
+      internalID: 4426420546832525648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_SoldadoCorrompido_18
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 325
+        width: 146
+        height: 213
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd92dc6e43fc1e430800000000000000
+      internalID: 3810554585849604575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_SoldadoCorrompido_19
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 10
+        width: 165
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f3f4fa128dd3bdf0800000000000000
+      internalID: -165545210414828556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_SoldadoCorrompido_26
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 192
+        width: 130
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21d1c7e82eedf5820800000000000000
+      internalID: 2909288948939103506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_SoldadoCorrompido_36
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 182
+        width: 149
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99b7cf3ace5702d90800000000000000
+      internalID: -7124564951276160103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_SoldadoCorrompido_38
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 167
+        width: 127
+        height: 153
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17ad911a7f49db920800000000000000
+      internalID: 3007723917434018417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_SoldadoCorrompido_40
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 178
+        width: 241
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1b2fb8b8757e0b80800000000000000
+      internalID: -8426668691407557860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_SoldadoCorrompido_52
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 13
+        width: 137
+        height: 137
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55f301cb46665f970800000000000000
+      internalID: 8788042830721335125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_SoldadoCorrompido_53
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 11
+        width: 223
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32d339f6572b72070800000000000000
+      internalID: 8081624273792482595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_SoldadoCorrompido_54
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 12
+        width: 202
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c8722d459ff618e0800000000000000
+      internalID: -1722908790713321272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 21953f8dc48b87c449af990013b627dc
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      SpriteSheet_SoldadoCorrompido_0: 6905969345132055244
+      SpriteSheet_SoldadoCorrompido_1: 3258189042429105974
+      SpriteSheet_SoldadoCorrompido_10: 2582819021403893925
+      SpriteSheet_SoldadoCorrompido_11: 6677220655487805675
+      SpriteSheet_SoldadoCorrompido_12: 2186552974042877271
+      SpriteSheet_SoldadoCorrompido_13: 7347479931831650221
+      SpriteSheet_SoldadoCorrompido_14: -2108216648446048695
+      SpriteSheet_SoldadoCorrompido_15: 1271031520307501524
+      SpriteSheet_SoldadoCorrompido_16: -6885366534760864843
+      SpriteSheet_SoldadoCorrompido_17: 4426420546832525648
+      SpriteSheet_SoldadoCorrompido_18: 3810554585849604575
+      SpriteSheet_SoldadoCorrompido_19: -165545210414828556
+      SpriteSheet_SoldadoCorrompido_2: 7040038079881805782
+      SpriteSheet_SoldadoCorrompido_20: -9080038367864230381
+      SpriteSheet_SoldadoCorrompido_21: 9080604921650769896
+      SpriteSheet_SoldadoCorrompido_22: -8589678327939696494
+      SpriteSheet_SoldadoCorrompido_23: 8692522339628446980
+      SpriteSheet_SoldadoCorrompido_24: 7122990090927283190
+      SpriteSheet_SoldadoCorrompido_25: -4312177168486023467
+      SpriteSheet_SoldadoCorrompido_26: 2909288948939103506
+      SpriteSheet_SoldadoCorrompido_27: -1549960560127687007
+      SpriteSheet_SoldadoCorrompido_28: -5347448009393950249
+      SpriteSheet_SoldadoCorrompido_29: -8450946336308832245
+      SpriteSheet_SoldadoCorrompido_3: 3540143801933797684
+      SpriteSheet_SoldadoCorrompido_30: 1050541400226993307
+      SpriteSheet_SoldadoCorrompido_31: 3053941397931935650
+      SpriteSheet_SoldadoCorrompido_32: -6292840292990520305
+      SpriteSheet_SoldadoCorrompido_33: 6300279709139751057
+      SpriteSheet_SoldadoCorrompido_34: 2643645916672405123
+      SpriteSheet_SoldadoCorrompido_35: 2795245730822825796
+      SpriteSheet_SoldadoCorrompido_36: -7124564951276160103
+      SpriteSheet_SoldadoCorrompido_37: 3507503605453497204
+      SpriteSheet_SoldadoCorrompido_38: 3007723917434018417
+      SpriteSheet_SoldadoCorrompido_39: 4157592792769639281
+      SpriteSheet_SoldadoCorrompido_4: 7053696221386632755
+      SpriteSheet_SoldadoCorrompido_40: -8426668691407557860
+      SpriteSheet_SoldadoCorrompido_41: -566981256686118024
+      SpriteSheet_SoldadoCorrompido_42: 1607045772137316146
+      SpriteSheet_SoldadoCorrompido_43: -3988959061425409327
+      SpriteSheet_SoldadoCorrompido_44: 6705143999696498459
+      SpriteSheet_SoldadoCorrompido_45: 4500625485184028559
+      SpriteSheet_SoldadoCorrompido_46: -7863692397224458456
+      SpriteSheet_SoldadoCorrompido_47: -7342723983132473057
+      SpriteSheet_SoldadoCorrompido_48: 4634277696637922467
+      SpriteSheet_SoldadoCorrompido_49: 1393611577289762306
+      SpriteSheet_SoldadoCorrompido_5: 3649114505890562676
+      SpriteSheet_SoldadoCorrompido_50: 2124189198964399799
+      SpriteSheet_SoldadoCorrompido_51: -2096437003636474574
+      SpriteSheet_SoldadoCorrompido_52: 8788042830721335125
+      SpriteSheet_SoldadoCorrompido_53: 8081624273792482595
+      SpriteSheet_SoldadoCorrompido_54: -1722908790713321272
+      SpriteSheet_SoldadoCorrompido_55: 7703557425239989918
+      SpriteSheet_SoldadoCorrompido_56: 7705821643104705922
+      SpriteSheet_SoldadoCorrompido_57: -393164859576324233
+      SpriteSheet_SoldadoCorrompido_6: -1930547314766598196
+      SpriteSheet_SoldadoCorrompido_7: -1225892499411490529
+      SpriteSheet_SoldadoCorrompido_8: -256103647891731021
+      SpriteSheet_SoldadoCorrompido_9: -1583904686557977108
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
