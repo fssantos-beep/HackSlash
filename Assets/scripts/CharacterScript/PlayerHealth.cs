@@ -1,11 +1,15 @@
 using UnityEngine;
 using System.Collections;
+using TMPro;
 
 public class PlayerHealth : MonoBehaviour
 {
     [Header("Vida")]
     public int maxHealth = 100;
     public int currentHealth;
+
+    [Header("UI de Derrota")]
+    public GameObject defeatScreen;
 
     [Header("Feedback Visual")]
     public float flashDuration = 0.15f;
@@ -23,6 +27,9 @@ public class PlayerHealth : MonoBehaviour
         spriteRenderer = GetComponentInChildren<SpriteRenderer>();
         if (spriteRenderer != null) originalColor = spriteRenderer.color;
 
+        if (defeatScreen != null)
+            defeatScreen.SetActive(false);
+
         // Avisa o HUD da vida inicial
         if (PlayerHUD.Instance != null)
         {
@@ -35,7 +42,7 @@ public class PlayerHealth : MonoBehaviour
         if (isInvincible) return;
 
         currentHealth -= damage;
-        
+
         // Avisa o HUD para atualizar a barra
         if (PlayerHUD.Instance != null)
         {
@@ -75,9 +82,16 @@ public class PlayerHealth : MonoBehaviour
     void Die()
     {
         Debug.Log("Player morreu!");
-        gameObject.SetActive(false); // Desativa o player (futuro: tela de Game Over)
-    }
 
+        if (GameManager.Instance != null)
+        {
+            GameManager.Instance.ShowDefeat();
+        }
+        else
+        {
+            Debug.LogWarning("GameManager não encontrado!");
+        }
+    }
     // Chamado pelo item de upgrade de vida máxima na tela de level-up
     public void IncreaseMaxHealth(int amount)
     {
