@@ -1,0 +1,592 @@
+fileFormatVersion: 2
+guid: 0bb2d163cbd6d4349b31cfab5e5c3b06
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3681019571968312376
+    second: FireballNecromancer_0
+  - first:
+      213: -1798708380453020970
+    second: FireballNecromancer_1
+  - first:
+      213: -8181323288660613042
+    second: FireballNecromancer_2
+  - first:
+      213: -5627004080060426325
+    second: FireballNecromancer_3
+  - first:
+      213: -2449708982343616216
+    second: FireballNecromancer_4
+  - first:
+      213: -8960764640739776941
+    second: FireballNecromancer_5
+  - first:
+      213: -5184979373692477653
+    second: FireballNecromancer_6
+  - first:
+      213: -8237174329982148682
+    second: FireballNecromancer_7
+  - first:
+      213: 3652480215019820407
+    second: FireballNecromancer_8
+  - first:
+      213: -873953558252299779
+    second: FireballNecromancer_9
+  - first:
+      213: -2553646793157462997
+    second: FireballNecromancer_10
+  - first:
+      213: -9111197855198563903
+    second: FireballNecromancer_11
+  - first:
+      213: 8185236398676936976
+    second: FireballNecromancer_12
+  - first:
+      213: -2353423856451315764
+    second: FireballNecromancer_13
+  - first:
+      213: 6313586646657346887
+    second: FireballNecromancer_14
+  - first:
+      213: -6812245374465235721
+    second: FireballNecromancer_15
+  - first:
+      213: 6512493178623988821
+    second: FireballNecromancer_16
+  - first:
+      213: -6998650157507880173
+    second: FireballNecromancer_17
+  - first:
+      213: 8299069884513158305
+    second: FireballNecromancer_18
+  - first:
+      213: -593550245588516574
+    second: FireballNecromancer_19
+  - first:
+      213: 3476745328957219830
+    second: FireballNecromancer_20
+  - first:
+      213: -7947907503372735744
+    second: FireballNecromancer_21
+  - first:
+      213: 1918165116282770842
+    second: FireballNecromancer_22
+  - first:
+      213: -4590518191863707736
+    second: FireballNecromancer_23
+  - first:
+      213: -3508987880117780990
+    second: FireballNecromancer_24
+  - first:
+      213: -23308892705374626
+    second: FireballNecromancer_25
+  - first:
+      213: -6948408564744252270
+    second: FireballNecromancer_26
+  - first:
+      213: 4205391563956320761
+    second: FireballNecromancer_27
+  - first:
+      213: 4417215488933442756
+    second: FireballNecromancer_28
+  - first:
+      213: 2079739621792501308
+    second: FireballNecromancer_29
+  - first:
+      213: -2327477188126889177
+    second: FireballNecromancer_30
+  - first:
+      213: 7154701723540386633
+    second: FireballNecromancer_31
+  - first:
+      213: -6095390605494999462
+    second: FireballNecromancer_32
+  - first:
+      213: -8091879739410677233
+    second: FireballNecromancer_33
+  - first:
+      213: -6957971984698979462
+    second: FireballNecromancer_34
+  - first:
+      213: 7866695689758120069
+    second: FireballNecromancer_35
+  - first:
+      213: 8903100781653563824
+    second: FireballNecromancer_36
+  - first:
+      213: 7053219244662748985
+    second: FireballNecromancer_37
+  - first:
+      213: 518568512737453553
+    second: FireballNecromancer_38
+  - first:
+      213: 5370279513220423582
+    second: FireballNecromancer_39
+  - first:
+      213: 6802455668299752097
+    second: FireballNecromancer_40
+  - first:
+      213: -3073555804093923759
+    second: FireballNecromancer_41
+  - first:
+      213: 168978548841998540
+    second: FireballNecromancer_42
+  - first:
+      213: 5927298663250180517
+    second: FireballNecromancer_43
+  - first:
+      213: -2145638769668551444
+    second: FireballNecromancer_44
+  - first:
+      213: -3629321540356120201
+    second: FireballNecromancer_45
+  - first:
+      213: 6631223598520256702
+    second: FireballNecromancer_46
+  - first:
+      213: 2500802773520674914
+    second: FireballNecromancer_47
+  - first:
+      213: -1882634629691884064
+    second: FireballNecromancer_48
+  - first:
+      213: 3360379074853563728
+    second: FireballNecromancer_49
+  - first:
+      213: -8668496629226070956
+    second: FireballNecromancer_50
+  - first:
+      213: -422057471512579495
+    second: FireballNecromancer_51
+  - first:
+      213: 8872958958341668760
+    second: FireballNecromancer_52
+  - first:
+      213: -2880539145048647046
+    second: FireballNecromancer_53
+  - first:
+      213: 4055333267258412026
+    second: FireballNecromancer_54
+  - first:
+      213: -3306854395650307969
+    second: FireballNecromancer_55
+  - first:
+      213: 7126360309674434756
+    second: FireballNecromancer_56
+  - first:
+      213: -2919431139725650383
+    second: FireballNecromancer_57
+  - first:
+      213: 7930563916522507165
+    second: FireballNecromancer_58
+  - first:
+      213: -6594382513510426678
+    second: FireballNecromancer_59
+  - first:
+      213: -4192189048874108085
+    second: FireballNecromancer_60
+  - first:
+      213: 5146080057402449506
+    second: FireballNecromancer_61
+  - first:
+      213: -4291967560066418907
+    second: FireballNecromancer_62
+  - first:
+      213: -4428574300655334994
+    second: FireballNecromancer_63
+  - first:
+      213: -2863460889922083343
+    second: FireballNecromancer_64
+  - first:
+      213: -8121681549003517850
+    second: FireballNecromancer_65
+  - first:
+      213: -4405914876187400800
+    second: FireballNecromancer_66
+  - first:
+      213: -3932854968049997268
+    second: FireballNecromancer_67
+  - first:
+      213: 5027672755236713022
+    second: FireballNecromancer_68
+  - first:
+      213: -3355210750876129378
+    second: FireballNecromancer_69
+  - first:
+      213: 2814945086191004104
+    second: FireballNecromancer_70
+  - first:
+      213: -2841646263942072518
+    second: FireballNecromancer_71
+  - first:
+      213: -4982629385190614386
+    second: FireballNecromancer_72
+  - first:
+      213: -7993410694479581606
+    second: FireballNecromancer_73
+  - first:
+      213: -1283954955888349177
+    second: FireballNecromancer_74
+  - first:
+      213: -1558168752144752714
+    second: FireballNecromancer_75
+  - first:
+      213: 6548636467324735162
+    second: FireballNecromancer_76
+  - first:
+      213: -951135248238504895
+    second: FireballNecromancer_77
+  - first:
+      213: -6152069992504298307
+    second: FireballNecromancer_78
+  - first:
+      213: -3606690687994019481
+    second: FireballNecromancer_79
+  - first:
+      213: -2134752955092822893
+    second: FireballNecromancer_80
+  - first:
+      213: -3586900276987379212
+    second: FireballNecromancer_81
+  - first:
+      213: 1550621265580002854
+    second: FireballNecromancer_82
+  - first:
+      213: -8726756272798716098
+    second: FireballNecromancer_83
+  - first:
+      213: 5871767519519761607
+    second: FireballNecromancer_84
+  - first:
+      213: 474969270162387827
+    second: FireballNecromancer_85
+  - first:
+      213: -4806212264574237460
+    second: FireballNecromancer_86
+  - first:
+      213: -2375563976763980854
+    second: FireballNecromancer_87
+  - first:
+      213: -697343074896674803
+    second: FireballNecromancer_88
+  - first:
+      213: 3634519149547319970
+    second: FireballNecromancer_89
+  - first:
+      213: -2389818860705378098
+    second: FireballNecromancer_90
+  - first:
+      213: 5738468613625289390
+    second: FireballNecromancer_91
+  - first:
+      213: 7412852154469904969
+    second: FireballNecromancer_92
+  - first:
+      213: -91784860297558336
+    second: FireballNecromancer_93
+  - first:
+      213: 7211229474532597962
+    second: FireballNecromancer_94
+  - first:
+      213: 4128354817484026393
+    second: FireballNecromancer_95
+  - first:
+      213: -7021503815284932418
+    second: FireballNecromancer_96
+  - first:
+      213: 5322845105691322017
+    second: FireballNecromancer_97
+  - first:
+      213: -233820298533158099
+    second: FireballNecromancer_98
+  - first:
+      213: 4412536366297281195
+    second: FireballNecromancer_99
+  - first:
+      213: -3551499039523738366
+    second: FireballNecromancer_100
+  - first:
+      213: -8115498927113376763
+    second: FireballNecromancer_101
+  - first:
+      213: 3902354616910141794
+    second: FireballNecromancer_102
+  - first:
+      213: 6272629469792095576
+    second: FireballNecromancer_103
+  - first:
+      213: -1650723262011207069
+    second: FireballNecromancer_104
+  - first:
+      213: 2945162383753230551
+    second: FireballNecromancer_105
+  - first:
+      213: -538433618764316800
+    second: FireballNecromancer_106
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FireballNecromancer_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 470
+        width: 297
+        height: 196
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8348e6e3ccb951330800000000000000
+      internalID: 3681019571968312376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireballNecromancer_1
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 467
+        width: 288
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f052295ed12be944c890de05a7a1c787
+      internalID: -1798708380453020970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireballNecromancer_2
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 472
+        width: 277
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8562f7e0b5705540bc51a84c294904c
+      internalID: -8181323288660613042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireballNecromancer_3
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 475
+        width: 304
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eba03142965452041a947045fae57048
+      internalID: -5627004080060426325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireballNecromancer_4
+      rect:
+        serializedVersion: 2
+        x: 1202
+        y: 483
+        width: 290
+        height: 167
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 345bff440ca9ec74683b0ed14b35afdb
+      internalID: -2449708982343616216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireballNecromancer_5
+      rect:
+        serializedVersion: 2
+        x: 1505
+        y: 470
+        width: 265
+        height: 178
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 916c8003d9a281642b4d303ebdcf7070
+      internalID: -8960764640739776941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 86a1a866bb223854d84da75992829893
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":1774.0,"y":887.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      FireballNecromancer_0: 3681019571968312376
+      FireballNecromancer_1: -1798708380453020970
+      FireballNecromancer_2: -8181323288660613042
+      FireballNecromancer_3: -5627004080060426325
+      FireballNecromancer_4: -2449708982343616216
+      FireballNecromancer_5: -8960764640739776941
+      FireballNecromancer_6: -2128036797
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

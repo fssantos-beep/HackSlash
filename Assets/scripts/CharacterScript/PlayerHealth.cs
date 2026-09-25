@@ -20,6 +20,16 @@ public class PlayerHealth : MonoBehaviour
     [Header("Invencibilidade")]
     public float invincibilityDuration = 0.5f;
     private bool isInvincible = false;
+    
+    [Header("Checkpoint")]
+    public static PlayerHealth Instance;
+    void Awake()
+    {
+        if (Instance == null)
+        {
+            Instance = this;
+        }
+    }
 
     void Start()
     {
@@ -101,6 +111,18 @@ public class PlayerHealth : MonoBehaviour
         if (PlayerHUD.Instance != null)
         {
             PlayerHUD.Instance.UpdateHealth(currentHealth, maxHealth);
+        }
+    }
+    public void ResetAfterDeath()
+    {
+        currentHealth = maxHealth;
+
+        if (PlayerHUD.Instance != null)
+        PlayerHUD.Instance.UpdateHealth(currentHealth, maxHealth);
+
+        if (CheckpointManager.Instance != null)
+        {
+            transform.position = CheckpointManager.Instance.GetCheckpoint();
         }
     }
 }

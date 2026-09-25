@@ -16,7 +16,7 @@ public class EnemyHealth : MonoBehaviour
 
     [Header("Animação")]
     private Animator animator;
-    public float deathAnimDuration = 1f; // ajuste conforme a duração real do clip "death"
+    public float deathAnimDuration = 1f; // ajustar conforme a duração real do clip "death"
 
     void Awake()
     {
@@ -52,27 +52,17 @@ public class EnemyHealth : MonoBehaviour
 
     void Die()
     {
-        if (AudioManager.Instance != null)
-        AudioManager.Instance.PlaySFX(AudioManager.Instance.enemyDeathClip);
-
-        // Avisa o HUD para dar XP ao jogador
-        if (PlayerHUD.Instance != null)
-        {
-            PlayerHUD.Instance.AddXP(xpReward);
-        }
+    if (PlayerHUD.Instance != null)
+        PlayerHUD.Instance.AddXP(xpReward);
         Debug.Log($"{gameObject.name} morreu e deu {xpReward} XP!");
 
-        // Para o inimigo de se mover e de causar dano enquanto a animação de morte toca
         EnemyMovement movement = GetComponent<EnemyMovement>();
-        if (movement != null) movement.enabled = false;
-
-        EnemyContactDamage contactDamage = GetComponent<EnemyContactDamage>();
-        if (contactDamage != null) contactDamage.enabled = false;
+        if (movement != null) movement.Kill();
 
         if (animator != null)
         {
             animator.SetTrigger("Die");
-            StartCoroutine(DestroyAfterAnimation());
+            // O Destroy agora é chamado pelo Animation Event, exatamente quando a animação acaba
         }
         else
         {
@@ -80,9 +70,9 @@ public class EnemyHealth : MonoBehaviour
         }
     }
 
-    IEnumerator DestroyAfterAnimation()
+// Chamado via Animation Event, no último frame do clip "death"
+    public void AnimationEvent_MorteCompleta()
     {
-        yield return new WaitForSeconds(deathAnimDuration);
-        Destroy(gameObject);
+    Destroy(gameObject);
     }
 }

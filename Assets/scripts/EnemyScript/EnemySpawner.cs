@@ -5,29 +5,27 @@ public class EnemySpawner : MonoBehaviour
     [Header("Configurações de Spawn")]
     public GameObject enemyPrefab;
     public Transform[] spawnPoints;     // lista de lugares onde ele pode nascer
-    public float spawnRate = 2f;        // tempo (em segundos) entre cada inimigo
-    
+    public float spawnRate = 2f; // tempo entre cada spawn sequencial
+
     private float nextSpawnTime = 0f;
+    private int nextSpawnIndex = 0; // qual ponto vem a seguir em ordem
 
     void Update()
     {
+        // Se tem inimigo em todos os pontos disponíveis não spawna mais nada
+        if (nextSpawnIndex >= spawnPoints.Length) return;
+
         if (Time.time >= nextSpawnTime)
         {
             SpawnEnemy();
-            // Define a hora do proximo spawn
-            nextSpawnTime = Time.time + spawnRate; 
+            nextSpawnTime = Time.time + spawnRate;
         }
     }
 
     void SpawnEnemy()
     {
-        // Escolhe um numero aleatorio entre 0 e a quantidade de pontos de spawn
-        int randomIndex = Random.Range(0, spawnPoints.Length);
-        
-        // Pega o ponto de spawn sorteado
-        Transform spawnPoint = spawnPoints[randomIndex];
-
-        // Cria o inimigo naquela posicao e rotacao
+        Transform spawnPoint = spawnPoints[nextSpawnIndex];
         Instantiate(enemyPrefab, spawnPoint.position, spawnPoint.rotation);
+        nextSpawnIndex++;
     }
 }

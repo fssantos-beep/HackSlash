@@ -1,0 +1,296 @@
+fileFormatVersion: 2
+guid: e7fc04d9c561ec04b820499d72a508bf
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6325687867974268694
+    second: image-ezgif.com-crop_0
+  - first:
+      213: -6817899496604984446
+    second: image-ezgif.com-crop_1
+  - first:
+      213: 1191413370116127882
+    second: image-ezgif.com-crop_2
+  - first:
+      213: -2742826316724654738
+    second: image-ezgif.com-crop_3
+  - first:
+      213: 2312276620003334639
+    second: image-ezgif.com-crop_4
+  - first:
+      213: 5192804339102767593
+    second: image-ezgif.com-crop_5
+  - first:
+      213: -3157955336074957232
+    second: image-ezgif.com-crop_6
+  - first:
+      213: 4881632353998337350
+    second: image-ezgif.com-crop_7
+  - first:
+      213: 3339304611665158012
+    second: image-ezgif.com-crop_8
+  - first:
+      213: -1054999452068584480
+    second: image-ezgif.com-crop_9
+  - first:
+      213: -7646430218530432690
+    second: image-ezgif.com-crop_10
+  - first:
+      213: 8575644282247885310
+    second: image-ezgif.com-crop_11
+  - first:
+      213: -6611980726706389464
+    second: image-ezgif.com-crop_12
+  - first:
+      213: -7975454326462689757
+    second: image-ezgif.com-crop_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: image-ezgif.com-crop_0
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 15
+        width: 164
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 617ba9ad99b59c750800000000000000
+      internalID: 6325687867974268694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: image-ezgif.com-crop_1
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 3
+        width: 169
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28b9b86d784f161a0800000000000000
+      internalID: -6817899496604984446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: image-ezgif.com-crop_2
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 6
+        width: 152
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8c3c62d520c88010800000000000000
+      internalID: 1191413370116127882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: image-ezgif.com-crop_3
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 8
+        width: 150
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6da80f3ff58fe9d0800000000000000
+      internalID: -2742826316724654738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: image-ezgif.com-crop_4
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 4
+        width: 146
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe95dbdb55bd61020800000000000000
+      internalID: 2312276620003334639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 41403f8b905ada1499eb54a4e2412dde
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      image-ezgif.com-crop_0: 6325687867974268694
+      image-ezgif.com-crop_1: -6817899496604984446
+      image-ezgif.com-crop_10: -7646430218530432690
+      image-ezgif.com-crop_11: 8575644282247885310
+      image-ezgif.com-crop_12: -6611980726706389464
+      image-ezgif.com-crop_13: -7975454326462689757
+      image-ezgif.com-crop_2: 1191413370116127882
+      image-ezgif.com-crop_3: -2742826316724654738
+      image-ezgif.com-crop_4: 2312276620003334639
+      image-ezgif.com-crop_5: 5192804339102767593
+      image-ezgif.com-crop_6: -3157955336074957232
+      image-ezgif.com-crop_7: 4881632353998337350
+      image-ezgif.com-crop_8: 3339304611665158012
+      image-ezgif.com-crop_9: -1054999452068584480
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
