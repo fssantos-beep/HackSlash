@@ -1,0 +1,363 @@
+fileFormatVersion: 2
+guid: 29e08b3c0657e1941b143d253f5d9c83
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6843223616810656267
+    second: DoroProjetil_0
+  - first:
+      213: -614243938925457129
+    second: DoroProjetil_1
+  - first:
+      213: -8743076235312602017
+    second: DoroProjetil_2
+  - first:
+      213: 3305572990431734846
+    second: DoroProjetil_3
+  - first:
+      213: 8140504826059077517
+    second: DoroProjetil_4
+  - first:
+      213: -6897504897039498456
+    second: DoroProjetil_5
+  - first:
+      213: 29947955049788713
+    second: DoroProjetil_6
+  - first:
+      213: -2086882867738089251
+    second: DoroProjetil_7
+  - first:
+      213: 4923134592067934386
+    second: DoroProjetil_8
+  - first:
+      213: -1780129920182854167
+    second: DoroProjetil_9
+  - first:
+      213: 7579132336147160047
+    second: DoroProjetil_10
+  - first:
+      213: 2196099684159979115
+    second: DoroProjetil_11
+  - first:
+      213: -2750697036260709740
+    second: DoroProjetil_12
+  - first:
+      213: -3012541130782735780
+    second: DoroProjetil_13
+  - first:
+      213: 2509376401431356975
+    second: DoroProjetil_14
+  - first:
+      213: 1982066520959924037
+    second: DoroProjetil_15
+  - first:
+      213: -8820072711456814733
+    second: DoroProjetil_16
+  - first:
+      213: -7875748616583826985
+    second: DoroProjetil_17
+  - first:
+      213: -7581248187735997219
+    second: DoroProjetil_18
+  - first:
+      213: 5170944824394351580
+    second: DoroProjetil_19
+  - first:
+      213: 6403689998006056258
+    second: DoroProjetil_20
+  - first:
+      213: -4368938482113753
+    second: DoroProjetil_21
+  - first:
+      213: -9087464437143234951
+    second: DoroProjetil_22
+  - first:
+      213: 4025388683834998206
+    second: DoroProjetil_23
+  - first:
+      213: 5407356869099016811
+    second: DoroProjetil_24
+  - first:
+      213: -5178278543723307662
+    second: DoroProjetil_25
+  - first:
+      213: 5904573752033234629
+    second: DoroProjetil_26
+  - first:
+      213: 1836733382878878020
+    second: DoroProjetil_27
+  - first:
+      213: 4704917309758159147
+    second: DoroProjetil_28
+  - first:
+      213: -2893698627593967647
+    second: DoroProjetil_29
+  - first:
+      213: 1352097703891153502
+    second: DoroProjetil_30
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DoroProjetil_0
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 95
+        width: 179
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fddf61a06cf701a0800000000000000
+      internalID: -6843223616810656267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoroProjetil_1
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 93
+        width: 224
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59dcf07dbb608c24d8861eb94631f314
+      internalID: 679862919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoroProjetil_2
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 105
+        width: 241
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aba5a9de1d602714e945d2112307cce0
+      internalID: -1248518601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoroProjetil_3
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 91
+        width: 229
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 593206cfeb2e78b40866a34a559a578a
+      internalID: 563421266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoroProjetil_4
+      rect:
+        serializedVersion: 2
+        x: 1181
+        y: 94
+        width: 247
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bded8f661d49e454a9717c2c01d89560
+      internalID: -373069716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoroProjetil_5
+      rect:
+        serializedVersion: 2
+        x: 1467
+        y: 87
+        width: 245
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f5a3d07b0bc6804ca20ee5772b018ab
+      internalID: -1812412188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 147ea4a68f903634e918e75b812b6db1
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":1747.0,"y":335.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      DoroProjetil_0: -6843223616810656267
+      DoroProjetil_1: 679862919
+      DoroProjetil_2: -1248518601
+      DoroProjetil_3: 563421266
+      DoroProjetil_4: -373069716
+      DoroProjetil_5: -1812412188
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

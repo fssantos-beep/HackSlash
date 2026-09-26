@@ -1,0 +1,503 @@
+fileFormatVersion: 2
+guid: f6c146652a231784eac7c6e1890bb660
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1427638788867540199
+    second: DoroSpecialAttack_0
+  - first:
+      213: 5742446664135533995
+    second: DoroSpecialAttack_1
+  - first:
+      213: 1972674336133686364
+    second: DoroSpecialAttack_2
+  - first:
+      213: -7262555133759992412
+    second: DoroSpecialAttack_3
+  - first:
+      213: -1530332410852184268
+    second: DoroSpecialAttack_4
+  - first:
+      213: 541057076352738717
+    second: DoroSpecialAttack_5
+  - first:
+      213: 5434442640217912336
+    second: DoroSpecialAttack_6
+  - first:
+      213: -8400702623796495791
+    second: DoroSpecialAttack_7
+  - first:
+      213: -147236423989779100
+    second: DoroSpecialAttack_8
+  - first:
+      213: 8185495641577743771
+    second: DoroSpecialAttack_9
+  - first:
+      213: -4000892434347746366
+    second: DoroSpecialAttack_10
+  - first:
+      213: 4947633703616950295
+    second: DoroSpecialAttack_11
+  - first:
+      213: -9159177151180260363
+    second: DoroSpecialAttack_12
+  - first:
+      213: 9140869235850094912
+    second: DoroSpecialAttack_13
+  - first:
+      213: 2779276486584886539
+    second: DoroSpecialAttack_14
+  - first:
+      213: -4596055214752112796
+    second: DoroSpecialAttack_15
+  - first:
+      213: 8661704452612346186
+    second: DoroSpecialAttack_16
+  - first:
+      213: 5627010985978194153
+    second: DoroSpecialAttack_17
+  - first:
+      213: 5249391794179696
+    second: DoroSpecialAttack_18
+  - first:
+      213: -7922183725076227755
+    second: DoroSpecialAttack_19
+  - first:
+      213: -3425329980124371534
+    second: DoroSpecialAttack_20
+  - first:
+      213: 44090108698276202
+    second: DoroSpecialAttack_21
+  - first:
+      213: 6707002261369684269
+    second: DoroSpecialAttack_22
+  - first:
+      213: 6383912461201262930
+    second: DoroSpecialAttack_23
+  - first:
+      213: 2192394703286875507
+    second: DoroSpecialAttack_24
+  - first:
+      213: 7177745857692504064
+    second: DoroSpecialAttack_25
+  - first:
+      213: 4231022631577833680
+    second: DoroSpecialAttack_26
+  - first:
+      213: -7720739195118809973
+    second: DoroSpecialAttack_27
+  - first:
+      213: 7243456996140500612
+    second: DoroSpecialAttack_28
+  - first:
+      213: -636187548368671195
+    second: DoroSpecialAttack_29
+  - first:
+      213: 2027202826037470563
+    second: DoroSpecialAttack_30
+  - first:
+      213: 1942519037787208414
+    second: DoroSpecialAttack_31
+  - first:
+      213: 5285276039558239206
+    second: DoroSpecialAttack_32
+  - first:
+      213: -5949655037185720999
+    second: DoroSpecialAttack_33
+  - first:
+      213: -576459035136248563
+    second: DoroSpecialAttack_34
+  - first:
+      213: -2887015016176264757
+    second: DoroSpecialAttack_35
+  - first:
+      213: -3965365096850312802
+    second: DoroSpecialAttack_36
+  - first:
+      213: 9109422095542169847
+    second: DoroSpecialAttack_37
+  - first:
+      213: -24305359578778155
+    second: DoroSpecialAttack_38
+  - first:
+      213: 73978125553483582
+    second: DoroSpecialAttack_39
+  - first:
+      213: -1954394344680164283
+    second: DoroSpecialAttack_40
+  - first:
+      213: -16801080548605860
+    second: DoroSpecialAttack_41
+  - first:
+      213: -3006808451689686846
+    second: DoroSpecialAttack_42
+  - first:
+      213: 6104351680189706711
+    second: DoroSpecialAttack_43
+  - first:
+      213: 8088881338628409159
+    second: DoroSpecialAttack_44
+  - first:
+      213: 3841499564689794812
+    second: DoroSpecialAttack_45
+  - first:
+      213: -7152477454989462458
+    second: DoroSpecialAttack_46
+  - first:
+      213: -2967429720262880460
+    second: DoroSpecialAttack_47
+  - first:
+      213: 8573019696894762714
+    second: DoroSpecialAttack_48
+  - first:
+      213: -7314052305533960824
+    second: DoroSpecialAttack_49
+  - first:
+      213: -121132942547592009
+    second: DoroSpecialAttack_50
+  - first:
+      213: -8479646846674610183
+    second: DoroSpecialAttack_51
+  - first:
+      213: -7514955096250949635
+    second: DoroSpecialAttack_52
+  - first:
+      213: -6405498070175440672
+    second: DoroSpecialAttack_53
+  - first:
+      213: 1667326759958784334
+    second: DoroSpecialAttack_54
+  - first:
+      213: 6492250147164531319
+    second: DoroSpecialAttack_55
+  - first:
+      213: 8294354192097306431
+    second: DoroSpecialAttack_56
+  - first:
+      213: -5043335574638239142
+    second: DoroSpecialAttack_57
+  - first:
+      213: 1979406450067994784
+    second: DoroSpecialAttack_58
+  - first:
+      213: -2187324713072326735
+    second: DoroSpecialAttack_59
+  - first:
+      213: -8520298784604105861
+    second: DoroSpecialAttack_60
+  - first:
+      213: 8499405567073428197
+    second: DoroSpecialAttack_61
+  - first:
+      213: 4079333252322924839
+    second: DoroSpecialAttack_62
+  - first:
+      213: -4587999437340095831
+    second: DoroSpecialAttack_63
+  - first:
+      213: 4183974899231336968
+    second: DoroSpecialAttack_64
+  - first:
+      213: -5628513601621031500
+    second: DoroSpecialAttack_65
+  - first:
+      213: 4821670447991549848
+    second: DoroSpecialAttack_66
+  - first:
+      213: 8514077382342113808
+    second: DoroSpecialAttack_67
+  - first:
+      213: -6157433469187213238
+    second: DoroSpecialAttack_68
+  - first:
+      213: -5476772574626110164
+    second: DoroSpecialAttack_69
+  - first:
+      213: 126784945164962348
+    second: DoroSpecialAttack_70
+  - first:
+      213: -7224056861908776199
+    second: DoroSpecialAttack_71
+  - first:
+      213: 5992510801067216537
+    second: DoroSpecialAttack_72
+  - first:
+      213: -7886095578762549533
+    second: DoroSpecialAttack_73
+  - first:
+      213: 4748258977487372824
+    second: DoroSpecialAttack_74
+  - first:
+      213: -583644932884829665
+    second: DoroSpecialAttack_75
+  - first:
+      213: 526779362366299085
+    second: DoroSpecialAttack_76
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DoroSpecialAttack_0
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 197
+        width: 264
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91b3bf1e512003ce0800000000000000
+      internalID: -1427638788867540199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoroSpecialAttack_2
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 146
+        width: 353
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b52b90f9094d0f4ea0d587f300b80ee
+      internalID: 1972674336133686364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoroSpecialAttack_3
+      rect:
+        serializedVersion: 2
+        x: 1075
+        y: 147
+        width: 358
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecf7ba499bfcfc24ca14d5e43359c3f3
+      internalID: -7262555133759992412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoroSpecialAttack_4
+      rect:
+        serializedVersion: 2
+        x: 1437
+        y: 187
+        width: 443
+        height: 299
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ab8da79371fe59488275ee55fe017f5
+      internalID: -1530332410852184268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoroSpecialAttack_1
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 176
+        width: 335
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 780cfdb4b8ecf9d47bcb9a64b251253e
+      internalID: 5742446664135533995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoroSpecialAttack_5
+      rect:
+        serializedVersion: 2
+        x: 1887
+        y: 169
+        width: 273
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b4a7204a50c6144d822fbdd16f9e780
+      internalID: 541057076352738717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: e916160320d97a34a818a372aca582aa
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceOnImport
+        value: False
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":1774.0,"y":887.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      DoroSpecialAttack_0: -1427638788867540199
+      DoroSpecialAttack_1: 5742446664135533995
+      DoroSpecialAttack_2: 1972674336133686364
+      DoroSpecialAttack_3: -7262555133759992412
+      DoroSpecialAttack_4: -1530332410852184268
+      DoroSpecialAttack_5: 541057076352738717
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

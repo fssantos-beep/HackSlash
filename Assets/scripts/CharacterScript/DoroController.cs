@@ -31,11 +31,13 @@ public class DoroController : MonoBehaviour, IAttackable, IUpgradable
     private float nextAttackTime = 0f;
     private bool isAttacking = false;
 
-    [Header("Heavy Attack")]
-    public int heavyAttackDamage = 40;
-    public float heavyAttackCooldown = 1.5f;
-    private float nextHeavyAttackTime = 0f;
-    private int currentAttackDamage; // Guarda o dano do ataque atual para o impacto
+    [Header("Special Attack (Flecha)")]
+    public GameObject arrowPrefab;
+    public Transform firePoint;
+    public int specialAttackDamage = 40;
+    public float specialAttackCooldown = 1.5f;
+    private float nextSpecialAttackTime = 0f;
+    private int currentAttackDamage;
 
     [Header("Dash")]
     public float forcaDash = 15f;
@@ -54,18 +56,24 @@ public class DoroController : MonoBehaviour, IAttackable, IUpgradable
     {
         horizontalInput = Input.GetAxisRaw("Horizontal");
 
-        // Só vira o sprite se não estiver atacando, pra não trocar de lado no meio do golpe
         if (spriteRenderer != null && horizontalInput != 0 && !isAttacking)
         {
             facingRight = horizontalInput > 0;
             spriteRenderer.flipX = horizontalInput > 0; // Espelha ao virar pra direita
 
-            // Reposiciona o attackPoint pro lado que a Doro está olhando
             if (attackPoint != null)
             {
                 Vector3 attackPos = attackPoint.localPosition;
                 attackPos.x = Mathf.Abs(attackPos.x) * (facingRight ? 1 : -1);
                 attackPoint.localPosition = attackPos;
+            }
+
+            // O firePoint precisa virar junto, senão a flecha sempre sai pro mesmo lado
+            if (firePoint != null)
+            {
+                Vector3 firePos = firePoint.localPosition;
+                firePos.x = Mathf.Abs(firePos.x) * (facingRight ? 1 : -1);
+                firePoint.localPosition = firePos;
             }
         }
 
@@ -78,22 +86,26 @@ public class DoroController : MonoBehaviour, IAttackable, IUpgradable
             animator.SetTrigger("Jump");
         }
 
-        // Ataque Normal (Clique Esquerdo)
         if (Input.GetMouseButtonDown(0) && !isAttacking && !isDashing && Time.time >= nextAttackTime)
         {
             StartCoroutine(AttackRoutine());
         }
 
-        // Heavy Attack (Clique Direito)
-        if (Input.GetMouseButtonDown(1) && !isAttacking && !isDashing && Time.time >= nextHeavyAttackTime)
+        if (Input.GetKey(KeyCode.Q) && !isAttacking && !isDashing && Time.time >= nextSpecialAttackTime)
         {
-            StartCoroutine(HeavyAttackRoutine());
+            StartCoroutine(SpecialAttackRoutine());
         }
 
-        // Dash (Shift Esquerdo)
         if (Input.GetKeyDown(KeyCode.LeftShift) && !isAttacking && !isDashing && Time.time >= nextDashTime)
         {
             StartCoroutine(DashRoutine());
+        }
+
+        // Atualiza o HUD todo frame com quanto falta pro Special Attack ficar disponível de novo
+        if (PlayerHUD.Instance != null)
+        {
+            float remaining = Mathf.Max(0f, nextSpecialAttackTime - Time.time);
+            PlayerHUD.Instance.UpdateSpecialAttackCooldown(remaining, specialAttackCooldown);
         }
     }
 
@@ -105,11 +117,9 @@ public class DoroController : MonoBehaviour, IAttackable, IUpgradable
         }
         else if (isAttacking)
         {
-            // Trava o movimento horizontal enquanto ataca
             rb.linearVelocity = new Vector2(0f, rb.linearVelocity.y);
         }
 
-        // Mesmo parâmetro "Speed" usado no PlayerController, pra manter o Animator consistente
         animator.SetFloat("Speed", Mathf.Abs(horizontalInput));
     }
 
@@ -117,7 +127,7 @@ public class DoroController : MonoBehaviour, IAttackable, IUpgradable
     {
         isAttacking = true;
         nextAttackTime = Time.time + attackCooldown;
-        
+
         currentAttackDamage = attackDamage;
         animator.SetTrigger("Attack");
 
@@ -126,15 +136,14 @@ public class DoroController : MonoBehaviour, IAttackable, IUpgradable
         isAttacking = false;
     }
 
-    // Coroutine do Ataque Pesado
-    IEnumerator HeavyAttackRoutine()
+    IEnumerator SpecialAttackRoutine()
     {
         isAttacking = true;
-        nextHeavyAttackTime = Time.time + heavyAttackCooldown;
-        
-        currentAttackDamage = heavyAttackDamage;
-        animator.SetTrigger("HeavyAttack");
-        yield return new WaitForSeconds(0.8f); 
+        nextSpecialAttackTime = Time.time + specialAttackCooldown;
+
+        animator.SetTrigger("SpecialAttack");
+
+        yield return new WaitForSeconds(0.8f);
 
         isAttacking = false;
     }
@@ -159,7 +168,7 @@ public class DoroController : MonoBehaviour, IAttackable, IUpgradable
         isDashing = false;
     }
 
-    // Chamado via Animation Event no frame de impacto do golpe
+    // Chamado via Animation Event no frame de impacto do ataque basico
     public void OnAttackImpact()
     {
         if (attackPoint == null)
@@ -185,6 +194,21 @@ public class DoroController : MonoBehaviour, IAttackable, IUpgradable
         }
     }
 
+    // Chamado via Animation Event no frame exato em que o arco solta a flecha
+    public void FireArrow()
+    {
+        if (arrowPrefab == null || firePoint == null) return;
+
+        GameObject arrow = Instantiate(arrowPrefab, firePoint.position, Quaternion.identity);
+        PlayerProjetil projetil = arrow.GetComponent<PlayerProjetil>();
+        if (projetil != null)
+        {
+            projetil.damage = specialAttackDamage;
+            projetil.hitLayers = enemyLayers;
+            projetil.SetDirection(new Vector2(facingRight ? 1f : -1f, 0f));
+        }
+    }
+
     public void TakeDamage(int damage)
     {
         PlayerHealth playerHealth = GetComponent<PlayerHealth>();
@@ -193,7 +217,7 @@ public class DoroController : MonoBehaviour, IAttackable, IUpgradable
             playerHealth.TakeDamage(damage);
         }
     }
-
+    
     // Aplica o efeito do item escolhido na tela de level-up
     public void ApplyUpgrade(ItemData.EffectType effectType, float value)
     {

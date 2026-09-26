@@ -17,6 +17,10 @@ public class PlayerHUD : MonoBehaviour
     [Tooltip("Base usada no cálculo do XP necessário pra cada nível")]
     public int xpCurveBase = 100;
 
+    [Header("Special Attack Cooldown")]
+    public Image SpecialAttackCooldownOverlay;
+    public TextMeshProUGUI SpecialAttackCooldownText;
+
     private int currentXP = 0;
     private int currentLevel = 1;
     private int xpToNextLevel;
@@ -108,5 +112,20 @@ public class PlayerHUD : MonoBehaviour
         {
             levelText.text = "Nv. " + currentLevel;
         }
+    }
+
+    public void UpdateSpecialAttackCooldown(float remaining, float total)
+    {
+        if (SpecialAttackCooldownOverlay != null)
+        SpecialAttackCooldownOverlay.fillAmount = total > 0f ? Mathf.Clamp01(remaining / total) : 0f;
+        
+        if (SpecialAttackCooldownText != null)
+        {
+            bool onCooldown = remaining > 0f;
+            SpecialAttackCooldownText.gameObject.SetActive(onCooldown);
+            if (onCooldown)
+            SpecialAttackCooldownText.text = Mathf.CeilToInt(remaining).ToString();
+        }
+        
     }
 }

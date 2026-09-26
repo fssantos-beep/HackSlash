@@ -11,9 +11,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/CharacterSelection.unity
     guid: 4a01492ad1ca01949b09a4218654bf49
-  - enabled: 0
+  - enabled: 1
     path: "Assets/Scenes/\xC1rea 1.unity"
     guid: f171d1cd2c16fe04290283294333947b
+  - enabled: 1
+    path: "Assets/Scenes/\xC1rea 2.unity"
+    guid: c93792a447859924d965db6cfef43b68
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
