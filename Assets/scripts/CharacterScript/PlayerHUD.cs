@@ -1,3 +1,4 @@
+// Gerencia a interface do jogador, incluindo barra de vida, XP, nível e cooldown de ataque especial
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;

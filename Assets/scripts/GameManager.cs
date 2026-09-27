@@ -1,3 +1,4 @@
+// Gerencia o estado geral do jogo, incluindo a exibição da tela de derrota e a pausa do jogo
 using UnityEngine;
 using TMPro;
 
@@ -9,7 +10,16 @@ public class GameManager : MonoBehaviour
 
     void Awake()
     {
-        Instance = this;
+        if (Instance == null)
+        {
+            Instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+        DontDestroyOnLoad(gameObject);
     }
 
     public void ShowDefeat()

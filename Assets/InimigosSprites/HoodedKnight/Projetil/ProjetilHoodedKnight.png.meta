@@ -1,0 +1,473 @@
+fileFormatVersion: 2
+guid: c29710141f3bc2b4787af3d789dc1599
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8769212010144346489
+    second: ChatGPT Image 27 de set. de 2026, 00_40_59_0
+  - first:
+      213: 4631011466253447405
+    second: ChatGPT Image 27 de set. de 2026, 00_40_59_1
+  - first:
+      213: -4136824068442952381
+    second: ChatGPT Image 27 de set. de 2026, 00_40_59_2
+  - first:
+      213: 8861980714213972968
+    second: ChatGPT Image 27 de set. de 2026, 00_40_59_3
+  - first:
+      213: -7391115298004204519
+    second: ChatGPT Image 27 de set. de 2026, 00_40_59_4
+  - first:
+      213: -8020149990495734613
+    second: ChatGPT Image 27 de set. de 2026, 00_40_59_5
+  - first:
+      213: 798742044983484817
+    second: ChatGPT Image 27 de set. de 2026, 00_40_59_6
+  - first:
+      213: 7468330931660012309
+    second: ChatGPT Image 27 de set. de 2026, 00_40_59_7
+  - first:
+      213: -8023390086549622823
+    second: ChatGPT Image 27 de set. de 2026, 00_40_59_8
+  - first:
+      213: -8300773740843767441
+    second: ChatGPT Image 27 de set. de 2026, 00_40_59_9
+  - first:
+      213: -7819478723864075931
+    second: ChatGPT Image 27 de set. de 2026, 00_40_59_10
+  - first:
+      213: 6712220890169008395
+    second: ChatGPT Image 27 de set. de 2026, 00_40_59_11
+  - first:
+      213: -1286641617143058323
+    second: ChatGPT Image 27 de set. de 2026, 00_40_59_12
+  - first:
+      213: -916490601826076945
+    second: ChatGPT Image 27 de set. de 2026, 00_40_59_13
+  - first:
+      213: -3879780798227748026
+    second: ChatGPT Image 27 de set. de 2026, 00_40_59_14
+  - first:
+      213: -8195602165350489504
+    second: ChatGPT Image 27 de set. de 2026, 00_40_59_15
+  - first:
+      213: -1758842204539217956
+    second: ChatGPT Image 27 de set. de 2026, 00_40_59_16
+  - first:
+      213: 7211384777681739235
+    second: ChatGPT Image 27 de set. de 2026, 00_40_59_17
+  - first:
+      213: 263032576128045595
+    second: ChatGPT Image 27 de set. de 2026, 00_40_59_18
+  - first:
+      213: -521221610764721224
+    second: ChatGPT Image 27 de set. de 2026, 00_40_59_19
+  - first:
+      213: 7447261505299474281
+    second: ChatGPT Image 27 de set. de 2026, 00_40_59_20
+  - first:
+      213: -4921141806835737184
+    second: ChatGPT Image 27 de set. de 2026, 00_40_59_21
+  - first:
+      213: -7514974213657766512
+    second: ChatGPT Image 27 de set. de 2026, 00_40_59_22
+  - first:
+      213: 6184530454598126327
+    second: ChatGPT Image 27 de set. de 2026, 00_40_59_23
+  - first:
+      213: 8513888687732079282
+    second: ChatGPT Image 27 de set. de 2026, 00_40_59_24
+  - first:
+      213: -217677802996685263
+    second: ChatGPT Image 27 de set. de 2026, 00_40_59_25
+  - first:
+      213: 7184609375376918350
+    second: ChatGPT Image 27 de set. de 2026, 00_40_59_26
+  - first:
+      213: -8028625464260295742
+    second: ChatGPT Image 27 de set. de 2026, 00_40_59_27
+  - first:
+      213: 1795842450552240258
+    second: ChatGPT Image 27 de set. de 2026, 00_40_59_28
+  - first:
+      213: -2079524696511293937
+    second: ChatGPT Image 27 de set. de 2026, 00_40_59_29
+  - first:
+      213: 4084514224109064498
+    second: ChatGPT Image 27 de set. de 2026, 00_40_59_30
+  - first:
+      213: 189571450794831529
+    second: ChatGPT Image 27 de set. de 2026, 00_40_59_31
+  - first:
+      213: 7775781136351413957
+    second: ChatGPT Image 27 de set. de 2026, 00_40_59_32
+  - first:
+      213: 4501876425676028401
+    second: ChatGPT Image 27 de set. de 2026, 00_40_59_33
+  - first:
+      213: 1163552144168462328
+    second: ChatGPT Image 27 de set. de 2026, 00_40_59_34
+  - first:
+      213: 5479996687840392975
+    second: ChatGPT Image 27 de set. de 2026, 00_40_59_35
+  - first:
+      213: 266457406312712390
+    second: ChatGPT Image 27 de set. de 2026, 00_40_59_36
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Projetil1
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 287
+        width: 236
+        height: 165
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78ec14753208d4680800000000000000
+      internalID: -8769212010144346489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projetil2
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 287
+        width: 244
+        height: 166
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69c5be7fa723d004f8194475984ac0b3
+      internalID: 4631011466253447405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projetil3
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 287
+        width: 222
+        height: 166
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de65bebbc44da0246ad4734ba04c37d5
+      internalID: -4136824068442952381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projetil4
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 287
+        width: 236
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b01a87e994cee3d4aa356e97843f1b95
+      internalID: 8861980714213972968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projetil5
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 292
+        width: 238
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c4c8643666d8d74c90a8dc58b7a1c5b
+      internalID: -7391115298004204519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projetil6
+      rect:
+        serializedVersion: 2
+        x: 1201
+        y: 295
+        width: 265
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37f5501e34be25448b9c751b11c177ec
+      internalID: -8020149990495734613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projetil7
+      rect:
+        serializedVersion: 2
+        x: 1479
+        y: 269
+        width: 191
+        height: 221
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0f666ec46af7a143be6dba693201566
+      internalID: 798742044983484817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projetil8
+      rect:
+        serializedVersion: 2
+        x: 1674
+        y: 257
+        width: 169
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4bdd4ef20c74714f932112ec6915d16
+      internalID: 7468330931660012309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projetil9
+      rect:
+        serializedVersion: 2
+        x: 1852
+        y: 249
+        width: 152
+        height: 238
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 986a3207ab028da448abddb1fb5d208c
+      internalID: -8023390086549622823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projetil10
+      rect:
+        serializedVersion: 2
+        x: 2009
+        y: 251
+        width: 158
+        height: 218
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 268ecfd7191e20346b54a52cfbbdd99e
+      internalID: -8300773740843767441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 41ab1dedbd2d4824fb11303fa07cc503
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":2172.0,"y":724.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Projetil1: -8769212010144346489
+      Projetil10: -8300773740843767441
+      Projetil2: 4631011466253447405
+      Projetil3: -4136824068442952381
+      Projetil4: 8861980714213972968
+      Projetil5: -7391115298004204519
+      Projetil6: -8020149990495734613
+      Projetil7: 798742044983484817
+      Projetil8: 7468330931660012309
+      Projetil9: -8023390086549622823
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

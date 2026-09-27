@@ -1,3 +1,4 @@
+// Gerencia a barra de vida do inimigo, atualizando visualmente quando o inimigo toma dano
 using UnityEngine;
 using UnityEngine.UI;
 

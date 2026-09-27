@@ -562,6 +562,94 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: FireballNecromancer_6
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 81
+        width: 341
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01d4619c2339b6945b7a7126887d9704
+      internalID: -2128036797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireballNecromancer_7
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 64
+        width: 403
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a943b55b068d0074c949dd16b6e508a0
+      internalID: 516758773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireballNecromancer_8
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 62
+        width: 387
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 644b7a06667c31a4293e85772c707b8f
+      internalID: 600510288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireballNecromancer_9
+      rect:
+        serializedVersion: 2
+        x: 1308
+        y: 70
+        width: 386
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3afe0bea417250043b88c9d20ba2f91a
+      internalID: 1697340676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -585,6 +673,9 @@ TextureImporter:
       FireballNecromancer_4: -2449708982343616216
       FireballNecromancer_5: -8960764640739776941
       FireballNecromancer_6: -2128036797
+      FireballNecromancer_7: 516758773
+      FireballNecromancer_8: 600510288
+      FireballNecromancer_9: 1697340676
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

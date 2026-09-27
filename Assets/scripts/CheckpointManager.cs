@@ -1,3 +1,4 @@
+// Gerencia os checkpoints no jogo, permitindo que o jogador reapareça em pontos específicos após morrer
 using UnityEngine;
 
 public class CheckpointManager : MonoBehaviour

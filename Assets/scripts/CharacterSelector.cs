@@ -1,3 +1,4 @@
+// Gerencia a seleção de personagens, permitindo que o jogador escolha entre Valina e Doro antes de iniciar o jogo
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
@@ -24,7 +25,6 @@ public class CharacterSelector : MonoBehaviour
         UpdateSelection();
     }
 
-    // Precisam ser public pra aparecer no OnClick() do Inspector
     public void SelectValina()
     {
         selectedIndex = 0;
@@ -69,6 +69,6 @@ public class CharacterSelector : MonoBehaviour
 
     public void GoBack()
     {
-        SceneManager.LoadScene("MainMenu");
+        SceneManager.LoadScene("Menu");
     }
 }

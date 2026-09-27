@@ -1,3 +1,4 @@
+// Script que faz a câmera seguir o jogador
 using UnityEngine;
 
 public class CameraFollow : MonoBehaviour

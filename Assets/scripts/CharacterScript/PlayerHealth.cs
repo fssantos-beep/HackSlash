@@ -1,3 +1,4 @@
+// Gerencia a vida do jogador, incluindo dano, morte e feedback visual
 using UnityEngine;
 using System.Collections;
 using TMPro;

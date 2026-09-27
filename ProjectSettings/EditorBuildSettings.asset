@@ -17,6 +17,15 @@ EditorBuildSettings:
   - enabled: 1
     path: "Assets/Scenes/\xC1rea 2.unity"
     guid: c93792a447859924d965db6cfef43b68
+  - enabled: 1
+    path: "Assets/Scenes/\xC1rea 3.unity"
+    guid: e7572f2e40754a24da62bb26f250f905
+  - enabled: 1
+    path: "Assets/Scenes/\xC1rea 4.unity"
+    guid: f0e40719a427d9047aaecad6bd6dcc16
+  - enabled: 1
+    path: "Assets/Scenes/Vit\xF3ria.unity"
+    guid: 6238b2630ef2c5447a4eb9fcaa5a7ab0
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

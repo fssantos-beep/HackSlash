@@ -1,3 +1,4 @@
+// Sistema de seleção de itens que aparece quando o jogador sobe de nível, permitindo escolher entre 3 opções
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
@@ -24,6 +25,7 @@ public class ItemSelectionUI : MonoBehaviour
         if (Instance == null)
         {
             Instance = this;
+            DontDestroyOnLoad(gameObject);
         }
         else
         {
@@ -109,7 +111,7 @@ public class ItemSelectionUI : MonoBehaviour
             // Remove listeners antigos antes de adicionar, pra não empilhar
             // callbacks de escolhas anteriores no mesmo botão
             itemButtons[index].onClick.RemoveAllListeners();
-            int capturedIndex = index; // evita bug de closure com o índice do loop
+            int capturedIndex = index;
             itemButtons[index].onClick.AddListener(() => SelectItem(capturedIndex));
         }
     }
@@ -145,6 +147,7 @@ public class ItemSelectionUI : MonoBehaviour
         if (upgradable != null)
         {
             upgradable.ApplyUpgrade(item.effectType, item.effectValue);
+            PlayerUpgrades.AddUpgrade(item.effectType, item.effectValue);
         }
         else
         {

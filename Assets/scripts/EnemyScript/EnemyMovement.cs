@@ -1,3 +1,4 @@
+// Gerencia o movimento do inimigo, incluindo patrulha aleatória, detecção do jogador e ataques corpo-a-corpo e à distância
 using UnityEngine;
 using System.Collections;
 
@@ -11,23 +12,34 @@ public class EnemyMovement : MonoBehaviour
     public float minWalkTime = 1f;
     public float maxWalkTime = 2.5f;
 
-    [Header("Detecção do jogador")]
-    public float detectionRange = 6f; // raio em que o inimigo "percebe" o player e entra em combate
+    [Header("Detecção do jogador (Amarelo)")]
+    public float detectionRange = 6f;
 
-    [Header("Ataque")]
-    public float attackRange = 1f;
+    [Header("Ataque Principal (Attack1 / 'attack', range vermelho)")]
     public float attackCooldown = 1.5f;
+
+    [Header("Ataque Secundário (Attack2, range Roxo)")]
+    public bool hasSecondaryAttack = false;
+    public float secondaryAttackRange = 5f;
+    public float secondaryAttackCooldown = 3f;
+
+    [Header("Pontos que precisam virar junto com o sprite")]
+    public Transform firePoint;
+    public Transform attackPoint;
+
     public Transform target;
 
     [HideInInspector]
-    public float facingDirection = 1f; // usado pelo EnemyRangedAttack pra saber pra que lado atirar
+    public float facingDirection = 1f; // 1f = olhando pra direita, -1f = olhando pra esquerda
 
     private Rigidbody2D rb;
     private Animator animator;
     private SpriteRenderer spriteRenderer;
+    private EnemyMeleeAttack meleeAttack;
 
-    private float moveDirection = 0f; // -1 esquerda, 0 parado, 1 direita
+    private float moveDirection = 0f; // 1f = andando pra direita, -1f = andando pra esquerda, 0f = parado
     private float lastAttackTime = -999f;
+    private float lastSecondaryAttackTime = -999f;
     private bool isDead = false;
     private bool inCombat = false;
 
@@ -36,6 +48,10 @@ public class EnemyMovement : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponentInChildren<Animator>();
         spriteRenderer = GetComponentInChildren<SpriteRenderer>();
+        meleeAttack = GetComponent<EnemyMeleeAttack>();
+
+        if (attackPoint == null && meleeAttack != null)
+            attackPoint = meleeAttack.attackPoint;
     }
 
     void Start()
@@ -49,11 +65,7 @@ public class EnemyMovement : MonoBehaviour
         while (target == null)
         {
             GameObject player = GameObject.FindGameObjectWithTag("Player");
-            if (player != null)
-            {
-                target = player.transform;
-                yield break;
-            }
+            if (player != null) { target = player.transform; yield break; }
             yield return new WaitForSeconds(0.5f);
         }
     }
@@ -61,37 +73,71 @@ public class EnemyMovement : MonoBehaviour
     void Update()
     {
         if (isDead) return;
+        float meleeRange = meleeAttack != null ? meleeAttack.attackRange : 1f;
 
-        float distance = 0f;
-        // Verifica se o player entrou ou saiu do raio de detecção
         if (target != null)
         {
-            distance = Vector2.Distance(transform.position, target.position);
+            float distance = Vector2.Distance(transform.position, target.position);
             inCombat = distance <= detectionRange;
+
+            if (inCombat)
+            {
+                float dirToTarget = target.position.x - transform.position.x;
+                FlipSprite(dirToTarget); // vira o sprite e os pontos de ataque na direção do player
+
+                bool withinMeleeZone = distance <= meleeRange;
+                bool withinRangedZone = hasSecondaryAttack && distance <= secondaryAttackRange;
+
+                if (withinMeleeZone)
+                {
+                    // Vermelho: perto o suficiente pro corpo-a-corpo — prioridade máxima
+                    moveDirection = 0f;
+                    if (animator != null) animator.SetBool("IsMoving", false);
+
+                    if (Time.time >= lastAttackTime + attackCooldown && animator != null)
+                    {
+                        animator.SetTrigger("attack");
+                        lastAttackTime = Time.time;
+                    }
+                }
+                else if (withinRangedZone)
+                {
+                    // Roxo: perto o suficiente pro projétil
+                    moveDirection = 0f;
+                    if (animator != null) animator.SetBool("IsMoving", false);
+
+                    if (Time.time >= lastSecondaryAttackTime + secondaryAttackCooldown && animator != null)
+                    {
+                        animator.SetTrigger("attack2");
+                        lastSecondaryAttackTime = Time.time;
+                    }
+                    else
+                    {
+                        // Projétil em cooldown: anda em direção ao player pra tentar o melee
+                        float dir = Mathf.Sign(dirToTarget);
+                        Vector2 newPos = new Vector2(rb.position.x + dir * moveSpeed * Time.deltaTime, rb.position.y);
+                        rb.MovePosition(newPos);
+                        if (animator != null) animator.SetBool("IsMoving", true);
+                    }
+                }
+                else
+                {
+                    // Fora do alcance de ataque: anda em direção ao player se projetil estiver em cooldown
+                    float dir = Mathf.Sign(dirToTarget);
+                    Vector2 newPos = new Vector2(rb.position.x + dir * moveSpeed * Time.deltaTime, rb.position.y);
+                    rb.MovePosition(newPos);
+                    if (animator != null) animator.SetBool("IsMoving", true);
+                }
+                return;
+            }
         }
 
-        if (inCombat)
+        // Fora de combate: patrulha aleatória normal
+        if (moveDirection != 0f)
         {
-            float dirToTarget = target.position.x - transform.position.x;
-
-            if (distance > attackRange)
-            {
-                float dir = Mathf.Sign(dirToTarget);
-                Vector2 movement = new Vector2(rb.position.x + dir * moveSpeed * Time.deltaTime, rb.position.y);
-                rb.MovePosition(movement);
-                FlipSprite(dir);
-                if (animator != null) animator.SetBool("IsMoving", true);
-            }
-            else
-            {
-                FlipSprite(dirToTarget);
-                if (animator != null) animator.SetBool("IsMoving", false);
-                if (Time.time >= lastAttackTime + attackCooldown && animator != null)
-                {
-                    animator.SetTrigger("attack");
-                    lastAttackTime = Time.time;
-                }
-            }
+            Vector2 newPos = new Vector2(rb.position.x + moveDirection * moveSpeed * Time.deltaTime, rb.position.y);
+            rb.MovePosition(newPos);
+            FlipSprite(moveDirection);
         }
     }
 
@@ -122,16 +168,20 @@ public class EnemyMovement : MonoBehaviour
     {
         if (spriteRenderer == null) return;
 
-        if (directionX > 0f)
-        {
-            spriteRenderer.flipX = false;
-            facingDirection = 1f;
-        }
-        else if (directionX < 0f)
-        {
-            spriteRenderer.flipX = true;
-            facingDirection = -1f;
-        }
+        bool shouldFaceLeft = directionX < 0f;
+        spriteRenderer.flipX = shouldFaceLeft;
+        facingDirection = shouldFaceLeft ? -1f : 1f;
+
+        MirrorPoint(firePoint);
+        MirrorPoint(attackPoint);
+    }
+
+    void MirrorPoint(Transform point)
+    {
+        if (point == null) return;
+        Vector3 pos = point.localPosition;
+        pos.x = Mathf.Abs(pos.x) * facingDirection;
+        point.localPosition = pos;
     }
 
     public void Kill()
@@ -140,9 +190,16 @@ public class EnemyMovement : MonoBehaviour
         moveDirection = 0f;
         StopAllCoroutines();
     }
+
     void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.yellow;
         Gizmos.DrawWireSphere(transform.position, detectionRange);
+
+        if (hasSecondaryAttack)
+        {
+            Gizmos.color = Color.magenta;
+            Gizmos.DrawWireSphere(transform.position, secondaryAttackRange);
+        }
     }
 }

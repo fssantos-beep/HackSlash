@@ -1,3 +1,4 @@
+// Gerencia a recepção de eventos de animação, como o impacto de ataques, e repassa para o script IAttackable correspondente
 using UnityEngine;
 
 public class AnimationReceiver : MonoBehaviour

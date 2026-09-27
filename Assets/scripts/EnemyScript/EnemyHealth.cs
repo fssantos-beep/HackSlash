@@ -18,6 +18,9 @@ public class EnemyHealth : MonoBehaviour
     private Animator animator;
     public float deathAnimDuration = 1f; // ajustar conforme a duração real do clip "death"
 
+    [Header("Boss")]
+    public bool isBoss = false;
+
     void Awake()
     {
         currentHealth = maxHealth;
@@ -55,6 +58,12 @@ public class EnemyHealth : MonoBehaviour
     if (PlayerHUD.Instance != null)
         PlayerHUD.Instance.AddXP(xpReward);
         Debug.Log($"{gameObject.name} morreu e deu {xpReward} XP!");
+
+        if (isBoss)
+        {
+            GameProgress.bossDefeated = true;
+            Debug.Log("O boss foi derrotado! Prossiga para o ultimo portão do jogo para finalizar!");
+        }
 
         EnemyMovement movement = GetComponent<EnemyMovement>();
         if (movement != null) movement.Kill();

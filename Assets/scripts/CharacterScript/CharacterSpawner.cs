@@ -1,3 +1,4 @@
+// Gerencia o spawn do personagem selecionado pelo jogador, aplicando upgrades e configurando a câmera
 using UnityEngine;
 
 public class CharacterSpawner : MonoBehaviour
@@ -12,11 +13,9 @@ public class CharacterSpawner : MonoBehaviour
 
     void Start()
     {
-        // Pega a escolha feita na tela de seleção de personagem
         int selectedIndex = PlayerPrefs.GetInt("SelectedCharacter", 0);
         GameObject prefabToSpawn = (selectedIndex == 0) ? Valina : Doro;
 
-        // Fallback caso nao tenha arrastado um spawn point no Inspector
         if (spawnPoint == null)
         {
             spawnPoint = new GameObject("SpawnPoint").transform;
@@ -25,7 +24,14 @@ public class CharacterSpawner : MonoBehaviour
 
         GameObject spawnedPlayer = Instantiate(prefabToSpawn, spawnPoint.position, spawnPoint.rotation);
 
+        // Reaplica todos os upgrades já coletados em cenas/áreas anteriores
         // Aponta a câmera pro personagem que acabou de nascer na cena
+        IUpgradable upgradable = spawnedPlayer.GetComponent<IUpgradable>();
+        if (upgradable != null)
+        {
+            PlayerUpgrades.ApplyAllTo(upgradable);
+        }
+
         if (mainCamera != null)
         {
             CameraFollow cameraFollow = mainCamera.GetComponent<CameraFollow>();

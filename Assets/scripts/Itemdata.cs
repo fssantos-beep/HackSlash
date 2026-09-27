@@ -1,3 +1,4 @@
+// ScriptableObject que define os dados de um item, incluindo nome, descrição, ícone, efeito e restrição de personagem
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "NewItem", menuName = "Itens/Item")]

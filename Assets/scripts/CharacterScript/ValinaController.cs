@@ -1,3 +1,4 @@
+// Gerencia o personagem Valina, incluindo movimentação, pulo, ataque básico e dash 
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;

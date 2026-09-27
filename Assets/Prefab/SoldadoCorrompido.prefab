@@ -239,7 +239,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EnemyHealth
   maxHealth: 30
   currentHealth: 0
-  xpReward: 10
+  xpReward: 106
   deathAnimDuration: 1
 --- !u!114 &7201403245623584456
 MonoBehaviour:
@@ -259,8 +259,12 @@ MonoBehaviour:
   minWalkTime: 1
   maxWalkTime: 2.5
   detectionRange: 6
-  attackRange: 2.08
   attackCooldown: 1.5
+  hasSecondaryAttack: 0
+  secondaryAttackRange: 5
+  secondaryAttackCooldown: 3
+  firePoint: {fileID: 0}
+  attackPoint: {fileID: 0}
   target: {fileID: 0}
   facingDirection: 1
 --- !u!114 &7218928357788172121
@@ -327,7 +331,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyMeleeAttack
   attackPoint: {fileID: 2129576526013094917}
-  attackRange: 2.66
+  attackRange: 0.87
   damage: 10
   playerLayer:
     serializedVersion: 2

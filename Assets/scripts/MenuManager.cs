@@ -1,3 +1,4 @@
+// Gerencia o menu principal do jogo, incluindo iniciar o jogo e sair
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -18,7 +19,7 @@ public class MenuManager : MonoBehaviour
 #if UNITY_EDITOR
         UnityEditor.EditorApplication.isPlaying = false;
 #else
-        Application.Quit(); // só funciona no .exe buildado, não no Editor
+        Application.Quit();
 #endif
     }
 }

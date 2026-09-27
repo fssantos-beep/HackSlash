@@ -1,3 +1,4 @@
+// Gerencia o personagem Doro
 using UnityEngine;
 using System.Collections;
 

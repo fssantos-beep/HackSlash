@@ -1,3 +1,4 @@
+// Gerencia os botões na tela de derrota, permitindo que o jogador tente novamente ou volte ao menu principal
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -19,6 +20,26 @@ public class DefeatButton : MonoBehaviour
     public void OnBackToMenuPressed()
     {
         Time.timeScale = 1f;
+
+        if (PersistentUIManager.Instance != null)
+        {
+            Destroy(PersistentUIManager.Instance.gameObject);
+            PersistentUIManager.Instance = null;
+        }
+
+        if (ItemSelectionUI.Instance != null)
+        {
+            Destroy(ItemSelectionUI.Instance.gameObject);
+            ItemSelectionUI.Instance = null;
+        }
+
+        if (GameManager.Instance != null)
+        {
+            Destroy(GameManager.Instance.gameObject);
+            GameManager.Instance = null;
+        }
+
+        PlayerUpgrades.ResetAll();
         SceneManager.LoadScene("Menu");
     }
 }

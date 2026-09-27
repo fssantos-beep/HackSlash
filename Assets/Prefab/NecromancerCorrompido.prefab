@@ -351,9 +351,12 @@ MonoBehaviour:
   maxIdleTime: 3
   minWalkTime: 1
   maxWalkTime: 2.5
-  detectionRange: 6
-  attackRange: 1
+  detectionRange: 10
+  attackRange: 3
   attackCooldown: 1.98
+  hasSecondaryAttack: 0
+  secondaryAttackRange: 5
+  secondaryAttackCooldown: 3
   target: {fileID: 0}
   facingDirection: 1
 --- !u!114 &4062163332344741708

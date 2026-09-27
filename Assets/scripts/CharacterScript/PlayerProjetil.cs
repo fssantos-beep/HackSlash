@@ -1,3 +1,4 @@
+// Gerencia o projétil do jogador, incluindo movimento, colisão e dano aos inimigos
 using UnityEngine;
 
 public class PlayerProjetil : MonoBehaviour
