@@ -1,19 +1,43 @@
 fileFormatVersion: 2
-guid: 91343aa0618d001439a0febc07d734ef
+guid: 2c8b8fd204d728947a62909944be163c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2048800907179887802
-    second: Hurt_0
+      213: -8238343871688123021
+    second: DoroDeath_0
   - first:
-      213: 490842205202310979
-    second: Hurt_1
+      213: -5343197663074289060
+    second: DoroDeath_1
   - first:
-      213: -3720053754089064719
-    second: Hurt_2
+      213: -3110631519434155939
+    second: DoroDeath_2
   - first:
-      213: 5649970053243570431
-    second: Hurt_3
+      213: -1591541496072714311
+    second: DoroDeath_3
+  - first:
+      213: -6071165462560738916
+    second: DoroDeath_4
+  - first:
+      213: 2691249816397628389
+    second: DoroDeath_5
+  - first:
+      213: 3458239596645801478
+    second: DoroDeath_6
+  - first:
+      213: 1877185555026058124
+    second: DoroDeath_7
+  - first:
+      213: 6430155233944235967
+    second: DoroDeath_8
+  - first:
+      213: -6464274180693317545
+    second: DoroDeath_9
+  - first:
+      213: 46592725562531098
+    second: DoroDeath_10
+  - first:
+      213: 1238454559552261360
+    second: DoroDeath_11
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,7 +70,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -84,7 +108,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -122,89 +146,133 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Hurt_0
+      name: DoroDeath_0
       rect:
         serializedVersion: 2
-        x: 9
-        y: 12
-        width: 231
-        height: 203
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 3
+        y: 200
+        width: 306
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6437b001e623193e0800000000000000
-      internalID: -2048800907179887802
+      spriteID: 37d5386b5e58bad80800000000000000
+      internalID: -8238343871688123021
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hurt_1
+      name: DoroDeath_1
       rect:
         serializedVersion: 2
-        x: 327
-        y: 15
-        width: 216
-        height: 201
+        x: 339
+        y: 197
+        width: 321
+        height: 334
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 3476ad19262dfc600800000000000000
-      internalID: 490842205202310979
+      spriteID: b7b5f083f9da66d40863382fb486f97d
+      internalID: -5343197663074289060
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hurt_2
+      name: DoroDeath_2
       rect:
         serializedVersion: 2
-        x: 617
-        y: 19
-        width: 248
-        height: 156
+        x: 668
+        y: 197
+        width: 335
+        height: 328
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 1f6b92202d6bf5cc0800000000000000
-      internalID: -3720053754089064719
+      spriteID: c027500d9c5ad384ca694fb62580e218
+      internalID: -3110631519434155939
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hurt_3
+      name: DoroDeath_3
       rect:
         serializedVersion: 2
-        x: 961
-        y: 7
-        width: 203
-        height: 227
+        x: 1022
+        y: 184
+        width: 385
+        height: 267
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ff88d2f14d9b86e40800000000000000
-      internalID: 5649970053243570431
+      spriteID: 7d35165fd7d9abb458e221c2c8ca261a
+      internalID: -1591541496072714311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoroDeath_4
+      rect:
+        serializedVersion: 2
+        x: 1423
+        y: 191
+        width: 363
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba40fd949ec73ea4fb65ee4534d75495
+      internalID: -6071165462560738916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoroDeath_5
+      rect:
+        serializedVersion: 2
+        x: 1794
+        y: 181
+        width: 377
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22595dc699aded24c8583f5e98a40320
+      internalID: 2691249816397628389
       vertices: []
       indices: 
       edges: []
@@ -213,7 +281,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 7b28ca5ba4f2eed47b78cdcdc50fdd1a
+    spriteID: 7bd6cf7d2f8e9774c9fbe0681ac06b37
     internalID: 0
     vertices: []
     indices: 
@@ -221,12 +289,16 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":2171.0,"y":724.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Hurt_0: -2048800907179887802
-      Hurt_1: 490842205202310979
-      Hurt_2: -3720053754089064719
-      Hurt_3: 5649970053243570431
+      DoroDeath_0: -8238343871688123021
+      DoroDeath_1: -5343197663074289060
+      DoroDeath_2: -3110631519434155939
+      DoroDeath_3: -1591541496072714311
+      DoroDeath_4: -6071165462560738916
+      DoroDeath_5: 2691249816397628389
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

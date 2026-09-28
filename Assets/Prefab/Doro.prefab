@@ -221,6 +221,7 @@ MonoBehaviour:
   flashDuration: 0.15
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   invincibilityDuration: 0.5
+  animator: {fileID: 1897007470069354283}
 --- !u!95 &1897007470069354283
 Animator:
   serializedVersion: 7

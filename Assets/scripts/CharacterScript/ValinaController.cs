@@ -126,6 +126,7 @@ public class ValinaController : MonoBehaviour, IAttackable, IUpgradable
 
     IEnumerator BasicAttackRoutine()
     {
+        Debug.Log("BasicAttackRoutine iniciou");
         isAttacking = true;
         nextAttackTime = Time.time + attackCooldown;
         hitEnemies.Clear(); // novo ataque, então limpa quem já foi atingido antes

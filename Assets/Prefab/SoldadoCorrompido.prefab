@@ -241,6 +241,7 @@ MonoBehaviour:
   currentHealth: 0
   xpReward: 106
   deathAnimDuration: 1
+  isBoss: 0
 --- !u!114 &7201403245623584456
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -332,7 +333,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EnemyMeleeAttack
   attackPoint: {fileID: 2129576526013094917}
   attackRange: 0.87
-  damage: 10
+  damage: 1
   playerLayer:
     serializedVersion: 2
     m_Bits: 256
