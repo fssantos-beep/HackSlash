@@ -1,43 +1,25 @@
 fileFormatVersion: 2
-guid: 2c8b8fd204d728947a62909944be163c
+guid: 433aa468ffcb33f4593c78e29b1a49cf
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8238343871688123021
-    second: DoroDeath_0
+      213: 8021561136130553639
+    second: DoroDeathTeste_0
   - first:
-      213: -5343197663074289060
-    second: DoroDeath_1
+      213: 7051770955775739052
+    second: DoroDeathTeste_1
   - first:
-      213: -3110631519434155939
-    second: DoroDeath_2
+      213: -4049631661716623128
+    second: DoroDeathTeste_2
   - first:
-      213: -1591541496072714311
-    second: DoroDeath_3
+      213: -505531062520495865
+    second: DoroDeathTeste_3
   - first:
-      213: -6071165462560738916
-    second: DoroDeath_4
+      213: 7248899798310950727
+    second: DoroDeathTeste_4
   - first:
-      213: 2691249816397628389
-    second: DoroDeath_5
-  - first:
-      213: 3458239596645801478
-    second: DoroDeath_6
-  - first:
-      213: 1877185555026058124
-    second: DoroDeath_7
-  - first:
-      213: 6430155233944235967
-    second: DoroDeath_8
-  - first:
-      213: -6464274180693317545
-    second: DoroDeath_9
-  - first:
-      213: 46592725562531098
-    second: DoroDeath_10
-  - first:
-      213: 1238454559552261360
-    second: DoroDeath_11
+      213: 977840406462397604
+    second: DoroDeathTeste_5
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -146,133 +128,133 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: DoroDeath_0
+      name: DoroDeathTeste_0
       rect:
         serializedVersion: 2
-        x: 3
-        y: 200
-        width: 306
-        height: 332
+        x: 0
+        y: 11
+        width: 203
+        height: 198
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 37d5386b5e58bad80800000000000000
-      internalID: -8238343871688123021
+      spriteID: 727f32f6a5f425f60800000000000000
+      internalID: 8021561136130553639
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DoroDeath_1
+      name: DoroDeathTeste_1
       rect:
         serializedVersion: 2
-        x: 339
-        y: 197
-        width: 321
-        height: 334
+        x: 223
+        y: 13
+        width: 183
+        height: 168
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca40e68825cecd160800000000000000
+      internalID: 7051770955775739052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoroDeathTeste_2
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 10
+        width: 211
+        height: 154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e0b434a571dcc7c0800000000000000
+      internalID: -4049631661716623128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoroDeathTeste_3
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 5
+        width: 218
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7014a835d2efbf8f0800000000000000
+      internalID: -505531062520495865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoroDeathTeste_4
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 7
+        width: 209
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74799b2d5f3499460800000000000000
+      internalID: 7248899798310950727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoroDeathTeste_5
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 4
+        width: 212
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b7b5f083f9da66d40863382fb486f97d
-      internalID: -5343197663074289060
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DoroDeath_2
-      rect:
-        serializedVersion: 2
-        x: 668
-        y: 197
-        width: 335
-        height: 328
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c027500d9c5ad384ca694fb62580e218
-      internalID: -3110631519434155939
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DoroDeath_3
-      rect:
-        serializedVersion: 2
-        x: 1022
-        y: 184
-        width: 385
-        height: 267
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7d35165fd7d9abb458e221c2c8ca261a
-      internalID: -1591541496072714311
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DoroDeath_4
-      rect:
-        serializedVersion: 2
-        x: 1423
-        y: 191
-        width: 363
-        height: 236
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ba40fd949ec73ea4fb65ee4534d75495
-      internalID: -6071165462560738916
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DoroDeath_5
-      rect:
-        serializedVersion: 2
-        x: 1794
-        y: 181
-        width: 377
-        height: 225
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 22595dc699aded24c8583f5e98a40320
-      internalID: 2691249816397628389
+      spriteID: 2b8362e4c2d553a42b5b39b26b5b3b98
+      internalID: 977840406462397604
       vertices: []
       indices: 
       edges: []
@@ -281,7 +263,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 7bd6cf7d2f8e9774c9fbe0681ac06b37
+    spriteID: b03bae72e0a9d3b4ab4117a3ef76ddfb
     internalID: 0
     vertices: []
     indices: 
@@ -289,16 +271,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries:
-      - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":2171.0,"y":724.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+      entries: []
     nameFileIdTable:
-      DoroDeath_0: -8238343871688123021
-      DoroDeath_1: -5343197663074289060
-      DoroDeath_2: -3110631519434155939
-      DoroDeath_3: -1591541496072714311
-      DoroDeath_4: -6071165462560738916
-      DoroDeath_5: 2691249816397628389
+      DoroDeathTeste_0: 8021561136130553639
+      DoroDeathTeste_1: 7051770955775739052
+      DoroDeathTeste_2: -4049631661716623128
+      DoroDeathTeste_3: -505531062520495865
+      DoroDeathTeste_4: 7248899798310950727
+      DoroDeathTeste_5: 977840406462397604
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

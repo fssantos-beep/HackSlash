@@ -431,7 +431,7 @@ TilemapRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -2
   m_MaskInteraction: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0.1328125, y: 0.5312786, z: 0}
@@ -1556,7 +1556,7 @@ MonoBehaviour:
   - {fileID: 462463875}
   - {fileID: 2069708025}
   - {fileID: 1261315458}
-  spawnRate: 2
+  respawnCooldown: 5
 --- !u!4 &1784682301
 Transform:
   m_ObjectHideFlags: 0

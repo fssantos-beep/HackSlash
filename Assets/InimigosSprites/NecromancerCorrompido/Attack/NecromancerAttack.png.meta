@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: c2127c13ec9205c41a34efde7a931559
+guid: eeae1f9d80e700f4d9b0d0ad30a1d177
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6325687867974268694
-    second: image-ezgif.com-crop_0
+      213: -561488993396074279
+    second: NecromancerAttack_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,35 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: image-ezgif.com-crop_4
+      name: NecromancerAttack_0
       rect:
         serializedVersion: 2
-        x: 573
-        y: 0
-        width: 161
-        height: 140
+        x: 0
+        y: 9
+        width: 142
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d8d5534cb03538f0800000000000000
+      internalID: -561488993396074279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NecromancerAttack_1
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 9
+        width: 165
+        height: 146
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,20 +150,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 49bb9e0550bb51844bf4aa5f50d210b3
-      internalID: -1739173920
+      spriteID: aa0c5db1ae3bf7445a6c8fcf8a2d322f
+      internalID: 194312065
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: image-ezgif.com-crop_5
+      name: NecromancerAttack_2
       rect:
         serializedVersion: 2
-        x: 764
-        y: 1
-        width: 186
-        height: 139
+        x: 488
+        y: 9
+        width: 166
+        height: 146
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -150,20 +172,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a52e4970c7ac7fd4a8e9f010f9053e6a
-      internalID: -1388084365
+      spriteID: 80ee6918be83bb74cb86922d1ce10393
+      internalID: -705003618
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: image-ezgif.com-crop_6
+      name: NecromancerAttack_3
       rect:
         serializedVersion: 2
-        x: 970
-        y: 2
-        width: 219
-        height: 138
+        x: 730
+        y: 9
+        width: 169
+        height: 146
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -172,20 +194,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1831b0d90a3d75d41830c436c54cb3e5
-      internalID: 1067483508
+      spriteID: 7a801d2bbc9932a41a47ea56e1beb7d6
+      internalID: 1967062531
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: image-ezgif.com-crop_7
+      name: NecromancerAttack_4
       rect:
         serializedVersion: 2
-        x: 1211
-        y: 0
-        width: 256
-        height: 140
+        x: 967
+        y: 9
+        width: 198
+        height: 146
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -194,20 +216,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3cd7596643278174299e30bafb7db5a8
-      internalID: -229333282
+      spriteID: 651eab6dc8cdef6459fa4557eb44aa20
+      internalID: -1507475187
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: image-ezgif.com-crop_8
+      name: NecromancerAttack_5
       rect:
         serializedVersion: 2
-        x: 1492
-        y: 0
-        width: 247
-        height: 140
+        x: 1209
+        y: 9
+        width: 202
+        height: 146
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -216,96 +238,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e1c23fd1dc45b7a42bcb832fd9e4aea9
-      internalID: -675399484
+      spriteID: 55d0714de7b93d748b7a567b4a10b793
+      internalID: -198202053
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Attack2HoodedKnight_0
+      name: NecromancerAttack_6
       rect:
         serializedVersion: 2
-        x: 3
-        y: 0
-        width: 155
-        height: 110
+        x: 1459
+        y: 9
+        width: 184
+        height: 146
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 36ab4a594fdbdcf4dbac34c078c0e4f7
-      internalID: 1511411813
+      spriteID: c937ab4a5c1a02449a0f49c76f2c5dc8
+      internalID: -711674886
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Attack2HoodedKnight_1
+      name: NecromancerAttack_7
       rect:
         serializedVersion: 2
-        x: 204
-        y: 0
-        width: 160
-        height: 140
+        x: 1727
+        y: 9
+        width: 146
+        height: 146
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d34f2d0b6844fd245877b469fb11ef8d
-      internalID: 2640929
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Attack2HoodedKnight_2
-      rect:
-        serializedVersion: 2
-        x: 402
-        y: 0
-        width: 150
-        height: 140
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4398019cc36b2314db89488d17349ff3
-      internalID: 274356912
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Attack2HoodedKnight_3
-      rect:
-        serializedVersion: 2
-        x: 1786
-        y: 0
-        width: 154
-        height: 138
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 36fefe5df2aa48b428e0ede98bf58449
-      internalID: -1560570822
+      spriteID: 6a155117dc9f8bb4f8b258b4777e928a
+      internalID: -2011054881
       vertices: []
       indices: 
       edges: []
@@ -314,7 +292,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: c3b0100b7b1613e4a81d97082ff7f1c2
+    spriteID: eb0b38d4d1dd46d4c80c2d2a7c2db62e
     internalID: 0
     vertices: []
     indices: 
@@ -324,19 +302,14 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Attack2HoodedKnight_0: 1511411813
-      Attack2HoodedKnight_1: 2640929
-      Attack2HoodedKnight_2: 274356912
-      Attack2HoodedKnight_3: -1560570822
-      image-ezgif.com-crop_0: 6325687867974268694
-      image-ezgif.com-crop_1: 265287085
-      image-ezgif.com-crop_2: -1390246311
-      image-ezgif.com-crop_3: 231796500
-      image-ezgif.com-crop_4: -1739173920
-      image-ezgif.com-crop_5: -1388084365
-      image-ezgif.com-crop_6: 1067483508
-      image-ezgif.com-crop_7: -229333282
-      image-ezgif.com-crop_8: -675399484
+      NecromancerAttack_0: -561488993396074279
+      NecromancerAttack_1: 194312065
+      NecromancerAttack_2: -705003618
+      NecromancerAttack_3: 1967062531
+      NecromancerAttack_4: -1507475187
+      NecromancerAttack_5: -198202053
+      NecromancerAttack_6: -711674886
+      NecromancerAttack_7: -2011054881
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

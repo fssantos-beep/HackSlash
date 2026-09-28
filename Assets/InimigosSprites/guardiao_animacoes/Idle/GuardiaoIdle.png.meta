@@ -1,10 +1,22 @@
 fileFormatVersion: 2
-guid: c2127c13ec9205c41a34efde7a931559
+guid: 3fdf10974a986e84bb6647425636ccde
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6325687867974268694
-    second: image-ezgif.com-crop_0
+      213: -7614232304068891655
+    second: GuardiaoIdle_0
+  - first:
+      213: -5403819345132545905
+    second: GuardiaoIdle_1
+  - first:
+      213: -7490571249868793480
+    second: GuardiaoIdle_2
+  - first:
+      213: -6977979092412040289
+    second: GuardiaoIdle_3
+  - first:
+      213: 5667205903886566431
+    second: GuardiaoIdle_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,199 +125,111 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: image-ezgif.com-crop_4
+      name: GuardiaoIdle_0
       rect:
         serializedVersion: 2
-        x: 573
-        y: 0
-        width: 161
-        height: 140
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 49bb9e0550bb51844bf4aa5f50d210b3
-      internalID: -1739173920
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: image-ezgif.com-crop_5
-      rect:
-        serializedVersion: 2
-        x: 764
-        y: 1
-        width: 186
-        height: 139
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a52e4970c7ac7fd4a8e9f010f9053e6a
-      internalID: -1388084365
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: image-ezgif.com-crop_6
-      rect:
-        serializedVersion: 2
-        x: 970
+        x: 0
         y: 2
-        width: 219
-        height: 138
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1831b0d90a3d75d41830c436c54cb3e5
-      internalID: 1067483508
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: image-ezgif.com-crop_7
-      rect:
-        serializedVersion: 2
-        x: 1211
-        y: 0
-        width: 256
-        height: 140
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3cd7596643278174299e30bafb7db5a8
-      internalID: -229333282
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: image-ezgif.com-crop_8
-      rect:
-        serializedVersion: 2
-        x: 1492
-        y: 0
-        width: 247
-        height: 140
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e1c23fd1dc45b7a42bcb832fd9e4aea9
-      internalID: -675399484
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Attack2HoodedKnight_0
-      rect:
-        serializedVersion: 2
-        x: 3
-        y: 0
-        width: 155
-        height: 110
+        width: 151
+        height: 262
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 36ab4a594fdbdcf4dbac34c078c0e4f7
-      internalID: 1511411813
+      spriteID: 9fb6ba6bf00d45690800000000000000
+      internalID: -7614232304068891655
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Attack2HoodedKnight_1
+      name: GuardiaoIdle_1
       rect:
         serializedVersion: 2
-        x: 204
+        x: 243
         y: 0
-        width: 160
-        height: 140
+        width: 159
+        height: 266
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: d34f2d0b6844fd245877b469fb11ef8d
-      internalID: 2640929
+      spriteID: f889dfeafe6c105b0800000000000000
+      internalID: -5403819345132545905
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Attack2HoodedKnight_2
+      name: GuardiaoIdle_2
       rect:
         serializedVersion: 2
-        x: 402
-        y: 0
+        x: 463
+        y: 1
         width: 150
-        height: 140
+        height: 264
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 4398019cc36b2314db89488d17349ff3
-      internalID: 274356912
+      spriteID: 87911de82252c0890800000000000000
+      internalID: -7490571249868793480
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Attack2HoodedKnight_3
+      name: GuardiaoIdle_3
       rect:
         serializedVersion: 2
-        x: 1786
+        x: 692
         y: 0
-        width: 154
-        height: 138
+        width: 158
+        height: 266
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 36fefe5df2aa48b428e0ede98bf58449
-      internalID: -1560570822
+      spriteID: f9b7da28cfc392f90800000000000000
+      internalID: -6977979092412040289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GuardiaoIdle_4
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 0
+        width: 146
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f14c7225eb5f5ae40800000000000000
+      internalID: 5667205903886566431
       vertices: []
       indices: 
       edges: []
@@ -314,7 +238,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: c3b0100b7b1613e4a81d97082ff7f1c2
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -324,19 +248,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Attack2HoodedKnight_0: 1511411813
-      Attack2HoodedKnight_1: 2640929
-      Attack2HoodedKnight_2: 274356912
-      Attack2HoodedKnight_3: -1560570822
-      image-ezgif.com-crop_0: 6325687867974268694
-      image-ezgif.com-crop_1: 265287085
-      image-ezgif.com-crop_2: -1390246311
-      image-ezgif.com-crop_3: 231796500
-      image-ezgif.com-crop_4: -1739173920
-      image-ezgif.com-crop_5: -1388084365
-      image-ezgif.com-crop_6: 1067483508
-      image-ezgif.com-crop_7: -229333282
-      image-ezgif.com-crop_8: -675399484
+      GuardiaoIdle_0: -7614232304068891655
+      GuardiaoIdle_1: -5403819345132545905
+      GuardiaoIdle_2: -7490571249868793480
+      GuardiaoIdle_3: -6977979092412040289
+      GuardiaoIdle_4: 5667205903886566431
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -199,7 +199,7 @@ TilemapRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -2
   m_MaskInteraction: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0.1328125, y: 0.5312786, z: 0}
@@ -1906,6 +1906,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2215372368386180334, guid: 6e9fca9f5bc3b94478877cd2b2b53e31, type: 3}
+      propertyPath: detectionRange
+      value: 17.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 2215372368386180334, guid: 6e9fca9f5bc3b94478877cd2b2b53e31, type: 3}
+      propertyPath: secondaryAttackCooldown
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2587156919051124889, guid: 6e9fca9f5bc3b94478877cd2b2b53e31, type: 3}
       propertyPath: m_LocalPosition.x
       value: 286.50015
@@ -1946,6 +1954,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3864979983780868303, guid: 6e9fca9f5bc3b94478877cd2b2b53e31, type: 3}
+      propertyPath: isBoss
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3864979983780868303, guid: 6e9fca9f5bc3b94478877cd2b2b53e31, type: 3}
+      propertyPath: maxHealth
+      value: 2000
+      objectReference: {fileID: 0}
     - target: {fileID: 4500609186159942509, guid: 6e9fca9f5bc3b94478877cd2b2b53e31, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -1953,6 +1969,10 @@ PrefabInstance:
     - target: {fileID: 7898808562125892756, guid: 6e9fca9f5bc3b94478877cd2b2b53e31, type: 3}
       propertyPath: m_Name
       value: HoodedKnight
+      objectReference: {fileID: 0}
+    - target: {fileID: 7898808562125892756, guid: 6e9fca9f5bc3b94478877cd2b2b53e31, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8089239314753084594, guid: 6e9fca9f5bc3b94478877cd2b2b53e31, type: 3}
       propertyPath: m_AnchorMax.y

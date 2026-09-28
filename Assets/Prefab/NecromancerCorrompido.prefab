@@ -236,7 +236,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_MaskInteraction: 0
   m_Sprite: {fileID: 1972018426, guid: e88b1cd6270305a40a4397a42c9955bc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -352,11 +352,12 @@ MonoBehaviour:
   minWalkTime: 1
   maxWalkTime: 2.5
   detectionRange: 10
-  attackRange: 3
   attackCooldown: 1.98
   hasSecondaryAttack: 0
   secondaryAttackRange: 5
   secondaryAttackCooldown: 3
+  firePoint: {fileID: 0}
+  attackPoint: {fileID: 0}
   target: {fileID: 0}
   facingDirection: 1
 --- !u!114 &4062163332344741708
@@ -389,6 +390,7 @@ MonoBehaviour:
   currentHealth: 0
   xpReward: 10
   deathAnimDuration: 1
+  isBoss: 0
 --- !u!114 &6293092540554640597
 MonoBehaviour:
   m_ObjectHideFlags: 0
