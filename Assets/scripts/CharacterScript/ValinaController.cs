@@ -216,32 +216,67 @@ public class ValinaController : MonoBehaviour, IAttackable, IUpgradable
         }
     }
 
-    // Aplica o efeito do item escolhido na tela de level-up
     public void ApplyUpgrade(ItemData.EffectType effectType, float value)
     {
+        PlayerHealth playerHealth;
         switch (effectType)
         {
             case ItemData.EffectType.AttackDamage:
-                basicAttackDamage += value;
-                break;
+            basicAttackDamage += value;
+            break;
 
             case ItemData.EffectType.MoveSpeed:
-                moveSpeed += value;
-                break;
+            moveSpeed += value;
+            break;
 
             case ItemData.EffectType.AttackRange:
-                basicAttackRange += value;
-                break;
+            basicAttackRange += value;
+            break;
 
             case ItemData.EffectType.MaxHealth:
-                // Depende de um método em PlayerHealth pra aumentar o máximo
-                // (ex: IncreaseMaxHealth(int amount)). Adicionar lá se ainda não existir.
-                PlayerHealth playerHealth = GetComponent<PlayerHealth>();
-                if (playerHealth != null)
-                {
-                    playerHealth.IncreaseMaxHealth((int)value);
-                }
-                break;
+            playerHealth = GetComponent<PlayerHealth>();
+            if (playerHealth != null) playerHealth.IncreaseMaxHealth((int)value);
+            break;
+
+            case ItemData.EffectType.AttackDamagePercent:
+            basicAttackDamage *= (1f + value / 100f);
+            break;
+
+            case ItemData.EffectType.AttackDamageMultiplier:
+            basicAttackDamage *= value;
+            break;
+
+            case ItemData.EffectType.AttackSpeedPercent:
+            attackCooldown = Mathf.Max(0.05f, attackCooldown * (1f - value / 100f));
+            break;
+
+            case ItemData.EffectType.SpecialCooldownPercent:
+            dashCooldown = Mathf.Max(0.1f, dashCooldown * (1f - value / 100f));
+            break;
+
+            case ItemData.EffectType.SpecialAttackDamage:
+            dashAttackDamage += value;
+            break;
+
+            case ItemData.EffectType.DamageReductionPercent:
+            playerHealth = GetComponent<PlayerHealth>();
+            if (playerHealth != null) playerHealth.AddDamageReduction(value);
+            break;
+
+            case ItemData.EffectType.DodgeChancePercent:
+            playerHealth = GetComponent<PlayerHealth>();
+            if (playerHealth != null) playerHealth.AddDodgeChance(value);
+            break;
+
+            case ItemData.EffectType.HealOnKill:
+            playerHealth = GetComponent<PlayerHealth>();
+            if (playerHealth != null) playerHealth.AddHealOnKill((int)value);
+            break;
+
+            case ItemData.EffectType.MaxHealthMultiplier:
+            playerHealth = GetComponent<PlayerHealth>();
+            if (playerHealth != null) playerHealth.MultiplyMaxHealth(value);
+            break;
         }
     }
 

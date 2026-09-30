@@ -67,7 +67,7 @@ public class ItemSelectionUI : MonoBehaviour
             pool.Remove(guaranteed);
         }
 
-        // Preenche o resto dos slots livremente, podendo incluir itens do outro personagem
+        // Preenche os slots restantes com itens aleatórios do pool, garantindo que não haja duplicatas
         int remainingSlots = Mathf.Min(3, selected.Count + pool.Count) - selected.Count;
         for (int i = 0; i < remainingSlots; i++)
         {
@@ -108,8 +108,7 @@ public class ItemSelectionUI : MonoBehaviour
 
         if (itemButtons[index] != null)
         {
-            // Remove listeners antigos antes de adicionar, pra não empilhar
-            // callbacks de escolhas anteriores no mesmo botão
+            // Remove listeners antigos antes de adicionar o novo.
             itemButtons[index].onClick.RemoveAllListeners();
             int capturedIndex = index;
             itemButtons[index].onClick.AddListener(() => SelectItem(capturedIndex));
@@ -129,12 +128,11 @@ public class ItemSelectionUI : MonoBehaviour
     {
         ItemData.CharacterType activeCharacter = (ItemData.CharacterType)PlayerPrefs.GetInt("SelectedCharacter", 0);
 
-        // Item exclusivo do outro personagem: a escolha é "gasta", mas não faz nada
         if (item.usableBy != ItemData.CharacterType.Universal && item.usableBy != activeCharacter)
-        {
+            {
             Debug.Log($"{item.itemName} é exclusivo de outro personagem e não teve efeito.");
             return;
-        }
+            }
 
         GameObject player = GameObject.FindGameObjectWithTag("Player");
         if (player == null)
@@ -144,14 +142,19 @@ public class ItemSelectionUI : MonoBehaviour
         }
 
         IUpgradable upgradable = player.GetComponent<IUpgradable>();
-        if (upgradable != null)
-        {
-            upgradable.ApplyUpgrade(item.effectType, item.effectValue);
-            PlayerUpgrades.AddUpgrade(item.effectType, item.effectValue);
-        }
-        else
+        if (upgradable == null)
         {
             Debug.LogError("ItemSelectionUI: o personagem ativo não implementa IUpgradable!");
+            return;
+        }
+
+        upgradable.ApplyUpgrade(item.effectType, item.effectValue);
+        PlayerUpgrades.AddUpgrade(item.effectType, item.effectValue);
+
+        if (item.hasSecondaryEffect)
+        {
+            upgradable.ApplyUpgrade(item.secondaryEffectType, item.secondaryEffectValue);
+            PlayerUpgrades.AddUpgrade(item.secondaryEffectType, item.secondaryEffectValue);
         }
     }
 }

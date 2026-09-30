@@ -8,6 +8,11 @@ public class PlayerHealth : MonoBehaviour
     public int maxHealth = 100;
     public int currentHealth;
 
+    [Header("Modificadores de combate (upgrades)")]
+    public float damageReductionPercent = 0f;
+    public float dodgeChancePercent = 0f;
+    public int healOnKillAmount = 0;
+
     [Header("Feedback Visual")]
     public float flashDuration = 0.15f;
     public Color hitColor = Color.red;
@@ -39,7 +44,6 @@ public class PlayerHealth : MonoBehaviour
         spriteRenderer = GetComponentInChildren<SpriteRenderer>();
         if (spriteRenderer != null) originalColor = spriteRenderer.color;
 
-        // Avisa o HUD da vida inicial
         if (PlayerHUD.Instance != null)
         {
             PlayerHUD.Instance.UpdateHealth(currentHealth, maxHealth);
@@ -50,15 +54,26 @@ public class PlayerHealth : MonoBehaviour
     {
         if (isInvincible || isDead) return;
 
+        // Chance de esquiva
+        if (dodgeChancePercent > 0f && Random.Range(0f, 100f) < dodgeChancePercent)
+        {
+            StartCoroutine(InvincibilityRoutine());
+            return;
+        }
+
+        // Redução percentual de dano
+        if (damageReductionPercent > 0f)
+        {
+            damage = Mathf.RoundToInt(damage * (1f - Mathf.Clamp(damageReductionPercent, 0f, 100f) / 100f));
+        }
+
         currentHealth -= damage;
 
-        // Avisa o HUD para atualizar a barra
         if (PlayerHUD.Instance != null)
         {
             PlayerHUD.Instance.UpdateHealth(currentHealth, maxHealth);
         }
 
-        // Só toca o hurt se sobreviveu ao golpe, pra não brigar com a animação de morte
         if (currentHealth > 0 && animator != null)
         {
             animator.SetTrigger("Hurt");
@@ -68,6 +83,17 @@ public class PlayerHealth : MonoBehaviour
         StartCoroutine(InvincibilityRoutine());
 
         if (currentHealth <= 0) Die();
+    }
+
+    // Chamado pelo EnemyHealth quando esse player derrota um inimigo
+    public void OnEnemyKilled()
+    {
+        if (healOnKillAmount <= 0) return;
+
+        currentHealth = Mathf.Min(currentHealth + healOnKillAmount, maxHealth);
+
+        if (PlayerHUD.Instance != null)
+            PlayerHUD.Instance.UpdateHealth(currentHealth, maxHealth);
     }
 
     IEnumerator FlashRed()
@@ -100,10 +126,10 @@ public class PlayerHealth : MonoBehaviour
         Debug.Log("Player morreu!");
 
         ValinaController valina = GetComponent<ValinaController>();
-        if (valina != null) valina.enabled = false; // Desativa o controle do jogador
+        if (valina != null) valina.enabled = false; // desativa o controle da Valina ao morrer
 
         DoroController doro = GetComponent<DoroController>();
-        if (doro != null) doro.enabled = false; // Desativa o controle do jogador
+        if (doro != null) doro.enabled = false; // desativa o controle da Doro ao morrer
 
         if (animator != null)
         {
@@ -128,7 +154,6 @@ public class PlayerHealth : MonoBehaviour
             GameManager.Instance.ShowDefeat();
     }
 
-    // Chamado pelo item de upgrade de vida máxima na tela de level-up
     public void IncreaseMaxHealth(int amount)
     {
         maxHealth += amount;
@@ -138,6 +163,31 @@ public class PlayerHealth : MonoBehaviour
         {
             PlayerHUD.Instance.UpdateHealth(currentHealth, maxHealth);
         }
+    }
+
+    // Poção da Valina: dobra a vida máxima e atual na mesma proporção
+    public void MultiplyMaxHealth(float multiplier)
+    {
+        maxHealth = Mathf.RoundToInt(maxHealth * multiplier);
+        currentHealth = Mathf.Min(Mathf.RoundToInt(currentHealth * multiplier), maxHealth);
+
+        if (PlayerHUD.Instance != null)
+            PlayerHUD.Instance.UpdateHealth(currentHealth, maxHealth);
+    }
+
+    public void AddDamageReduction(float percent)
+    {
+        damageReductionPercent = Mathf.Clamp(damageReductionPercent + percent, 0f, 100f);
+    }
+
+    public void AddDodgeChance(float percent)
+    {
+        dodgeChancePercent = Mathf.Clamp(dodgeChancePercent + percent, 0f, 100f);
+    }
+
+    public void AddHealOnKill(int amount)
+    {
+        healOnKillAmount += amount;
     }
 
     public void ResetAfterDeath()

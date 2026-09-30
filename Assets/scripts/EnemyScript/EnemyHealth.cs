@@ -1,3 +1,4 @@
+// Gerencia a vida do inimigo, incluindo dano, morte e recompensas de XP para o jogador
 using UnityEngine;
 using System.Collections;
 
@@ -55,7 +56,8 @@ public class EnemyHealth : MonoBehaviour
 
     void Die()
     {
-    if (PlayerHUD.Instance != null)
+        if (PlayerHUD.Instance != null)
+        PlayerHealth.Instance.OnEnemyKilled(); // Cura a Doro se ela tiver o upgrade de cura ao matar
         PlayerHUD.Instance.AddXP(xpReward);
         Debug.Log($"{gameObject.name} morreu e deu {xpReward} XP!");
 

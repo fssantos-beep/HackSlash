@@ -13,8 +13,11 @@ MonoBehaviour:
   m_Name: ValinaVida
   m_EditorClassIdentifier: Assembly-CSharp::ItemData
   itemName: + Vida Max Valina
-  description: Teste 4
+  description: Aumenta a vida maxima em 50%.
   icon: {fileID: 1693956482, guid: bb18e1ce39096a04aa8e748dd9d4b5dd, type: 3}
-  effectType: 2
-  effectValue: 20
+  effectType: 11
+  effectValue: 1.5
+  hasSecondaryEffect: 0
+  secondaryEffectType: 0
+  secondaryEffectValue: 0
   usableBy: 0

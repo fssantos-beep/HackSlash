@@ -237,7 +237,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65fd121f720f2f84cb4d5d4f36b6def3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyHealth
-  maxHealth: 250
+  maxHealth: 1
   currentHealth: 0
   xpReward: 106
   deathAnimDuration: 1
@@ -333,7 +333,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EnemyMeleeAttack
   attackPoint: {fileID: 2129576526013094917}
   attackRange: 0.87
-  damage: 1
+  damage: 20
   playerLayer:
     serializedVersion: 2
     m_Bits: 256

@@ -125,8 +125,8 @@ MonoBehaviour:
   enemyLayers:
     serializedVersion: 2
     m_Bits: 64
-  moveSpeed: 7
-  jumpForce: 7
+  moveSpeed: 5
+  jumpForce: 10
   groundCheckRadius: 0.05
   basicAttackDamage: 10
   basicAttackRange: 0.3
@@ -178,6 +178,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerHealth
   maxHealth: 100
   currentHealth: 0
+  damageReductionPercent: 0
+  dodgeChancePercent: 0
+  healOnKillAmount: 0
   flashDuration: 0.15
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   invincibilityDuration: 0.5

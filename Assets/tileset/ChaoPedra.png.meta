@@ -231,7 +231,7 @@ TextureImporter:
         width: 80
         height: 175
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -240,6 +240,50 @@ TextureImporter:
       bones: []
       spriteID: c82224a1e2844064c9b4be6d53d24581
       internalID: 1319907371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChaoPedra_6
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 323
+        width: 161
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 398691f4417003342bef1fe624f97d27
+      internalID: 1194429939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChaoPedra_7
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 322
+        width: 131
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6e2de606b7fc8c4b863dda898a95b52
+      internalID: -1257939418
       vertices: []
       indices: 
       edges: []
@@ -264,6 +308,8 @@ TextureImporter:
       ChaoPedra_3: -1507896198
       ChaoPedra_4: -1709817418
       ChaoPedra_5: 1319907371
+      ChaoPedra_6: 1194429939
+      ChaoPedra_7: -1257939418
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

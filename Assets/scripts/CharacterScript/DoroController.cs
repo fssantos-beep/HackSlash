@@ -69,7 +69,6 @@ public class DoroController : MonoBehaviour, IAttackable, IUpgradable
                 attackPoint.localPosition = attackPos;
             }
 
-            // O firePoint precisa virar junto, senão a flecha sempre sai pro mesmo lado
             if (firePoint != null)
             {
                 Vector3 firePos = firePoint.localPosition;
@@ -218,33 +217,66 @@ public class DoroController : MonoBehaviour, IAttackable, IUpgradable
             playerHealth.TakeDamage(damage);
         }
     }
-    
-    // Aplica o efeito do item escolhido na tela de level-up
+
     public void ApplyUpgrade(ItemData.EffectType effectType, float value)
     {
+        PlayerHealth playerHealth;
         switch (effectType)
         {
             case ItemData.EffectType.AttackDamage:
-                attackDamage += (int)value;
-                break;
+            attackDamage += (int)value;
+            break;
 
             case ItemData.EffectType.MoveSpeed:
-                velocidade += value;
-                break;
+            velocidade += value;
+            break;
 
             case ItemData.EffectType.AttackRange:
-                attackRange += value;
-                break;
+            attackRange += value;
+            break;
 
             case ItemData.EffectType.MaxHealth:
-                PlayerHealth playerHealth = GetComponent<PlayerHealth>();
-                if (playerHealth != null)
-                {
-                    playerHealth.IncreaseMaxHealth((int)value);
-                }
-                break;
+            playerHealth = GetComponent<PlayerHealth>();
+            if (playerHealth != null) playerHealth.IncreaseMaxHealth((int)value);
+            break;
+
+            case ItemData.EffectType.AttackDamagePercent:
+            attackDamage = Mathf.RoundToInt(attackDamage * (1f + value / 100f));
+            break;
+
+            case ItemData.EffectType.AttackSpeedPercent:
+            attackCooldown = Mathf.Max(0.05f, attackCooldown * (1f - value / 100f));
+            break;
+
+            case ItemData.EffectType.SpecialCooldownPercent:
+            specialAttackCooldown = Mathf.Max(0.1f, specialAttackCooldown * (1f - value / 100f));
+            break;
+
+            case ItemData.EffectType.SpecialAttackDamage:
+            specialAttackDamage += (int)value;
+            break;
+
+            case ItemData.EffectType.DamageReductionPercent:
+            playerHealth = GetComponent<PlayerHealth>();
+            if (playerHealth != null) playerHealth.AddDamageReduction(value);
+            break;
+
+            case ItemData.EffectType.DodgeChancePercent:
+            playerHealth = GetComponent<PlayerHealth>();
+            if (playerHealth != null) playerHealth.AddDodgeChance(value);
+            break;
+
+            case ItemData.EffectType.HealOnKill:
+            playerHealth = GetComponent<PlayerHealth>();
+            if (playerHealth != null) playerHealth.AddHealOnKill((int)value);
+            break;
+
+            case ItemData.EffectType.MaxHealthMultiplier:
+            playerHealth = GetComponent<PlayerHealth>();
+            if (playerHealth != null) playerHealth.MultiplyMaxHealth(value);
+            break;
+            }
         }
-    }
 
     void OnDrawGizmosSelected()
     {

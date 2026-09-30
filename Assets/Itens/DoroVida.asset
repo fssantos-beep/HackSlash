@@ -12,9 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eca73ca8a71490445b8d433408bddf41, type: 3}
   m_Name: DoroVida
   m_EditorClassIdentifier: Assembly-CSharp::ItemData
-  itemName: + Vida Max Dororo
-  description: Teste 2
+  itemName: Regen Vida Doro
+  description: Recupera vida ao matar algum inimigo.
   icon: {fileID: -7191594679274997640, guid: 7387e58643413814fa6f5ff6ffdb5a41, type: 3}
-  effectType: 2
-  effectValue: 50
+  effectType: 10
+  effectValue: 20
+  hasSecondaryEffect: 0
+  secondaryEffectType: 0
+  secondaryEffectValue: 0
   usableBy: 1

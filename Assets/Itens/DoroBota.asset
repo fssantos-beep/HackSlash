@@ -12,9 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eca73ca8a71490445b8d433408bddf41, type: 3}
   m_Name: DoroBota
   m_EditorClassIdentifier: Assembly-CSharp::ItemData
-  itemName: Bota da Dororo
-  description: Teste
+  itemName: Bota Dororo
+  description: Aumenta a velocidade.
   icon: {fileID: -7516816298946181374, guid: 7387e58643413814fa6f5ff6ffdb5a41, type: 3}
   effectType: 1
-  effectValue: 10
+  effectValue: 3
+  hasSecondaryEffect: 0
+  secondaryEffectType: 0
+  secondaryEffectValue: 0
   usableBy: 1

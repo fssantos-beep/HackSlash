@@ -346,17 +346,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9f1d388f5a2b174fafd77287c9263d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyMovement
-  moveSpeed: 2
+  moveSpeed: 1
   minIdleTime: 1
   maxIdleTime: 3
-  minWalkTime: 1
-  maxWalkTime: 2.5
+  minWalkTime: 0.5
+  maxWalkTime: 1
   detectionRange: 10
   attackCooldown: 1.98
   hasSecondaryAttack: 0
   secondaryAttackRange: 5
   secondaryAttackCooldown: 3
-  firePoint: {fileID: 0}
+  firePoint: {fileID: 1357345352182650431}
   attackPoint: {fileID: 0}
   target: {fileID: 0}
   facingDirection: 1
@@ -386,7 +386,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65fd121f720f2f84cb4d5d4f36b6def3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyHealth
-  maxHealth: 30
+  maxHealth: 1
   currentHealth: 0
   xpReward: 10
   deathAnimDuration: 1

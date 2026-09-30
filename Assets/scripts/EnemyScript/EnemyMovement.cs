@@ -15,7 +15,7 @@ public class EnemyMovement : MonoBehaviour
     [Header("Detecção do jogador (Amarelo)")]
     public float detectionRange = 6f;
 
-    [Header("Ataque Principal (Attack1 / 'attack', range vermelho)")]
+    [Header("Ataque Principal (Attack1/Attack, range vermelho)")]
     public float attackCooldown = 1.5f;
 
     [Header("Ataque Secundário (Attack2, range Roxo)")]

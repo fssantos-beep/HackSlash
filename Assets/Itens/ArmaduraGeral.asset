@@ -10,14 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: eca73ca8a71490445b8d433408bddf41, type: 3}
-  m_Name: ValinaBota
+  m_Name: ArmaduraGeral
   m_EditorClassIdentifier: Assembly-CSharp::ItemData
-  itemName: Valina Bota
-  description: Aumenta a velocidade.
-  icon: {fileID: 1921648359, guid: bb18e1ce39096a04aa8e748dd9d4b5dd, type: 3}
-  effectType: 1
-  effectValue: 1
+  itemName: Armadura Universal
+  description: Reduz o dano maximo recebido em 10%.
+  icon: {fileID: 4436940831607610120, guid: 423a4e63ff46ecc4090b04af5c16e4f6, type: 3}
+  effectType: 8
+  effectValue: 10
   hasSecondaryEffect: 0
   secondaryEffectType: 0
   secondaryEffectValue: 0
-  usableBy: 0
+  usableBy: 2
