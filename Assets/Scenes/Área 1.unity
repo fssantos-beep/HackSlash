@@ -3987,7 +3987,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1920, y: 1080}
+  m_SizeDelta: {x: 2560, y: 1440}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1066124284
 MonoBehaviour:
@@ -4465,14 +4465,14 @@ MonoBehaviour:
   playerHitClip: {fileID: 8300000, guid: c5d0594b7493a1d40903fbd0e8a1f8bf, type: 3}
   playerAttackClip: {fileID: 8300000, guid: 11445a4b5f65c5347a11f52e1f6b16d8, type: 3}
   playerDefeatClip: {fileID: 8300000, guid: 42f28984f41d56c4085b4e0aad25e72a, type: 3}
-  enemyHitClip: {fileID: 0}
+  enemyHitClip: {fileID: 8300000, guid: f70f4390ca7f66a41aff17906c14693f, type: 3}
   enemyDeathClip: {fileID: 8300000, guid: 407af6d8379fd75428b4e4e268b60e5f, type: 3}
   dodgeClip: {fileID: 8300000, guid: 77cce85554f04be4fb777e5220eb9355, type: 3}
-  doroSpecialAttackClip: {fileID: 0}
+  doroSpecialAttackClip: {fileID: 8300000, guid: 20827d9a3b691a447ab8bad6f9bf96ca, type: 3}
   valinaDashAttackClip: {fileID: 8300000, guid: 95192baaff0d40a4c92235a9d57db51c, type: 3}
-  bossAttackClip: {fileID: 0}
-  victoryClip: {fileID: 0}
-  gameOverClip: {fileID: 0}
+  bossAttackClip: {fileID: 8300000, guid: 583a50886f818c94288eac99b6bbb95e, type: 3}
+  victoryClip: {fileID: 8300000, guid: 2c8f99747a97bc9458911a777b0eb93b, type: 3}
+  gameOverClip: {fileID: 8300000, guid: 2c7c5c96448442e46b57eb22326c5dc1, type: 3}
 --- !u!4 &1273221146
 Transform:
   m_ObjectHideFlags: 0
