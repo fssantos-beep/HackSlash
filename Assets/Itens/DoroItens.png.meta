@@ -177,9 +177,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 18
-        width: 331
-        height: 399
+        y: 0
+        width: 208
+        height: 224
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -195,13 +195,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DoroVida
+      name: DoroShield
       rect:
         serializedVersion: 2
-        x: 449
-        y: 23
-        width: 324
-        height: 397
+        x: 516
+        y: 11
+        width: 192
+        height: 205
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -217,13 +217,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DoroEscudo
+      name: DoroBota
       rect:
         serializedVersion: 2
-        x: 914
-        y: 3
-        width: 366
-        height: 394
+        x: 787
+        y: 2
+        width: 208
+        height: 212
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -239,45 +239,45 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DoroBota
+      name: DoroVida
       rect:
         serializedVersion: 2
-        x: 1367
-        y: 7
-        width: 397
-        height: 368
+        x: 243
+        y: 4
+        width: 184
+        height: 212
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2074273e667eea790800000000000000
-      internalID: -7516816298946181374
+      spriteID: ec0d9407e73e0e74ebc557748f098334
+      internalID: -5354139218927751088
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DoroItens_0
+      name: DoroColar
       rect:
         serializedVersion: 2
-        x: 1811
-        y: 28
-        width: 262
-        height: 403
+        x: 1055
+        y: 7
+        width: 139
+        height: 209
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c32eba11fae208749904c6c9371fd539
-      internalID: 738922421
+      spriteID: 0df6f365ab4ad584383a40f9a209633f
+      internalID: -8850352086651723463
       vertices: []
       indices: 
       edges: []
@@ -296,11 +296,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      DoroBota: -7516816298946181374
-      DoroEscudo: 2358612084932349373
+      DoroBota: 2358612084932349373
+      DoroColar: -8850352086651723463
       DoroEspada: 1554438925836119339
       DoroItens_0: 738922421
-      DoroItens_1: -5354139218927751088
       DoroItens_12: -7020824629860908316
       DoroItens_14: 4799862750866542434
       DoroItens_15: 6153457346019332363
@@ -308,7 +307,6 @@ TextureImporter:
       DoroItens_17: -4686975359116247013
       DoroItens_18: -8187490471537379169
       DoroItens_19: 2289821514109864536
-      DoroItens_2: -8850352086651723463
       DoroItens_20: 1881819239025730513
       DoroItens_3: -9003319026277677832
       DoroItens_4: 836742458035703158
@@ -317,7 +315,9 @@ TextureImporter:
       DoroItens_7: 1604284341841432542
       DoroItens_8: 3865551682842620574
       DoroItens_9: -565936113302153960
-      DoroVida: -7191594679274997640
+      DoroShield: -7191594679274997640
+      DoroVida: -5354139218927751088
+      a: -5354139218927751088
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

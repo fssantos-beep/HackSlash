@@ -116,15 +116,15 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ItensGerais_0
+      name: EspadaGeral
       rect:
         serializedVersion: 2
         x: 6
-        y: 7
-        width: 369
-        height: 401
+        y: 0
+        width: 187
+        height: 203
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -138,15 +138,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ItensGerais_1
+      name: EscudoGeral
       rect:
         serializedVersion: 2
-        x: 426
-        y: 7
-        width: 387
-        height: 401
+        x: 198
+        y: 2
+        width: 189
+        height: 194
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -163,7 +163,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 39b61b4e913734143b7e88205358ab89
     internalID: 0
     vertices: []
     indices: 
@@ -173,8 +173,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      ItensGerais_0: 2854803767487247206
-      ItensGerais_1: 8876730439897606700
+      EscudoGeral: 8876730439897606700
+      EspadaGeral: 2854803767487247206
+      ItensGerais_2: -611154199
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

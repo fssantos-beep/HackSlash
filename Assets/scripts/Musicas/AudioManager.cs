@@ -29,14 +29,13 @@ public class AudioManager : MonoBehaviour
 
     [Header("Fim de jogo")]
     public AudioClip victoryClip;  // Vitória do jogador
-    public AudioClip gameOverClip;  // Derrota do jogador
 
     void Awake()
     {
         if (Instance == null)
         {
             Instance = this;
-            DontDestroyOnLoad(gameObject); // sobrevive entre troca de cenas, se precisar
+            DontDestroyOnLoad(gameObject); // sobrevive entre troca de cenas
         }
         else
         {

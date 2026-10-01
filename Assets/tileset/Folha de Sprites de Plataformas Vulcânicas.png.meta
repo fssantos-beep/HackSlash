@@ -1,0 +1,611 @@
+fileFormatVersion: 2
+guid: e52072baa2375314aa8d033d42658449
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6013033376399996258
+    second: "Folha de Sprites de Plataformas Vulc\xE2nicas_0"
+  - first:
+      213: -5400848187719794427
+    second: "Folha de Sprites de Plataformas Vulc\xE2nicas_1"
+  - first:
+      213: 7322008704162941896
+    second: "Folha de Sprites de Plataformas Vulc\xE2nicas_2"
+  - first:
+      213: -637049835169469484
+    second: "Folha de Sprites de Plataformas Vulc\xE2nicas_3"
+  - first:
+      213: -8259798122312160896
+    second: "Folha de Sprites de Plataformas Vulc\xE2nicas_4"
+  - first:
+      213: 5772052948408085259
+    second: "Folha de Sprites de Plataformas Vulc\xE2nicas_5"
+  - first:
+      213: -2362391699959594599
+    second: "Folha de Sprites de Plataformas Vulc\xE2nicas_6"
+  - first:
+      213: -6629302449588404563
+    second: "Folha de Sprites de Plataformas Vulc\xE2nicas_7"
+  - first:
+      213: -2600914164818290590
+    second: "Folha de Sprites de Plataformas Vulc\xE2nicas_8"
+  - first:
+      213: -6408734160957015477
+    second: "Folha de Sprites de Plataformas Vulc\xE2nicas_9"
+  - first:
+      213: -4768530423704171878
+    second: "Folha de Sprites de Plataformas Vulc\xE2nicas_10"
+  - first:
+      213: 5551194660468469048
+    second: "Folha de Sprites de Plataformas Vulc\xE2nicas_11"
+  - first:
+      213: -5931885036875691865
+    second: "Folha de Sprites de Plataformas Vulc\xE2nicas_12"
+  - first:
+      213: 8736291938519184287
+    second: "Folha de Sprites de Plataformas Vulc\xE2nicas_13"
+  - first:
+      213: 7733907827884375157
+    second: "Folha de Sprites de Plataformas Vulc\xE2nicas_14"
+  - first:
+      213: 6938599563679926117
+    second: "Folha de Sprites de Plataformas Vulc\xE2nicas_15"
+  - first:
+      213: 6729581900879087267
+    second: "Folha de Sprites de Plataformas Vulc\xE2nicas_16"
+  - first:
+      213: -5326530141253763446
+    second: "Folha de Sprites de Plataformas Vulc\xE2nicas_17"
+  - first:
+      213: -8846392954405856507
+    second: "Folha de Sprites de Plataformas Vulc\xE2nicas_18"
+  - first:
+      213: 129979996046091989
+    second: "Folha de Sprites de Plataformas Vulc\xE2nicas_19"
+  - first:
+      213: 1102230607811717671
+    second: "Folha de Sprites de Plataformas Vulc\xE2nicas_20"
+  - first:
+      213: -941199393803476553
+    second: "Folha de Sprites de Plataformas Vulc\xE2nicas_21"
+  - first:
+      213: 4270551431625924688
+    second: "Folha de Sprites de Plataformas Vulc\xE2nicas_22"
+  - first:
+      213: -2258526165648543766
+    second: "Folha de Sprites de Plataformas Vulc\xE2nicas_23"
+  - first:
+      213: -2284828964640588937
+    second: "Folha de Sprites de Plataformas Vulc\xE2nicas_24"
+  - first:
+      213: -3180485841400818149
+    second: "Folha de Sprites de Plataformas Vulc\xE2nicas_25"
+  - first:
+      213: -3075218043787894619
+    second: "Folha de Sprites de Plataformas Vulc\xE2nicas_26"
+  - first:
+      213: 4404046939759046328
+    second: "Folha de Sprites de Plataformas Vulc\xE2nicas_27"
+  - first:
+      213: 8002675127349146789
+    second: "Folha de Sprites de Plataformas Vulc\xE2nicas_28"
+  - first:
+      213: 6017773619757222832
+    second: "Folha de Sprites de Plataformas Vulc\xE2nicas_29"
+  - first:
+      213: 8834669806341424423
+    second: "Folha de Sprites de Plataformas Vulc\xE2nicas_30"
+  - first:
+      213: 4322219581811888783
+    second: "Folha de Sprites de Plataformas Vulc\xE2nicas_31"
+  - first:
+      213: -2216188972323598970
+    second: "Folha de Sprites de Plataformas Vulc\xE2nicas_32"
+  - first:
+      213: -1072174753574739278
+    second: "Folha de Sprites de Plataformas Vulc\xE2nicas_33"
+  - first:
+      213: -881431462593100070
+    second: "Folha de Sprites de Plataformas Vulc\xE2nicas_34"
+  - first:
+      213: 4420363789475943501
+    second: "Folha de Sprites de Plataformas Vulc\xE2nicas_35"
+  - first:
+      213: 4723068953561613283
+    second: "Folha de Sprites de Plataformas Vulc\xE2nicas_36"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Folha de Sprites de Plataformas Vulc\xE2nicas_0"
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 436
+        width: 146
+        height: 139
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 265b3e65ff5927350800000000000000
+      internalID: 6013033376399996258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Folha de Sprites de Plataformas Vulc\xE2nicas_1"
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 439
+        width: 145
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84a35f8a1f67e5a47a27c4455168345b
+      internalID: -5400848187719794427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Folha de Sprites de Plataformas Vulc\xE2nicas_2"
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 438
+        width: 143
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc2001e14ebdcdd40b8db1648b0f885c
+      internalID: 7322008704162941896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Folha de Sprites de Plataformas Vulc\xE2nicas_3"
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 244
+        width: 161
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71a195dd4fc0c9e4bb66ff0bde0030f4
+      internalID: -637049835169469484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Folha de Sprites de Plataformas Vulc\xE2nicas_4"
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 245
+        width: 147
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d50b9c282b631942a2bddf0d12e8993
+      internalID: -8259798122312160896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Folha de Sprites de Plataformas Vulc\xE2nicas_5"
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 246
+        width: 149
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b68b5c6f4fe8dd429431585814fc9b5
+      internalID: 5772052948408085259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Folha de Sprites de Plataformas Vulc\xE2nicas_6"
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 440
+        width: 139
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 156eb3b0113579548b3cb3a1c24dab3c
+      internalID: -2362391699959594599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Folha de Sprites de Plataformas Vulc\xE2nicas_7"
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 250
+        width: 137
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 974d4e54cdca7834f94ff1367ac6ffce
+      internalID: -6629302449588404563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Folha de Sprites de Plataformas Vulc\xE2nicas_8"
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 65
+        width: 411
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b10bf2594b462541bd1b9c076dbf828
+      internalID: -2600914164818290590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Folha de Sprites de Plataformas Vulc\xE2nicas_9"
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 67
+        width: 398
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5997f8b5553ab749be32cbc9ed55063
+      internalID: -6408734160957015477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Folha de Sprites de Plataformas Vulc\xE2nicas_10"
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 437
+        width: 139
+        height: 137
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f8c96ad8a6aa1c4bbbd80e01b1d6e2a
+      internalID: -4768530423704171878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Folha de Sprites de Plataformas Vulc\xE2nicas_11"
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 437
+        width: 136
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfa4b6406f6f6f243a8166c7c657cc2b
+      internalID: 5551194660468469048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Folha de Sprites de Plataformas Vulc\xE2nicas_12"
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 437
+        width: 136
+        height: 139
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 558e7049e630bb44a9e53ff34bfd48da
+      internalID: -5931885036875691865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Folha de Sprites de Plataformas Vulc\xE2nicas_13"
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 67
+        width: 402
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 707d644d711f3c54e8a046998caa4dc5
+      internalID: -769303198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Folha de Sprites de Plataformas Vulc\xE2nicas_14"
+      rect:
+        serializedVersion: 2
+        x: 1284
+        y: 66
+        width: 296
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a8b8f4ad131a1840a4083ebfb1ba339
+      internalID: -1309649746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Folha de Sprites de Plataformas Vulc\xE2nicas_15"
+      rect:
+        serializedVersion: 2
+        x: 1594
+        y: 65
+        width: 400
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31d4b1367013a2044a9284f9120ca344
+      internalID: 1529314341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: f43e73a8445a9134594ac244a73694c8
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":2170.0,"y":725.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      "Folha de Sprites de Plataformas Vulc\xE2nicas_0": 6013033376399996258
+      "Folha de Sprites de Plataformas Vulc\xE2nicas_1": -5400848187719794427
+      "Folha de Sprites de Plataformas Vulc\xE2nicas_10": -4768530423704171878
+      "Folha de Sprites de Plataformas Vulc\xE2nicas_11": 5551194660468469048
+      "Folha de Sprites de Plataformas Vulc\xE2nicas_12": -5931885036875691865
+      "Folha de Sprites de Plataformas Vulc\xE2nicas_13": -769303198
+      "Folha de Sprites de Plataformas Vulc\xE2nicas_14": -1309649746
+      "Folha de Sprites de Plataformas Vulc\xE2nicas_15": 1529314341
+      "Folha de Sprites de Plataformas Vulc\xE2nicas_2": 7322008704162941896
+      "Folha de Sprites de Plataformas Vulc\xE2nicas_3": -637049835169469484
+      "Folha de Sprites de Plataformas Vulc\xE2nicas_4": -8259798122312160896
+      "Folha de Sprites de Plataformas Vulc\xE2nicas_5": 5772052948408085259
+      "Folha de Sprites de Plataformas Vulc\xE2nicas_6": -2362391699959594599
+      "Folha de Sprites de Plataformas Vulc\xE2nicas_7": -6629302449588404563
+      "Folha de Sprites de Plataformas Vulc\xE2nicas_8": -2600914164818290590
+      "Folha de Sprites de Plataformas Vulc\xE2nicas_9": -6408734160957015477
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

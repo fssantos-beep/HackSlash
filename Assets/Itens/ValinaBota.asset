@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ItemData
   itemName: Valina Bota
   description: Aumenta a velocidade.
-  icon: {fileID: -2054363166547608424, guid: 70984a5069196c841b1b311b506488e0, type: 3}
+  icon: {fileID: -233904329, guid: 70984a5069196c841b1b311b506488e0, type: 3}
   effectType: 1
   effectValue: 1
   hasSecondaryEffect: 0

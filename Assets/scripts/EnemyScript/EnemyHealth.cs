@@ -8,6 +8,7 @@ public class EnemyHealth : MonoBehaviour
     [Header("Vida")]
     public int maxHealth = 30;
     public int currentHealth;
+    private bool isDead = false;
 
     [Header("Recompensa")]
     public int xpReward = 10; // Quanto XP esse inimigo da ao morrer (altera no inspector)
@@ -37,6 +38,7 @@ public class EnemyHealth : MonoBehaviour
 
     public void TakeDamage(int damage)
     {
+        if (isDead) return; // Se já estiver morto, não toma dano
         currentHealth -= damage;
 
         if (AudioManager.Instance != null && AudioManager.Instance.enemyHitClip != null)
@@ -56,6 +58,7 @@ public class EnemyHealth : MonoBehaviour
 
     void Die()
     {
+        isDead = true; // Marca como morto para evitar múltiplas chamadas de morte
         if (PlayerHUD.Instance != null)
         {
             PlayerHUD.Instance.AddXP(xpReward);
@@ -78,7 +81,7 @@ public class EnemyHealth : MonoBehaviour
         if (animator != null)
         {
             animator.SetTrigger("Die");
-            // O Destroy agora é chamado pelo Animation Event, exatamente quando a animação acaba
+            // O Destroy chamado pelo Animation Event, exatamente quando a animação acaba
         }
         else
         {

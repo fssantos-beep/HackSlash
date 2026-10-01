@@ -126,7 +126,7 @@ MonoBehaviour:
   enemyLayers:
     serializedVersion: 2
     m_Bits: 64
-  velocidade: 5
+  velocidade: 10
   forcaPulo: 10
   checkRadius: 0.05
   attackDamage: 15
@@ -217,6 +217,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerHealth
   maxHealth: 100
   currentHealth: 0
+  damageReductionPercent: 0
+  dodgeChancePercent: 0
+  healOnKillAmount: 0
   flashDuration: 0.15
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   invincibilityDuration: 0.5

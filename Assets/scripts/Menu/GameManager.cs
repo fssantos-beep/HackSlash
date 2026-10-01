@@ -33,7 +33,7 @@ public class GameManager : MonoBehaviour
 
         if (AudioManager.Instance != null)
         {
-            AudioManager.Instance.PlaySFX(AudioManager.Instance.gameOverClip);
+            AudioManager.Instance.PlaySFX(AudioManager.Instance.playerDefeatClip);
         }
         Time.timeScale = 0f;
     }

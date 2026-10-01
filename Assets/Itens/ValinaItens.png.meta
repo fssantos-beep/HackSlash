@@ -125,13 +125,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ValinaItens_0
+      name: ValinaEspada
       rect:
         serializedVersion: 2
-        x: 1250
-        y: 544
-        width: 316
-        height: 402
+        x: 6
+        y: 238
+        width: 176
+        height: 197
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -147,13 +147,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ValinaItens_1
+      name: ValinaVida
       rect:
         serializedVersion: 2
-        x: 1691
-        y: 544
-        width: 321
-        height: 401
+        x: 107
+        y: 0
+        width: 168
+        height: 203
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -169,67 +169,67 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ValinaItens_2
+      name: ValinaArmadura
       rect:
         serializedVersion: 2
-        x: 2164
-        y: 544
-        width: 304
-        height: 402
+        x: 207
+        y: 235
+        width: 232
+        height: 197
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 856d25419c318ccf0800000000000000
-      internalID: -231913626459253160
+      spriteID: b65ccfcbc90ce414b8d447d88ef98b44
+      internalID: -187924028
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ValinaItens_3
+      name: ValinaShield
       rect:
         serializedVersion: 2
-        x: 1345
-        y: 68
-        width: 471
-        height: 402
+        x: 362
+        y: 0
+        width: 161
+        height: 198
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: dc35a5be3ddbb3930800000000000000
-      internalID: 4124098601672135629
+      spriteID: ba7e836880df4ad47b57b56ef6a4714b
+      internalID: 871615027
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ValinaItens_4
+      name: ValinaBota
       rect:
         serializedVersion: 2
-        x: 1933
-        y: 68
-        width: 345
-        height: 401
+        x: 511
+        y: 237
+        width: 172
+        height: 196
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 89c7842a59f6d73e0800000000000000
-      internalID: -2054363166547608424
+      spriteID: a2a924e74adfdcd4c9efbd4fd19be1e0
+      internalID: -233904329
       vertices: []
       indices: 
       edges: []
@@ -238,7 +238,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 61d8fe51337d7514c96814caa4a69428
     internalID: 0
     vertices: []
     indices: 
@@ -248,11 +248,14 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      ValinaItens_0: -5812363640341889155
-      ValinaItens_1: -728759464325867573
+      ValinaArmadura: -187924028
+      ValinaBota: -233904329
+      ValinaEspada: -5812363640341889155
       ValinaItens_2: -231913626459253160
       ValinaItens_3: 4124098601672135629
       ValinaItens_4: -2054363166547608424
+      ValinaShield: 871615027
+      ValinaVida: -728759464325867573
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

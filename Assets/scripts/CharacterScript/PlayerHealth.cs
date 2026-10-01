@@ -69,6 +69,11 @@ public class PlayerHealth : MonoBehaviour
 
         currentHealth -= damage;
 
+        if (AudioManager.Instance != null && AudioManager.Instance.playerHitClip != null)
+        {
+            AudioManager.Instance.PlaySFX(AudioManager.Instance.playerHitClip);
+        }
+
         if (PlayerHUD.Instance != null)
         {
             PlayerHUD.Instance.UpdateHealth(currentHealth, maxHealth);

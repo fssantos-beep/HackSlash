@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ItemData
   itemName: Regen Vida Doro
   description: Recupera vida ao matar algum inimigo.
-  icon: {fileID: -7191594679274997640, guid: 7387e58643413814fa6f5ff6ffdb5a41, type: 3}
+  icon: {fileID: -5354139218927751088, guid: 7387e58643413814fa6f5ff6ffdb5a41, type: 3}
   effectType: 10
   effectValue: 20
   hasSecondaryEffect: 0
