@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: 423a4e63ff46ecc4090b04af5c16e4f6
+guid: 7705d4ace4eb36149b3cc763d39796cf
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4436940831607610120
-    second: ArmaduraGeral_0
+      213: 2854803767487247206
+    second: ItensGerais_0
+  - first:
+      213: 8876730439897606700
+    second: ItensGerais_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +116,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ArmaduraGeral_0
+      name: ItensGerais_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 61
-        height: 73
+        x: 6
+        y: 7
+        width: 369
+        height: 401
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +131,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 80bd56dad2e239d30800000000000000
-      internalID: 4436940831607610120
+      spriteID: 6633680b6ec4e9720800000000000000
+      internalID: 2854803767487247206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ItensGerais_1
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 7
+        width: 387
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2a6efcdd4b703b70800000000000000
+      internalID: 8876730439897606700
       vertices: []
       indices: 
       edges: []
@@ -148,7 +173,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      ArmaduraGeral_0: 4436940831607610120
+      ItensGerais_0: 2854803767487247206
+      ItensGerais_1: 8876730439897606700
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

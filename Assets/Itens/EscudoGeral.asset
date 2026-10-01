@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: eca73ca8a71490445b8d433408bddf41, type: 3}
-  m_Name: ArmaduraGeral
+  m_Name: EscudoGeral
   m_EditorClassIdentifier: Assembly-CSharp::ItemData
-  itemName: Armadura Universal
+  itemName: Escudo Universal
   description: Reduz o dano maximo recebido em 10%.
-  icon: {fileID: 4436940831607610120, guid: 423a4e63ff46ecc4090b04af5c16e4f6, type: 3}
+  icon: {fileID: 8876730439897606700, guid: 7705d4ace4eb36149b3cc763d39796cf, type: 3}
   effectType: 8
   effectValue: 10
   hasSecondaryEffect: 0

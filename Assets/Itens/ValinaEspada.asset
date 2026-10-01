@@ -10,14 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: eca73ca8a71490445b8d433408bddf41, type: 3}
-  m_Name: DoroEspada
+  m_Name: ValinaEspada
   m_EditorClassIdentifier: Assembly-CSharp::ItemData
-  itemName: Espada Dororo
-  description: Aumenta a velocidade do ataque basico.
-  icon: {fileID: 1554438925836119339, guid: 7387e58643413814fa6f5ff6ffdb5a41, type: 3}
-  effectType: 5
-  effectValue: 30
+  itemName: Espada Valina
+  description: Aumenta o dano causado pelo ataque basico.
+  icon: {fileID: -5812363640341889155, guid: 70984a5069196c841b1b311b506488e0, type: 3}
+  effectType: 0
+  effectValue: 40
   hasSecondaryEffect: 0
   secondaryEffectType: 0
   secondaryEffectValue: 0
-  usableBy: 1
+  usableBy: 0

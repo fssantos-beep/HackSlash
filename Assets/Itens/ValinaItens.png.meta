@@ -1,10 +1,22 @@
 fileFormatVersion: 2
-guid: 1fc8329123892fe48924cf2ad4a300af
+guid: 70984a5069196c841b1b311b506488e0
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3516159038160804841
-    second: DoroSkillNecklace_0
+      213: -5812363640341889155
+    second: ValinaItens_0
+  - first:
+      213: -728759464325867573
+    second: ValinaItens_1
+  - first:
+      213: -231913626459253160
+    second: ValinaItens_2
+  - first:
+      213: 4124098601672135629
+    second: ValinaItens_3
+  - first:
+      213: -2054363166547608424
+    second: ValinaItens_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,23 +125,111 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: DoroSkillNecklace_0
+      name: ValinaItens_0
       rect:
         serializedVersion: 2
-        x: 16
-        y: 17
-        width: 347
-        height: 364
+        x: 1250
+        y: 544
+        width: 316
+        height: 402
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 71465a4fbf7143fc0800000000000000
-      internalID: -3516159038160804841
+      spriteID: d7f76087016565fa0800000000000000
+      internalID: -5812363640341889155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ValinaItens_1
+      rect:
+        serializedVersion: 2
+        x: 1691
+        y: 544
+        width: 321
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc7172ad02de2e5f0800000000000000
+      internalID: -728759464325867573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ValinaItens_2
+      rect:
+        serializedVersion: 2
+        x: 2164
+        y: 544
+        width: 304
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 856d25419c318ccf0800000000000000
+      internalID: -231913626459253160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ValinaItens_3
+      rect:
+        serializedVersion: 2
+        x: 1345
+        y: 68
+        width: 471
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc35a5be3ddbb3930800000000000000
+      internalID: 4124098601672135629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ValinaItens_4
+      rect:
+        serializedVersion: 2
+        x: 1933
+        y: 68
+        width: 345
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89c7842a59f6d73e0800000000000000
+      internalID: -2054363166547608424
       vertices: []
       indices: 
       edges: []
@@ -138,7 +238,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 147ec92b81f88b944b00908cd6255fdb
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -148,7 +248,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      DoroSkillNecklace_0: -3516159038160804841
+      ValinaItens_0: -5812363640341889155
+      ValinaItens_1: -728759464325867573
+      ValinaItens_2: -231913626459253160
+      ValinaItens_3: 4124098601672135629
+      ValinaItens_4: -2054363166547608424
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

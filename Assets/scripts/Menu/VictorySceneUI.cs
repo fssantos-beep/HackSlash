@@ -2,8 +2,16 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class GameOverSceneUI : MonoBehaviour
+public class VictorySceneUI : MonoBehaviour
 {
+    void Start()
+    {
+        if (AudioManager.Instance != null)
+        {
+            AudioManager.Instance.PlaySFX(AudioManager.Instance.gameOverClip);
+        }
+    }
+
     public void PlayAgain()
     {
         Time.timeScale = 1f;

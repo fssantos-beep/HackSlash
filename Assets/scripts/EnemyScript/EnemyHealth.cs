@@ -57,8 +57,13 @@ public class EnemyHealth : MonoBehaviour
     void Die()
     {
         if (PlayerHUD.Instance != null)
-        PlayerHealth.Instance.OnEnemyKilled(); // Cura a Doro se ela tiver o upgrade de cura ao matar
-        PlayerHUD.Instance.AddXP(xpReward);
+        {
+            PlayerHUD.Instance.AddXP(xpReward);
+        }
+        if (PlayerHealth.Instance != null)
+        {
+            PlayerHealth.Instance.OnEnemyKilled();
+        }
         Debug.Log($"{gameObject.name} morreu e deu {xpReward} XP!");
 
         if (isBoss)

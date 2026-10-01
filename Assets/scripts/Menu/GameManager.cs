@@ -30,6 +30,11 @@ public class GameManager : MonoBehaviour
             if (text != null) text.text = "Derrota!";
             defeatScreen.SetActive(true);
         }
+
+        if (AudioManager.Instance != null)
+        {
+            AudioManager.Instance.PlaySFX(AudioManager.Instance.gameOverClip);
+        }
         Time.timeScale = 0f;
     }
 }

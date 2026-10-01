@@ -2833,11 +2833,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3599188957132535257, guid: 9d138bd9a2a3e6243a96db332281fc71, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 136.29
+      value: 132.94
       objectReference: {fileID: 0}
     - target: {fileID: 3599188957132535257, guid: 9d138bd9a2a3e6243a96db332281fc71, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 82.18
+      value: 81.519
       objectReference: {fileID: 0}
     - target: {fileID: 3599188957132535257, guid: 9d138bd9a2a3e6243a96db332281fc71, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3658,11 +3658,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3599188957132535257, guid: 9d138bd9a2a3e6243a96db332281fc71, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 157.90434
+      value: 155.75
       objectReference: {fileID: 0}
     - target: {fileID: 3599188957132535257, guid: 9d138bd9a2a3e6243a96db332281fc71, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 80.18
+      value: 79.508
       objectReference: {fileID: 0}
     - target: {fileID: 3599188957132535257, guid: 9d138bd9a2a3e6243a96db332281fc71, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4364,6 +4364,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 405c316d8af2add4a977fd8f3cdf9613, type: 2}
   - {fileID: 11400000, guid: 806eed3a770778343b8f45b3f3c4e5bd, type: 2}
   - {fileID: 11400000, guid: 4fd781bf7a1e0a140b74486a31fbcdfa, type: 2}
+  - {fileID: 11400000, guid: 4fd781bf7a1e0a140b74486a31fbcdfa, type: 2}
   choicePanel: {fileID: 1986040622}
   itemIcons:
   - {fileID: 1730178183}
@@ -4461,11 +4462,17 @@ MonoBehaviour:
   musicSource: {fileID: 1273221147}
   sfxSource: {fileID: 1273221148}
   backgroundAmbience: {fileID: 8300000, guid: e3f6fbe74ffaf17478ec426757de3e11, type: 3}
-  playerHitClip: {fileID: 0}
+  playerHitClip: {fileID: 8300000, guid: c5d0594b7493a1d40903fbd0e8a1f8bf, type: 3}
   playerAttackClip: {fileID: 8300000, guid: 11445a4b5f65c5347a11f52e1f6b16d8, type: 3}
   playerDefeatClip: {fileID: 8300000, guid: 42f28984f41d56c4085b4e0aad25e72a, type: 3}
-  enemyHitClip: {fileID: 8300000, guid: 8a8741724aa684e4398081dd44be155c, type: 3}
+  enemyHitClip: {fileID: 0}
   enemyDeathClip: {fileID: 8300000, guid: 407af6d8379fd75428b4e4e268b60e5f, type: 3}
+  dodgeClip: {fileID: 8300000, guid: 77cce85554f04be4fb777e5220eb9355, type: 3}
+  doroSpecialAttackClip: {fileID: 0}
+  valinaDashAttackClip: {fileID: 8300000, guid: 95192baaff0d40a4c92235a9d57db51c, type: 3}
+  bossAttackClip: {fileID: 0}
+  victoryClip: {fileID: 0}
+  gameOverClip: {fileID: 0}
 --- !u!4 &1273221146
 Transform:
   m_ObjectHideFlags: 0

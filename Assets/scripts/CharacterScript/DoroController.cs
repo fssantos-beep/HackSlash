@@ -141,6 +141,11 @@ public class DoroController : MonoBehaviour, IAttackable, IUpgradable
         isAttacking = true;
         nextSpecialAttackTime = Time.time + specialAttackCooldown;
 
+        if (AudioManager.Instance != null)
+        {
+            AudioManager.Instance.PlaySFX(AudioManager.Instance.doroSpecialAttackClip);
+        }
+
         animator.SetTrigger("SpecialAttack");
 
         yield return new WaitForSeconds(0.8f);
@@ -152,6 +157,11 @@ public class DoroController : MonoBehaviour, IAttackable, IUpgradable
     {
         isDashing = true;
         nextDashTime = Time.time + dashCooldown;
+
+        if (AudioManager.Instance != null)
+        {
+            AudioManager.Instance.PlaySFX(AudioManager.Instance.dodgeClip);
+        }
 
         animator.SetTrigger("Dash");
 

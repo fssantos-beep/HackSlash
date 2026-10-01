@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eca73ca8a71490445b8d433408bddf41, type: 3}
   m_Name: EspadaGeral
   m_EditorClassIdentifier: Assembly-CSharp::ItemData
-  itemName: 
+  itemName: Espada Universal
   description: Aumenta levemento o dano causado pelo ataque basico.
-  icon: {fileID: 274121871012166156, guid: f7dc27f2773e7494bb558c05aeb0d5be, type: 3}
+  icon: {fileID: 2854803767487247206, guid: 7705d4ace4eb36149b3cc763d39796cf, type: 3}
   effectType: 0
   effectValue: 10
   hasSecondaryEffect: 0

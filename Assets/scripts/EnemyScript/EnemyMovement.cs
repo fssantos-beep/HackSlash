@@ -42,6 +42,7 @@ public class EnemyMovement : MonoBehaviour
     private float lastSecondaryAttackTime = -999f;
     private bool isDead = false;
     private bool inCombat = false;
+    private EnemyHealth enemyHealth;
 
     void Awake()
     {
@@ -49,6 +50,7 @@ public class EnemyMovement : MonoBehaviour
         animator = GetComponentInChildren<Animator>();
         spriteRenderer = GetComponentInChildren<SpriteRenderer>();
         meleeAttack = GetComponent<EnemyMeleeAttack>();
+        enemyHealth = GetComponent<EnemyHealth>();
 
         if (attackPoint == null && meleeAttack != null)
             attackPoint = meleeAttack.attackPoint;
@@ -98,6 +100,10 @@ public class EnemyMovement : MonoBehaviour
                     {
                         animator.SetTrigger("attack");
                         lastAttackTime = Time.time;
+                        if (enemyHealth != null && enemyHealth.isBoss && AudioManager.Instance != null)
+                        {
+                            AudioManager.Instance.PlaySFX(AudioManager.Instance.bossAttackClip);
+                        }
                     }
                 }
                 else if (withinRangedZone)
@@ -110,6 +116,10 @@ public class EnemyMovement : MonoBehaviour
                     {
                         animator.SetTrigger("attack2");
                         lastSecondaryAttackTime = Time.time;
+                        if (enemyHealth != null && enemyHealth.isBoss && AudioManager.Instance != null)
+                        {
+                            AudioManager.Instance.PlaySFX(AudioManager.Instance.bossAttackClip);
+                        }
                     }
                     else
                     {

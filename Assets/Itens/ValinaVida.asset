@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ItemData
   itemName: + Vida Max Valina
   description: Aumenta a vida maxima em 50%.
-  icon: {fileID: 1693956482, guid: bb18e1ce39096a04aa8e748dd9d4b5dd, type: 3}
+  icon: {fileID: -231913626459253160, guid: 70984a5069196c841b1b311b506488e0, type: 3}
   effectType: 11
   effectValue: 1.5
   hasSecondaryEffect: 0

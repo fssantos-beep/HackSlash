@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ItemData
   itemName: Doro Colar
   description: Diminui cooldow do attack special em 40% e aumenta levemente o dano.
-  icon: {fileID: -3516159038160804841, guid: 1fc8329123892fe48924cf2ad4a300af, type: 3}
+  icon: {fileID: 738922421, guid: 7387e58643413814fa6f5ff6ffdb5a41, type: 3}
   effectType: 6
   effectValue: 40
   hasSecondaryEffect: 1

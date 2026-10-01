@@ -89,12 +89,15 @@ public class ValinaController : MonoBehaviour, IAttackable, IUpgradable
 
         if (Input.GetMouseButtonDown(0))
         {
-            // Se já estamos no dash e o dash attack ainda não foi ativado,
-            // esse clique vira o "ataque especial" saindo do dash
+            // Se ja estiver no meio do dash e apertar o botão de ataque, ativa o dash attack
             if (isDashing && !dashAttackActivated)
             {
                 dashAttackActivated = true;
                 animator.SetTrigger("DashAttack");
+                if (AudioManager.Instance != null)
+                {
+                    AudioManager.Instance.PlaySFX(AudioManager.Instance.valinaDashAttackClip);
+                }
             }
             else if (!isAttacking && !isDashing && Time.time >= nextAttackTime)
             {
@@ -146,6 +149,11 @@ public class ValinaController : MonoBehaviour, IAttackable, IUpgradable
         dashAttackActivated = false;
         nextDashTime = Time.time + dashCooldown;
         hitEnemies.Clear();
+
+        if (AudioManager.Instance != null)
+        {
+            AudioManager.Instance.PlaySFX(AudioManager.Instance.dodgeClip);
+        }
 
         animator.SetTrigger("Dash");
 

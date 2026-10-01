@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ItemData
   itemName: Valina Armadura
   description: Reduz o dano maximo recebid em 25%.
-  icon: {fileID: -3139222204780268567, guid: 16d8ab0f4ceb44647bce2fd714cf7c27, type: 3}
+  icon: {fileID: 4124098601672135629, guid: 70984a5069196c841b1b311b506488e0, type: 3}
   effectType: 8
   effectValue: 25
   hasSecondaryEffect: 0
