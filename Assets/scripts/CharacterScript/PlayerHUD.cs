@@ -79,6 +79,14 @@ public class PlayerHUD : MonoBehaviour
         UpdateXPText();
     }
 
+    // Reseta o XP do jogador, mas mantém o nível atual
+    public void ResetXPKeepLevel()
+    {
+        currentXP = 0;
+        xpToNextLevel = CalculateXPForLevel(currentLevel);
+        UpdateXPText();
+    }
+
     private void LevelUp()
     {
         currentXP -= xpToNextLevel;

@@ -202,6 +202,7 @@ public class PlayerHealth : MonoBehaviour
 
         if (PlayerHUD.Instance != null)
             PlayerHUD.Instance.UpdateHealth(currentHealth, maxHealth);
+            PlayerHUD.Instance.ResetXPKeepLevel();
 
         if (CheckpointManager.Instance != null)
             transform.position = CheckpointManager.Instance.GetCheckpoint();
