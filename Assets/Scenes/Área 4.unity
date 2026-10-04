@@ -2324,6 +2324,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: HoodedKnight
       objectReference: {fileID: 0}
+    - target: {fileID: 2394095052939454916, guid: a0f2d42ea2c084e42b5cc009e5fa39e4, type: 3}
+      propertyPath: maxHealth
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4717073038659971825, guid: a0f2d42ea2c084e42b5cc009e5fa39e4, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0

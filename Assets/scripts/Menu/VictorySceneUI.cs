@@ -8,7 +8,7 @@ public class VictorySceneUI : MonoBehaviour
     {
         if (AudioManager.Instance != null)
         {
-            AudioManager.Instance.PlaySFX(AudioManager.Instance.playerDefeatClip);
+            AudioManager.Instance.PlayMusic(AudioManager.Instance.victoryClip);
         }
     }
 

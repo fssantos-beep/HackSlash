@@ -4716,7 +4716,7 @@ MonoBehaviour:
   healthBar: {fileID: 1375009662}
   xpText: {fileID: 865739019}
   levelText: {fileID: 1154594266}
-  xpCurveExponent: 1.5
+  xpCurveExponent: 1.2
   xpCurveBase: 100
   SpecialAttackCooldownOverlay: {fileID: 93296216}
   SpecialAttackCooldownText: {fileID: 640648614}

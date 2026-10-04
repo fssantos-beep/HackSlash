@@ -39,6 +39,9 @@ public class ItemSelectionUI : MonoBehaviour
             choicePanel.SetActive(false);
     }
 
+    // Mantém o controle de quais itens de "uma vez por partida" já foram obtidos, para não reaparecerem
+    private HashSet<ItemData> TakeOneTimeItems = new HashSet<ItemData>();
+
     // Chamado pelo PlayerHUD toda vez que o jogador sobe de nível
     public void ShowItemChoices()
     {
@@ -155,6 +158,12 @@ public class ItemSelectionUI : MonoBehaviour
         {
             upgradable.ApplyUpgrade(item.secondaryEffectType, item.secondaryEffectValue);
             PlayerUpgrades.AddUpgrade(item.secondaryEffectType, item.secondaryEffectValue);
+        }
+
+        if (item.oneTimePerRun)
+        {
+            TakeOneTimeItems.Add(item);
+            allItems.Remove(item); // remove da pool pra não aparecer de novo
         }
     }
 }

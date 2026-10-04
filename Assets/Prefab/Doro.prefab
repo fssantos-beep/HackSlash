@@ -129,9 +129,9 @@ MonoBehaviour:
   velocidade: 5
   forcaPulo: 8
   checkRadius: 0.05
-  attackDamage: 15
+  attackDamage: 30
   attackRange: 0.35
-  attackCooldown: 1
+  attackCooldown: 0.7
   arrowPrefab: {fileID: 163883995856305911, guid: 0418c45de065a4644adf2b2815e88dff, type: 3}
   firePoint: {fileID: 1045388291842853193}
   specialAttackDamage: 100
@@ -215,7 +215,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0342e6d6025e684699cb39839a299fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerHealth
-  maxHealth: 100
+  maxHealth: 150
   currentHealth: 0
   damageReductionPercent: 0
   dodgeChancePercent: 0

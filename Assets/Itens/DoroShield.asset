@@ -21,3 +21,4 @@ MonoBehaviour:
   secondaryEffectType: 0
   secondaryEffectValue: 0
   usableBy: 1
+  oneTimePerRun: 1

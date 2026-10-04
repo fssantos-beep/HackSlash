@@ -353,7 +353,7 @@ MonoBehaviour:
   minWalkTime: 0.5
   maxWalkTime: 1
   detectionRange: 6
-  attackCooldown: 3.17
+  attackCooldown: 4
   hasSecondaryAttack: 0
   secondaryAttackRange: 4.09
   secondaryAttackCooldown: 1
@@ -387,9 +387,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65fd121f720f2f84cb4d5d4f36b6def3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyHealth
-  maxHealth: 200
+  maxHealth: 150
   currentHealth: 0
-  xpReward: 10
+  xpReward: 70
   deathAnimDuration: 1
   isBoss: 0
 --- !u!114 &6293092540554640597

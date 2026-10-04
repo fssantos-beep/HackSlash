@@ -41,4 +41,8 @@ public class ItemData : ScriptableObject
     [Header("Restrição de personagem")]
     [Tooltip("Universal = funciona pra Doro e Valina. Escolher um personagem específico faz o item não ter efeito nenhum se aplicado no outro.")]
     public CharacterType usableBy = CharacterType.Universal;
+    
+    [Header("Disponibilidade")]
+    [Tooltip("Se marcado, o item só pode ser obtido uma vez por partida. Se desmarcado, o item pode ser obtido várias vezes.")]
+    public bool oneTimePerRun = false;
 }
