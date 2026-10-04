@@ -1,10 +1,37 @@
 fileFormatVersion: 2
-guid: 9a5255f64c0f109499cab8865e1da954
+guid: 78275450666ebb449afc982ff4fe8087
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3140155210995660987
-    second: image-ezgif.com-crop (2)_0
+      213: 2598868237486306103
+    second: attack1_0
+  - first:
+      213: -4914715563372401958
+    second: attack1_1
+  - first:
+      213: 2659852609378229497
+    second: attack1_2
+  - first:
+      213: -742131402468218244
+    second: attack1_3
+  - first:
+      213: 4622947799296944477
+    second: attack1_4
+  - first:
+      213: -5698581097663248921
+    second: attack1_5
+  - first:
+      213: -774457592843739951
+    second: attack1_6
+  - first:
+      213: 6747177639697281107
+    second: attack1_7
+  - first:
+      213: -4180130548990269990
+    second: attack1_8
+  - first:
+      213: -8265533776673838408
+    second: attack1_9
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,199 +140,221 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: image-ezgif.com-crop (2)_0
+      name: attack1_0
       rect:
         serializedVersion: 2
-        x: 36
-        y: 5
-        width: 143
-        height: 134
+        x: 17
+        y: 232
+        width: 204
+        height: 174
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 547030d097deb64d0800000000000000
-      internalID: -3140155210995660987
+      spriteID: 733ba6184e8011420800000000000000
+      internalID: 2598868237486306103
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: image-ezgif.com-crop (2)_1
+      name: attack1_1
       rect:
         serializedVersion: 2
-        x: 195
-        y: 7
-        width: 148
-        height: 135
+        x: 231
+        y: 238
+        width: 175
+        height: 182
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a2956a91aa5611f4c9df872a6a261f94
-      internalID: -1908988606
+      spriteID: ce8cab8025cbfc54eb10d4c4c023153a
+      internalID: -4914715563372401958
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: image-ezgif.com-crop (2)_2
+      name: attack1_2
       rect:
         serializedVersion: 2
-        x: 358
-        y: 8
-        width: 150
-        height: 135
+        x: 423
+        y: 240
+        width: 202
+        height: 166
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2a6c51c6f2dfab74d83a8924523a4ba0
-      internalID: 1150879049
+      spriteID: 0efcf87bde4234b489b467da9835ba24
+      internalID: 2659852609378229497
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: image-ezgif.com-crop (2)_3
+      name: attack1_3
       rect:
         serializedVersion: 2
-        x: 527
-        y: 6
-        width: 150
-        height: 136
+        x: 633
+        y: 237
+        width: 223
+        height: 171
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2924006ca7f6a4543869b7d1606622fe
-      internalID: -650714191
+      spriteID: 5b237749c2fe14e4b9e27c62f73e341a
+      internalID: -742131402468218244
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: image-ezgif.com-crop (2)_4
+      name: attack1_4
       rect:
         serializedVersion: 2
-        x: 696
-        y: 7
-        width: 148
-        height: 137
+        x: 859
+        y: 238
+        width: 221
+        height: 172
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fa601dbc396fc7648afd83b696394a4d
-      internalID: 1807394001
+      spriteID: ab8279cb26bf0e541b25e9956b2f1b62
+      internalID: 4622947799296944477
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: image-ezgif.com-crop (2)_5
+      name: attack1_5
       rect:
         serializedVersion: 2
-        x: 856
-        y: 9
-        width: 151
-        height: 132
+        x: 1096
+        y: 241
+        width: 183
+        height: 150
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 683e95e0ac16c524d97c40ede739269e
-      internalID: -71977109
+      spriteID: 0e12bca18e4af2c4aa108073acc09851
+      internalID: -5698581097663248921
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: image-ezgif.com-crop (2)_6
+      name: attack1_6
       rect:
         serializedVersion: 2
-        x: 1019
-        y: 9
-        width: 150
-        height: 132
+        x: 1289
+        y: 237
+        width: 211
+        height: 193
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ee4bcfc041b92ee468a5e26553cf7b90
-      internalID: -444726055
+      spriteID: b3dae5ec4c4dfdc4bb74d3ba6135c96d
+      internalID: -774457592843739951
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: image-ezgif.com-crop (2)_7
+      name: attack1_7
       rect:
         serializedVersion: 2
-        x: 1184
-        y: 8
-        width: 145
-        height: 132
+        x: 1515
+        y: 236
+        width: 196
+        height: 162
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 752e7943417e4414dae22db0e6f21a5b
-      internalID: -2079518936
+      spriteID: eae20224c1414a94e9bf9f6a2cbf8645
+      internalID: 6747177639697281107
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: image-ezgif.com-crop (2)_8
+      name: attack1_8
       rect:
         serializedVersion: 2
-        x: 1349
-        y: 8
-        width: 156
-        height: 133
+        x: 1716
+        y: 235
+        width: 210
+        height: 173
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ed111de830dbb624791e8e5528b03a76
-      internalID: 207517980
+      spriteID: 0aa55c255b6dfd545bc160403cd000c3
+      internalID: -4180130548990269990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack1_9
+      rect:
+        serializedVersion: 2
+        x: 1929
+        y: 237
+        width: 239
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85ca77523a0ad224cadf8e683fb6005e
+      internalID: -8265533776673838408
       vertices: []
       indices: 
       edges: []
@@ -314,7 +363,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 008ec2fdab8ea2a4f925b77c0a2357ef
+    spriteID: 759eb4c0eab63f94e945820ee3097e38
     internalID: 0
     vertices: []
     indices: 
@@ -322,17 +371,20 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":2172.0,"y":724.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      image-ezgif.com-crop (2)_0: -3140155210995660987
-      image-ezgif.com-crop (2)_1: -1908988606
-      image-ezgif.com-crop (2)_2: 1150879049
-      image-ezgif.com-crop (2)_3: -650714191
-      image-ezgif.com-crop (2)_4: 1807394001
-      image-ezgif.com-crop (2)_5: -71977109
-      image-ezgif.com-crop (2)_6: -444726055
-      image-ezgif.com-crop (2)_7: -2079518936
-      image-ezgif.com-crop (2)_8: 207517980
+      attack1_0: 2598868237486306103
+      attack1_1: -4914715563372401958
+      attack1_2: 2659852609378229497
+      attack1_3: -742131402468218244
+      attack1_4: 4622947799296944477
+      attack1_5: -5698581097663248921
+      attack1_6: -774457592843739951
+      attack1_7: 6747177639697281107
+      attack1_8: -4180130548990269990
+      attack1_9: -8265533776673838408
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

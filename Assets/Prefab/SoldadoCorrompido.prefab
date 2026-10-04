@@ -237,9 +237,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65fd121f720f2f84cb4d5d4f36b6def3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyHealth
-  maxHealth: 1
+  maxHealth: 200
   currentHealth: 0
-  xpReward: 106
+  xpReward: 50
   deathAnimDuration: 1
   isBoss: 0
 --- !u!114 &7201403245623584456
@@ -265,7 +265,7 @@ MonoBehaviour:
   secondaryAttackRange: 5
   secondaryAttackCooldown: 3
   firePoint: {fileID: 0}
-  attackPoint: {fileID: 0}
+  attackPoint: {fileID: 2129576526013094917}
   target: {fileID: 0}
   facingDirection: 1
 --- !u!114 &7218928357788172121
@@ -332,8 +332,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyMeleeAttack
   attackPoint: {fileID: 2129576526013094917}
-  attackRange: 0.87
-  damage: 20
+  attackRange: 0.9
+  damage: 30
   playerLayer:
     serializedVersion: 2
     m_Bits: 256
@@ -536,7 +536,7 @@ Transform:
   m_GameObject: {fileID: 3369180149383439224}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.7, y: -0.22, z: 0}
+  m_LocalPosition: {x: 1.21, y: 0.01, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

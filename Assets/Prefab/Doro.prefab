@@ -126,18 +126,18 @@ MonoBehaviour:
   enemyLayers:
     serializedVersion: 2
     m_Bits: 64
-  velocidade: 10
-  forcaPulo: 10
+  velocidade: 5
+  forcaPulo: 8
   checkRadius: 0.05
   attackDamage: 15
-  attackRange: 0.34
-  attackCooldown: 0.5
+  attackRange: 0.35
+  attackCooldown: 1
   arrowPrefab: {fileID: 163883995856305911, guid: 0418c45de065a4644adf2b2815e88dff, type: 3}
   firePoint: {fileID: 1045388291842853193}
-  specialAttackDamage: 40
-  specialAttackCooldown: 6
-  forcaDash: 8.8
-  dashTime: 0.2
+  specialAttackDamage: 100
+  specialAttackCooldown: 10
+  forcaDash: 15
+  dashTime: 0.3
   dashCooldown: 1
 --- !u!50 &8498606546419631227
 Rigidbody2D:

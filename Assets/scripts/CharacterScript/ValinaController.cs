@@ -11,15 +11,16 @@ public class ValinaController : MonoBehaviour, IAttackable, IUpgradable
     public Transform attackPoint;      // ponto onde o ataque é desenhado
     public Transform groundCheck;      // ponto usado pra saber se o pé está tocando o chão
     public SpriteRenderer spriteRenderer;
+    private PlayerHealth playerHealth;
 
     [Header("Camadas")]
-    public LayerMask groundLayer;   // o que conta como "chão" pro OverlapCircle
+    public LayerMask groundLayer;
     public LayerMask enemyLayers;   // o que conta como "inimigo" pro dano
 
     [Header("Movimentação")]
     public float moveSpeed = 7f;
-    private float horizontalInput;     // -1, 0 ou 1, vindo do Input.GetAxisRaw
-    private bool facingRight = true;   // pra saber pra que lado o personagem está olhando
+    private float horizontalInput;     // -1, 0 ou 1
+    private bool facingRight = true;   // Sprite base olha pra direita
 
     [Header("Pulo")]
     public float jumpForce = 12f;
@@ -54,7 +55,10 @@ public class ValinaController : MonoBehaviour, IAttackable, IUpgradable
     void Awake()
     {
         if (spriteRenderer == null)
+        {
             spriteRenderer = GetComponentInChildren<SpriteRenderer>();
+        }
+        playerHealth = GetComponent<PlayerHealth>();
     }
 
     void Update()
@@ -136,8 +140,7 @@ public class ValinaController : MonoBehaviour, IAttackable, IUpgradable
 
         animator.SetTrigger("Attack");
 
-        // Duração fixa pra combinar com a animação. Se a animação mudar de tempo,
-        // ajustar aqui também (idealmente isso viria do próprio clip)
+        // Duração fixa pra combinar com a animação. Se a animação mudar de tempo.
         yield return new WaitForSeconds(0.5f);
 
         isAttacking = false;
@@ -149,6 +152,11 @@ public class ValinaController : MonoBehaviour, IAttackable, IUpgradable
         dashAttackActivated = false;
         nextDashTime = Time.time + dashCooldown;
         hitEnemies.Clear();
+
+        if (playerHealth != null)
+        {
+            playerHealth.SetDashInvincibility(true);
+        }
 
         if (AudioManager.Instance != null)
         {
@@ -180,6 +188,11 @@ public class ValinaController : MonoBehaviour, IAttackable, IUpgradable
         dashAttackActivated = false;
         nextAttackTime = Time.time + attackCooldownAfterDash;
         hitEnemies.Clear();
+
+        if (playerHealth != null)
+        {
+            playerHealth.SetDashInvincibility(false);
+        }
     }
 
     // Chamado via Animation Event no frame de impacto do ataque básico

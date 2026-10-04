@@ -7,8 +7,7 @@ public class PlayerProjetil : MonoBehaviour
     public float speed = 10f;
     public float lifeTime = 3f;
     public int damage = 40;
-    public LayerMask hitLayers; // marque aqui as Layers dos inimigos (Enemy/EnemyBody)
-
+    public LayerMask hitLayers;
     private Vector2 direction;
 
     public void SetDirection(Vector2 dir)

@@ -125,17 +125,17 @@ MonoBehaviour:
   enemyLayers:
     serializedVersion: 2
     m_Bits: 64
-  moveSpeed: 5
-  jumpForce: 10
+  moveSpeed: 3
+  jumpForce: 8
   groundCheckRadius: 0.05
-  basicAttackDamage: 10
+  basicAttackDamage: 50
   basicAttackRange: 0.3
   attackCooldown: 0.2
   attackCooldownAfterDash: 0.3
-  dashSpeed: 15
+  dashSpeed: 10
   dashDuration: 0.3
-  dashCooldown: 0.5
-  dashAttackDamage: 20
+  dashCooldown: 1
+  dashAttackDamage: 70
   dashAttackRange: 0.3
 --- !u!50 &3183130253122532981
 Rigidbody2D:
@@ -176,7 +176,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0342e6d6025e684699cb39839a299fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerHealth
-  maxHealth: 100
+  maxHealth: 200
   currentHealth: 0
   damageReductionPercent: 0
   dodgeChancePercent: 0

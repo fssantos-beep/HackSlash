@@ -125,6 +125,11 @@ public class PlayerHealth : MonoBehaviour
         isInvincible = false;
     }
 
+    public void SetDashInvincibility(bool value)
+    {
+        isInvincible = value;
+    }
+
     void Die()
     {
         isDead = true;
@@ -201,11 +206,15 @@ public class PlayerHealth : MonoBehaviour
         currentHealth = maxHealth;
 
         if (PlayerHUD.Instance != null)
+        {
             PlayerHUD.Instance.UpdateHealth(currentHealth, maxHealth);
             PlayerHUD.Instance.ResetXPKeepLevel();
+        }
 
         if (CheckpointManager.Instance != null)
+        {
             transform.position = CheckpointManager.Instance.GetCheckpoint();
+        }
 
         ValinaController valina = GetComponent<ValinaController>();
         if (valina != null) valina.enabled = true;

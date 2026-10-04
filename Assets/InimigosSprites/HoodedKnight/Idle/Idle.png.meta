@@ -1,13 +1,64 @@
 fileFormatVersion: 2
-guid: 691dfcb59caa12347939348ca4db5850
+guid: 441d38587121ad7488a00996cf4a9404
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -778020169745913018
-    second: AttackHoodedKnightTest_0
+      213: 8793639957104055765
+    second: idle_0
   - first:
-      213: -628808971502982104
-    second: AttackHoodedKnightTest_1
+      213: 6084859605308855041
+    second: idle_1
+  - first:
+      213: 8603369663158992956
+    second: idle_2
+  - first:
+      213: -5906421172241655209
+    second: idle_3
+  - first:
+      213: 5704420531145803721
+    second: idle_4
+  - first:
+      213: -148617073940163930
+    second: idle_5
+  - first:
+      213: 4729606205655721961
+    second: idle_6
+  - first:
+      213: -2073685336235588006
+    second: idle_7
+  - first:
+      213: 512795395688303107
+    second: idle_8
+  - first:
+      213: 5667770778836351527
+    second: idle_9
+  - first:
+      213: -1480364998338425778
+    second: idle_10
+  - first:
+      213: -189419392851352084
+    second: idle_11
+  - first:
+      213: 2253685004373748758
+    second: idle_12
+  - first:
+      213: 275251749332817211
+    second: idle_13
+  - first:
+      213: -2717920588507469212
+    second: idle_14
+  - first:
+      213: -928564814986837825
+    second: idle_15
+  - first:
+      213: 1047728824233847905
+    second: idle_16
+  - first:
+      213: -526835129060445694
+    second: idle_17
+  - first:
+      213: 5896261190451672117
+    second: idle_18
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -116,57 +167,79 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: AttackHoodedKnightTest_0
+      name: Idle_0
       rect:
         serializedVersion: 2
-        x: 4
-        y: 0
+        x: 1
+        y: 5
+        width: 165
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc76b7f76bd747f41be14496a199844e
+      internalID: -1361626784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_1
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 4
         width: 159
-        height: 143
+        height: 170
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 64ba43a17cae335f0800000000000000
-      internalID: -778020169745913018
+      spriteID: f86e341067256cc4889488f680c351ab
+      internalID: -117628819
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AttackHoodedKnightTest_1
+      name: Idle_2
       rect:
         serializedVersion: 2
-        x: 191
+        x: 328
+        y: 5
+        width: 152
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 070b9e1ec46921646a89f886d851763d
+      internalID: 14604527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_3
+      rect:
+        serializedVersion: 2
+        x: 482
         y: 3
-        width: 170
-        height: 140
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 82c6cfd62950647f0800000000000000
-      internalID: -628808971502982104
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: AttackHoodedKnightTest_2
-      rect:
-        serializedVersion: 2
-        x: 389
-        y: 0
-        width: 161
-        height: 145
+        width: 155
+        height: 173
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -175,20 +248,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d8c2e08c8945dfb4684de78090aa5835
-      internalID: 796152246
+      spriteID: a97c2eef2e60a6c48899a30530ec7caa
+      internalID: -2108700005
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AttackHoodedKnightTest_3
+      name: Idle_4
       rect:
         serializedVersion: 2
-        x: 584
-        y: 0
-        width: 199
-        height: 143
+        x: 639
+        y: 3
+        width: 160
+        height: 173
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -197,20 +270,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1c33e44905049d14a921f7e625c5c5d7
-      internalID: 411795925
+      spriteID: fa9fae5cd2e4c5847801121cac12b7e9
+      internalID: -625803017
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AttackHoodedKnightTest_4
+      name: Idle_5
       rect:
         serializedVersion: 2
-        x: 814
-        y: 1
-        width: 149
-        height: 144
+        x: 803
+        y: 3
+        width: 165
+        height: 173
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -219,20 +292,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7c2b5fdff027a9c499c13ccd9469693e
-      internalID: -795511888
+      spriteID: 3bf123baa36f4334291659a7ffc54aab
+      internalID: 643905120
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AttackHoodedKnightTest_5
+      name: Idle_6
       rect:
         serializedVersion: 2
-        x: 992
-        y: 0
-        width: 175
-        height: 144
+        x: 969
+        y: 3
+        width: 152
+        height: 173
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -241,74 +314,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2054ccfa82d6e9144958869ad7f0b0e4
-      internalID: -2117589253
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: AttackHoodedKnightTest_6
-      rect:
-        serializedVersion: 2
-        x: 1190
-        y: 0
-        width: 164
-        height: 145
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: db199c81b6670d343a8dddba7f40f276
-      internalID: 357530146
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: AttackHoodedKnightTest_7
-      rect:
-        serializedVersion: 2
-        x: 1395
-        y: 0
-        width: 179
-        height: 145
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bbf37bd71f847cf40b80a99d1ec35d55
-      internalID: -120143185
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: AttackHoodedKnightTest_8
-      rect:
-        serializedVersion: 2
-        x: 1606
-        y: 0
-        width: 205
-        height: 145
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8304503ce32429a4a8a6bfa529adf569
-      internalID: 920800070
+      spriteID: 71b5ad851dca655459e34648bbd160c5
+      internalID: 600610368
       vertices: []
       indices: 
       edges: []
@@ -317,7 +324,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 333a50569ac504144b693266b36ff147
+    spriteID: 6bb73abfb63801443928da72196d7817
     internalID: 0
     vertices: []
     indices: 
@@ -325,17 +332,17 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":1122.0,"y":176.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      AttackHoodedKnightTest_0: -778020169745913018
-      AttackHoodedKnightTest_1: -628808971502982104
-      AttackHoodedKnightTest_2: 796152246
-      AttackHoodedKnightTest_3: 411795925
-      AttackHoodedKnightTest_4: -795511888
-      AttackHoodedKnightTest_5: -2117589253
-      AttackHoodedKnightTest_6: 357530146
-      AttackHoodedKnightTest_7: -120143185
-      AttackHoodedKnightTest_8: 920800070
+      Idle_0: -1361626784
+      Idle_1: -117628819
+      Idle_2: 14604527
+      Idle_3: -2108700005
+      Idle_4: -625803017
+      Idle_5: 643905120
+      Idle_6: 600610368
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

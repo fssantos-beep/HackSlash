@@ -1,22 +1,28 @@
 fileFormatVersion: 2
-guid: 503620e08f4df084794cfdd4bd2a530f
+guid: cd850082427addf4284fde8d6c5cb902
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5553132341467339785
-    second: DoroHurtTeste_0
+      213: 4035959289877228764
+    second: Walk_0
   - first:
-      213: -2203326397694716297
-    second: DoroHurtTeste_1
+      213: -982904232830982447
+    second: Walk_1
   - first:
-      213: -5920169221453393081
-    second: DoroHurtTeste_2
+      213: -350908408369970039
+    second: Walk_2
   - first:
-      213: -354243745786249927
-    second: DoroHurtTeste_3
+      213: -5409570386352685021
+    second: Walk_3
   - first:
-      213: 9066442392564075363
-    second: DoroHurtTeste_4
+      213: 1553940418269799609
+    second: Walk_4
+  - first:
+      213: 2416434504916517810
+    second: Walk_5
+  - first:
+      213: -6428935122508569504
+    second: Walk_6
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -125,13 +131,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: DoroHurtTeste_0
+      name: Walk_0
       rect:
         serializedVersion: 2
-        x: 39
-        y: 0
-        width: 253
-        height: 206
+        x: 3
+        y: 6
+        width: 181
+        height: 166
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,41 +146,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7f32b14ae8f4fe2b0800000000000000
-      internalID: -5553132341467339785
+      spriteID: cdce119379b920830800000000000000
+      internalID: 4035959289877228764
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DoroHurtTeste_1
+      name: Walk_1
       rect:
         serializedVersion: 2
-        x: 328
-        y: 0
-        width: 256
-        height: 210
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7765a25a0563c61e0800000000000000
-      internalID: -2203326397694716297
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DoroHurtTeste_3
-      rect:
-        serializedVersion: 2
-        x: 630
-        y: 0
-        width: 265
+        x: 208
+        y: 1
+        width: 180
         height: 170
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -184,20 +168,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 93db188a039751bf0800000000000000
-      internalID: -354243745786249927
+      spriteID: 1d6a1e1dec50c52f0800000000000000
+      internalID: -982904232830982447
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DoroHurtTeste_4
+      name: Walk_2
       rect:
         serializedVersion: 2
-        x: 939
-        y: 0
-        width: 254
-        height: 210
+        x: 415
+        y: 5
+        width: 170
+        height: 168
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -206,8 +190,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 36b0359e15972dd70800000000000000
-      internalID: 9066442392564075363
+      spriteID: 984096a69a2512bf0800000000000000
+      internalID: -350908408369970039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_4
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 1
+        width: 184
+        height: 171
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b4e719c394b09510800000000000000
+      internalID: 1553940418269799609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_5
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 3
+        width: 182
+        height: 169
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b3cb802166e88120800000000000000
+      internalID: 2416434504916517810
       vertices: []
       indices: 
       edges: []
@@ -216,7 +244,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 3e58b09035c5deb4aa4bdad8d08451c3
+    spriteID: ae8a1f53ff5f21a4d891300623329922
     internalID: 0
     vertices: []
     indices: 
@@ -226,11 +254,13 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      DoroHurtTeste_0: -5553132341467339785
-      DoroHurtTeste_1: -2203326397694716297
-      DoroHurtTeste_2: -5920169221453393081
-      DoroHurtTeste_3: -354243745786249927
-      DoroHurtTeste_4: 9066442392564075363
+      Walk_0: 4035959289877228764
+      Walk_1: -982904232830982447
+      Walk_2: -350908408369970039
+      Walk_3: -5409570386352685021
+      Walk_4: 1553940418269799609
+      Walk_5: 2416434504916517810
+      Walk_6: -6428935122508569504
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

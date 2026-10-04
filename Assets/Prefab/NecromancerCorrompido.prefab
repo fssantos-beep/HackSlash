@@ -164,6 +164,7 @@ GameObject:
   - component: {fileID: 4062163332344741708}
   - component: {fileID: 1495875544783190950}
   - component: {fileID: 6293092540554640597}
+  - component: {fileID: 3063993340923476753}
   m_Layer: 6
   m_Name: NecromancerCorrompido
   m_TagString: Untagged
@@ -351,11 +352,11 @@ MonoBehaviour:
   maxIdleTime: 3
   minWalkTime: 0.5
   maxWalkTime: 1
-  detectionRange: 10
-  attackCooldown: 1.98
+  detectionRange: 6
+  attackCooldown: 3.17
   hasSecondaryAttack: 0
-  secondaryAttackRange: 5
-  secondaryAttackCooldown: 3
+  secondaryAttackRange: 4.09
+  secondaryAttackCooldown: 1
   firePoint: {fileID: 1357345352182650431}
   attackPoint: {fileID: 0}
   target: {fileID: 0}
@@ -386,7 +387,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65fd121f720f2f84cb4d5d4f36b6def3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyHealth
-  maxHealth: 1
+  maxHealth: 200
   currentHealth: 0
   xpReward: 10
   deathAnimDuration: 1
@@ -405,6 +406,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EnemyRangedAttack
   projetilPrefab: {fileID: 1854390648332063288, guid: c579cd289369a1043ac67c9a278b8abf, type: 3}
   firePoint: {fileID: 1357345352182650431}
+--- !u!114 &3063993340923476753
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4457351580064992572}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70d2d62207b4dd7488d58f0b3b39a023, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyMeleeAttack
+  attackPoint: {fileID: 1357345352182650431}
+  attackRange: 4.26
+  damage: 10
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 384
 --- !u!1 &4687983259152119212
 GameObject:
   m_ObjectHideFlags: 0
@@ -589,7 +608,7 @@ Transform:
   m_GameObject: {fileID: 7175032214731864698}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.65, y: 0, z: 0}
+  m_LocalPosition: {x: 0.31, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
