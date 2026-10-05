@@ -1,40 +1,34 @@
 fileFormatVersion: 2
-guid: e485e4adad4c8224fb0f4bafcc2e83bc
+guid: 8c6f5395c4f2bb7449a8bb85d689ac34
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7722697060332103070
-    second: GuardiaoAttack_0
+      213: 4021092118731992683
+    second: Attack2-180_0
   - first:
-      213: 1436367232609959464
-    second: GuardiaoAttack_1
+      213: -2456934511856576348
+    second: Attack2-180_1
   - first:
-      213: 6410326076985200674
-    second: GuardiaoAttack_2
+      213: 4142571070578105312
+    second: Attack2-180_2
   - first:
-      213: -612364586976368331
-    second: GuardiaoAttack_3
+      213: -8422704719770207467
+    second: Attack2-180_3
   - first:
-      213: 6607088299807619140
-    second: GuardiaoAttack_4
+      213: -1643156416568524529
+    second: Attack2-180_4
   - first:
-      213: -670809952910985550
-    second: GuardiaoAttack_5
+      213: -155786065791371632
+    second: Attack2-180_5
   - first:
-      213: -1752083712315064342
-    second: GuardiaoAttack_6
+      213: 6089403077565912720
+    second: Attack2-180_6
   - first:
-      213: 8529070512297077325
-    second: GuardiaoAttack_7
+      213: -6406462441589176278
+    second: Attack2-180_7
   - first:
-      213: -299581637990084122
-    second: GuardiaoAttack_8
-  - first:
-      213: 1919181495287785734
-    second: GuardiaoAttack_9
-  - first:
-      213: -2055272509966197646
-    second: GuardiaoAttack_10
+      213: 2740252840203441862
+    second: Attack2-180_8
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -143,13 +137,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: GuardiaoAttack_0
+      name: Attack2-180_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 260
-        height: 260
+        x: 6
+        y: 6
+        width: 191
+        height: 167
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,20 +152,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 26a93f2b0f773d490800000000000000
-      internalID: -7722697060332103070
+      spriteID: b6ea4223af9cdc730800000000000000
+      internalID: 4021092118731992683
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GuardiaoAttack_2
+      name: Attack2-180_1
       rect:
         serializedVersion: 2
-        x: 387
-        y: 0
-        width: 223
-        height: 260
+        x: 240
+        y: 3
+        width: 179
+        height: 172
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -180,20 +174,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 22050298a9d06f850800000000000000
-      internalID: 6410326076985200674
+      spriteID: 4a81460341737edd0800000000000000
+      internalID: -2456934511856576348
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GuardiaoAttack_3
+      name: Attack2-180_2
       rect:
         serializedVersion: 2
-        x: 673
-        y: 0
-        width: 250
-        height: 260
+        x: 540
+        y: 6
+        width: 178
+        height: 170
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -202,20 +196,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 539ae3017a17087f0800000000000000
-      internalID: -612364586976368331
+      spriteID: 0eb1e9eb07e5d7930800000000000000
+      internalID: 4142571070578105312
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GuardiaoAttack_4
+      name: Attack2-180_3
       rect:
         serializedVersion: 2
-        x: 962
-        y: 0
-        width: 168
-        height: 260
+        x: 765
+        y: 7
+        width: 201
+        height: 166
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -224,20 +218,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4483ca58dc711bb50800000000000000
-      internalID: 6607088299807619140
+      spriteID: 51b371aceaa8c1b80800000000000000
+      internalID: -8422704719770207467
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GuardiaoAttack_5
+      name: Attack2-180_4
       rect:
         serializedVersion: 2
-        x: 1217
-        y: 0
-        width: 278
-        height: 260
+        x: 998
+        y: 6
+        width: 226
+        height: 166
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -246,20 +240,64 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2b6b1f4e6edc0b6f0800000000000000
-      internalID: -670809952910985550
+      spriteID: f018708e1f55239e0800000000000000
+      internalID: -1643156416568524529
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GuardiaoAttack_6
+      name: Attack2-180_5
       rect:
         serializedVersion: 2
-        x: 1550
+        x: 1261
+        y: 6
+        width: 245
+        height: 167
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 096bc87066986ddf0800000000000000
+      internalID: -155786065791371632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack2-180_7
+      rect:
+        serializedVersion: 2
+        x: 1932
+        y: 9
+        width: 275
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a28023e2a5ca717a0800000000000000
+      internalID: -6406462441589176278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack2-180_8
+      rect:
+        serializedVersion: 2
+        x: 2319
         y: 5
-        width: 314
-        height: 250
+        width: 178
+        height: 167
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -268,8 +306,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: aef76b685295fa7e0800000000000000
-      internalID: -1752083712315064342
+      spriteID: 6c6d41f8075570620800000000000000
+      internalID: 2740252840203441862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack2-180_6
+      rect:
+        serializedVersion: 2
+        x: 1601
+        y: 9
+        width: 282
+        height: 161
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8e5782af9a802a4cbd69978cedda0d2
+      internalID: 6089403077565912720
       vertices: []
       indices: 
       edges: []
@@ -278,7 +338,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 0827b86289ba76c40b91685b702053e3
+    spriteID: d63c1333a6e344146b2dd6e8a8405a9d
     internalID: 0
     vertices: []
     indices: 
@@ -288,17 +348,15 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      GuardiaoAttack_0: -7722697060332103070
-      GuardiaoAttack_1: 1436367232609959464
-      GuardiaoAttack_10: -2055272509966197646
-      GuardiaoAttack_2: 6410326076985200674
-      GuardiaoAttack_3: -612364586976368331
-      GuardiaoAttack_4: 6607088299807619140
-      GuardiaoAttack_5: -670809952910985550
-      GuardiaoAttack_6: -1752083712315064342
-      GuardiaoAttack_7: 8529070512297077325
-      GuardiaoAttack_8: -299581637990084122
-      GuardiaoAttack_9: 1919181495287785734
+      Attack2-180_0: 4021092118731992683
+      Attack2-180_1: -2456934511856576348
+      Attack2-180_2: 4142571070578105312
+      Attack2-180_3: -8422704719770207467
+      Attack2-180_4: -1643156416568524529
+      Attack2-180_5: -155786065791371632
+      Attack2-180_6: 6089403077565912720
+      Attack2-180_7: -6406462441589176278
+      Attack2-180_8: 2740252840203441862
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

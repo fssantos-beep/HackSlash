@@ -1,34 +1,34 @@
 fileFormatVersion: 2
-guid: 5090db106327d744eb6adb3215385187
+guid: 5df212b08dd47e14080cfe8622c9d912
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2916720736352321101
-    second: GuardiaoWalk_0
+      213: -905720648666261847
+    second: "Sem t\xEDtulo_0"
   - first:
-      213: -107522314664660535
-    second: GuardiaoWalk_1
+      213: -4963583751253565151
+    second: "Sem t\xEDtulo_1"
   - first:
-      213: 508254958558655340
-    second: GuardiaoWalk_2
+      213: 5929445779466033743
+    second: "Sem t\xEDtulo_2"
   - first:
-      213: -8771768384157458104
-    second: GuardiaoWalk_3
+      213: -3061539804501688830
+    second: "Sem t\xEDtulo_3"
   - first:
-      213: 8378258711253321223
-    second: GuardiaoWalk_4
+      213: -4461428980510035332
+    second: "Sem t\xEDtulo_4"
   - first:
-      213: 3491742714655037089
-    second: GuardiaoWalk_5
+      213: -1691543483151376593
+    second: "Sem t\xEDtulo_5"
   - first:
-      213: 1588534570114418140
-    second: GuardiaoWalk_6
+      213: 3771644226686905183
+    second: "Sem t\xEDtulo_6"
   - first:
-      213: -7655903104623551851
-    second: GuardiaoWalk_7
+      213: -7932832023527459476
+    second: "Sem t\xEDtulo_7"
   - first:
-      213: 8611090017957260324
-    second: GuardiaoWalk_8
+      213: -996368889560485529
+    second: "Sem t\xEDtulo_8"
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -137,13 +137,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: GuardiaoWalk_0
+      name: "Sem t\xEDtulo_0"
       rect:
         serializedVersion: 2
-        x: 2
+        x: 1
         y: 0
-        width: 205
-        height: 265
+        width: 234
+        height: 300
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -152,152 +152,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d4ebb476e064a7820800000000000000
-      internalID: 2916720736352321101
+      spriteID: 9a6d2866edb3e63f0800000000000000
+      internalID: -905720648666261847
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GuardiaoWalk_1
+      name: "Sem t\xEDtulo_1"
       rect:
         serializedVersion: 2
-        x: 266
-        y: 2
-        width: 198
-        height: 262
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9c13cf44601028ef0800000000000000
-      internalID: -107522314664660535
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GuardiaoWalk_2
-      rect:
-        serializedVersion: 2
-        x: 518
-        y: 0
-        width: 210
-        height: 266
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c633834213fad0700800000000000000
-      internalID: 508254958558655340
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GuardiaoWalk_3
-      rect:
-        serializedVersion: 2
-        x: 730
-        y: 0
-        width: 204
-        height: 265
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 841ea42212b644680800000000000000
-      internalID: -8771768384157458104
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GuardiaoWalk_4
-      rect:
-        serializedVersion: 2
-        x: 948
-        y: 0
-        width: 205
-        height: 266
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 706839078ed854470800000000000000
-      internalID: 8378258711253321223
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GuardiaoWalk_5
-      rect:
-        serializedVersion: 2
-        x: 1156
-        y: 0
-        width: 228
-        height: 266
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1a6521abf79257030800000000000000
-      internalID: 3491742714655037089
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GuardiaoWalk_6
-      rect:
-        serializedVersion: 2
-        x: 1662
-        y: 0
-        width: 219
-        height: 264
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: cd5091d66cb9b0610800000000000000
-      internalID: 1588534570114418140
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GuardiaoWalk_7
-      rect:
-        serializedVersion: 2
-        x: 1935
+        x: 302
         y: 1
-        width: 227
-        height: 264
+        width: 226
+        height: 299
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -306,20 +174,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 59a5a1660b4c0c590800000000000000
-      internalID: -7655903104623551851
+      spriteID: 12161ad50eecd1bb0800000000000000
+      internalID: -4963583751253565151
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GuardiaoWalk_8
+      name: "Sem t\xEDtulo_2"
       rect:
         serializedVersion: 2
-        x: 2212
+        x: 589
         y: 0
-        width: 219
-        height: 266
+        width: 241
+        height: 300
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -328,20 +196,152 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 42c21417fbcb08770800000000000000
-      internalID: 8611090017957260324
+      spriteID: f4a1308558f994250800000000000000
+      internalID: 5929445779466033743
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GuardiaoWalk_9
+      name: "Sem t\xEDtulo_3"
       rect:
         serializedVersion: 2
-        x: 1389
+        x: 831
         y: 0
-        width: 237
-        height: 266
+        width: 234
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20e35feb4c93385d0800000000000000
+      internalID: -3061539804501688830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sem t\xEDtulo_4"
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 0
+        width: 234
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c72f01adaf1d512c0800000000000000
+      internalID: -4461428980510035332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sem t\xEDtulo_5"
+      rect:
+        serializedVersion: 2
+        x: 1317
+        y: 0
+        width: 268
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2f92ac0a2e6688e0800000000000000
+      internalID: -1691543483151376593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sem t\xEDtulo_6"
+      rect:
+        serializedVersion: 2
+        x: 1583
+        y: 3
+        width: 258
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5b63dee072975430800000000000000
+      internalID: 3771644226686905183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sem t\xEDtulo_7"
+      rect:
+        serializedVersion: 2
+        x: 1891
+        y: 0
+        width: 254
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c657dc6fd4be8e190800000000000000
+      internalID: -7932832023527459476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sem t\xEDtulo_8"
+      rect:
+        serializedVersion: 2
+        x: 2200
+        y: 0
+        width: 263
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7613f7026cf2c22f0800000000000000
+      internalID: -996368889560485529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sem t\xEDtulo_9"
+      rect:
+        serializedVersion: 2
+        x: 2518
+        y: 0
+        width: 258
+        height: 300
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -350,8 +350,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5ef0b14918bafb843b135d582c34a46a
-      internalID: -1809059787
+      spriteID: 0244812997b723640ab9a108e09acd17
+      internalID: -1257583761
       vertices: []
       indices: 
       edges: []
@@ -360,7 +360,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 8f56db4b30bed9446bd3260e88a5d069
+    spriteID: 163e966711002354e97babc024f09522
     internalID: 0
     vertices: []
     indices: 
@@ -370,16 +370,16 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      GuardiaoWalk_0: 2916720736352321101
-      GuardiaoWalk_1: -107522314664660535
-      GuardiaoWalk_2: 508254958558655340
-      GuardiaoWalk_3: -8771768384157458104
-      GuardiaoWalk_4: 8378258711253321223
-      GuardiaoWalk_5: 3491742714655037089
-      GuardiaoWalk_6: 1588534570114418140
-      GuardiaoWalk_7: -7655903104623551851
-      GuardiaoWalk_8: 8611090017957260324
-      GuardiaoWalk_9: -1809059787
+      "Sem t\xEDtulo_0": -905720648666261847
+      "Sem t\xEDtulo_1": -4963583751253565151
+      "Sem t\xEDtulo_2": 5929445779466033743
+      "Sem t\xEDtulo_3": -3061539804501688830
+      "Sem t\xEDtulo_4": -4461428980510035332
+      "Sem t\xEDtulo_5": -1691543483151376593
+      "Sem t\xEDtulo_6": 3771644226686905183
+      "Sem t\xEDtulo_7": -7932832023527459476
+      "Sem t\xEDtulo_8": -996368889560485529
+      "Sem t\xEDtulo_9": -1257583761
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

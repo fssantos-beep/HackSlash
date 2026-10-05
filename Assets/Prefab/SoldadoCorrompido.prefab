@@ -333,7 +333,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EnemyMeleeAttack
   attackPoint: {fileID: 2129576526013094917}
   attackRange: 0.5
-  damage: 30
+  damage: 50
   playerLayer:
     serializedVersion: 2
     m_Bits: 256

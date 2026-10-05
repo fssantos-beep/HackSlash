@@ -215,7 +215,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0342e6d6025e684699cb39839a299fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerHealth
-  maxHealth: 150
+  maxHealth: 350
   currentHealth: 0
   damageReductionPercent: 0
   dodgeChancePercent: 0

@@ -1,22 +1,22 @@
 fileFormatVersion: 2
-guid: 3fdf10974a986e84bb6647425636ccde
+guid: 68aff73b920d0ec41bb4dc5f2e5b7ab1
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7614232304068891655
-    second: GuardiaoIdle_0
+      213: -8827375807999576647
+    second: dfgffgfgfgfgfg_0
   - first:
-      213: -5403819345132545905
-    second: GuardiaoIdle_1
+      213: 7191427918501781580
+    second: dfgffgfgfgfgfg_1
   - first:
-      213: -7490571249868793480
-    second: GuardiaoIdle_2
+      213: -5295776329408268704
+    second: dfgffgfgfgfgfg_2
   - first:
-      213: -6977979092412040289
-    second: GuardiaoIdle_3
+      213: 1296082464757576650
+    second: dfgffgfgfgfgfg_3
   - first:
-      213: 5667205903886566431
-    second: GuardiaoIdle_4
+      213: -7014034799493894027
+    second: dfgffgfgfgfgfg_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -125,57 +125,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: GuardiaoIdle_0
+      name: dfgffgfgfgfgfg_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 2
-        width: 151
-        height: 262
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9fb6ba6bf00d45690800000000000000
-      internalID: -7614232304068891655
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GuardiaoIdle_1
-      rect:
-        serializedVersion: 2
-        x: 243
-        y: 0
-        width: 159
-        height: 266
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f889dfeafe6c105b0800000000000000
-      internalID: -5403819345132545905
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GuardiaoIdle_2
-      rect:
-        serializedVersion: 2
-        x: 463
         y: 1
-        width: 150
-        height: 264
+        width: 169
+        height: 296
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -184,20 +140,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 87911de82252c0890800000000000000
-      internalID: -7490571249868793480
+      spriteID: 9b5fe49d87cde7580800000000000000
+      internalID: -8827375807999576647
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GuardiaoIdle_3
+      name: dfgffgfgfgfgfg_1
       rect:
         serializedVersion: 2
-        x: 692
+        x: 273
         y: 0
-        width: 158
-        height: 266
+        width: 179
+        height: 299
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -206,20 +162,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f9b7da28cfc392f90800000000000000
-      internalID: -6977979092412040289
+      spriteID: c40202e07951dc360800000000000000
+      internalID: 7191427918501781580
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GuardiaoIdle_4
+      name: dfgffgfgfgfgfg_2
       rect:
         serializedVersion: 2
-        x: 917
+        x: 521
         y: 0
-        width: 146
-        height: 265
+        width: 170
+        height: 298
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -228,8 +184,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f14c7225eb5f5ae40800000000000000
-      internalID: 5667205903886566431
+      spriteID: 066b2b39c7f9186b0800000000000000
+      internalID: -5295776329408268704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dfgffgfgfgfgfg_3
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 0
+        width: 178
+        height: 299
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac3fc7f722c9cf110800000000000000
+      internalID: 1296082464757576650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dfgffgfgfgfgfg_4
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 0
+        width: 165
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57030f5038429ae90800000000000000
+      internalID: -7014034799493894027
       vertices: []
       indices: 
       edges: []
@@ -248,11 +248,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      GuardiaoIdle_0: -7614232304068891655
-      GuardiaoIdle_1: -5403819345132545905
-      GuardiaoIdle_2: -7490571249868793480
-      GuardiaoIdle_3: -6977979092412040289
-      GuardiaoIdle_4: 5667205903886566431
+      dfgffgfgfgfgfg_0: -8827375807999576647
+      dfgffgfgfgfgfg_1: 7191427918501781580
+      dfgffgfgfgfgfg_2: -5295776329408268704
+      dfgffgfgfgfgfg_3: 1296082464757576650
+      dfgffgfgfgfgfg_4: -7014034799493894027
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,10 +1,25 @@
 fileFormatVersion: 2
-guid: c2127c13ec9205c41a34efde7a931559
+guid: 0a2db97908bbeb24db9196a1dedc0e3a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6325687867974268694
-    second: image-ezgif.com-crop_0
+      213: -6187735005223366564
+    second: aaaaaaaaa_0
+  - first:
+      213: -7884659697409814260
+    second: aaaaaaaaa_1
+  - first:
+      213: 2883000038988468083
+    second: aaaaaaaaa_2
+  - first:
+      213: 4949866292573832447
+    second: aaaaaaaaa_3
+  - first:
+      213: 2956642807341503606
+    second: aaaaaaaaa_4
+  - first:
+      213: 8011495617128400829
+    second: aaaaaaaaa_5
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,199 +128,133 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: image-ezgif.com-crop_4
+      name: aaaaaaaaa_0
       rect:
         serializedVersion: 2
-        x: 573
-        y: 0
-        width: 161
-        height: 140
+        x: 0
+        y: 8
+        width: 291
+        height: 312
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 49bb9e0550bb51844bf4aa5f50d210b3
-      internalID: -1739173920
+      spriteID: c505969fbcfb02aa0800000000000000
+      internalID: -6187735005223366564
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: image-ezgif.com-crop_5
+      name: aaaaaaaaa_1
       rect:
         serializedVersion: 2
-        x: 764
+        x: 348
+        y: 8
+        width: 281
+        height: 312
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c019c09a7cf049290800000000000000
+      internalID: -7884659697409814260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aaaaaaaaa_2
+      rect:
+        serializedVersion: 2
+        x: 672
         y: 1
-        width: 186
-        height: 139
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a52e4970c7ac7fd4a8e9f010f9053e6a
-      internalID: -1388084365
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: image-ezgif.com-crop_6
-      rect:
-        serializedVersion: 2
-        x: 970
-        y: 2
-        width: 219
-        height: 138
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1831b0d90a3d75d41830c436c54cb3e5
-      internalID: 1067483508
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: image-ezgif.com-crop_7
-      rect:
-        serializedVersion: 2
-        x: 1211
-        y: 0
-        width: 256
-        height: 140
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3cd7596643278174299e30bafb7db5a8
-      internalID: -229333282
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: image-ezgif.com-crop_8
-      rect:
-        serializedVersion: 2
-        x: 1492
-        y: 0
-        width: 247
-        height: 140
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e1c23fd1dc45b7a42bcb832fd9e4aea9
-      internalID: -675399484
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Attack2HoodedKnight_0
-      rect:
-        serializedVersion: 2
-        x: 3
-        y: 0
-        width: 155
-        height: 110
+        width: 301
+        height: 309
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 36ab4a594fdbdcf4dbac34c078c0e4f7
-      internalID: 1511411813
+      spriteID: 37f485bb249720820800000000000000
+      internalID: 2883000038988468083
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Attack2HoodedKnight_1
+      name: aaaaaaaaa_3
       rect:
         serializedVersion: 2
-        x: 204
-        y: 0
-        width: 160
-        height: 140
+        x: 993
+        y: 1
+        width: 204
+        height: 302
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: d34f2d0b6844fd245877b469fb11ef8d
-      internalID: 2640929
+      spriteID: ff40b86ea2571b440800000000000000
+      internalID: 4949866292573832447
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Attack2HoodedKnight_2
+      name: aaaaaaaaa_4
       rect:
         serializedVersion: 2
-        x: 402
+        x: 1243
         y: 0
-        width: 150
-        height: 140
+        width: 324
+        height: 293
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 4398019cc36b2314db89488d17349ff3
-      internalID: 274356912
+      spriteID: 674dd43e7fa180920800000000000000
+      internalID: 2956642807341503606
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Attack2HoodedKnight_3
+      name: aaaaaaaaa_5
       rect:
         serializedVersion: 2
-        x: 1786
+        x: 1625
         y: 0
-        width: 154
-        height: 138
+        width: 348
+        height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 36fefe5df2aa48b428e0ede98bf58449
-      internalID: -1560570822
+      spriteID: db7898a21dc8e2f60800000000000000
+      internalID: 8011495617128400829
       vertices: []
       indices: 
       edges: []
@@ -314,7 +263,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: c3b0100b7b1613e4a81d97082ff7f1c2
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -324,19 +273,12 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Attack2HoodedKnight_0: 1511411813
-      Attack2HoodedKnight_1: 2640929
-      Attack2HoodedKnight_2: 274356912
-      Attack2HoodedKnight_3: -1560570822
-      image-ezgif.com-crop_0: 6325687867974268694
-      image-ezgif.com-crop_1: 265287085
-      image-ezgif.com-crop_2: -1390246311
-      image-ezgif.com-crop_3: 231796500
-      image-ezgif.com-crop_4: -1739173920
-      image-ezgif.com-crop_5: -1388084365
-      image-ezgif.com-crop_6: 1067483508
-      image-ezgif.com-crop_7: -229333282
-      image-ezgif.com-crop_8: -675399484
+      aaaaaaaaa_0: -6187735005223366564
+      aaaaaaaaa_1: -7884659697409814260
+      aaaaaaaaa_2: 2883000038988468083
+      aaaaaaaaa_3: 4949866292573832447
+      aaaaaaaaa_4: 2956642807341503606
+      aaaaaaaaa_5: 8011495617128400829
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
