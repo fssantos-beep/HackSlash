@@ -10,15 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: eca73ca8a71490445b8d433408bddf41, type: 3}
-  m_Name: EscudoGeral
+  m_Name: ValinaShield
   m_EditorClassIdentifier: Assembly-CSharp::ItemData
-  itemName: Escudo Universal
-  description: Reduz o dano maximo recebido em 5%.
-  icon: {fileID: 8876730439897606700, guid: 7705d4ace4eb36149b3cc763d39796cf, type: 3}
+  itemName: Valina Shield
+  description: Reduz bastante o dano maximo recebido (Limitado 1 vez).
+  icon: {fileID: 871615027, guid: 70984a5069196c841b1b311b506488e0, type: 3}
   effectType: 8
-  effectValue: 5
+  effectValue: 25
   hasSecondaryEffect: 0
   secondaryEffectType: 0
   secondaryEffectValue: 0
   usableBy: 2
-  oneTimePerRun: 0
+  oneTimePerRun: 1

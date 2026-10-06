@@ -9,12 +9,13 @@ public class EnemySpawner : MonoBehaviour
 
     private GameObject[] currentEnemy;
     private float[] nextSpawnTimePerPoint;
+    private bool[] waitingToRespawn; // controla se já começou a contar o cooldown desse ponto
 
     void Start()
     {
-        // Inicializa os arrays para controlar os inimigos atuais e o tempo de respawn por ponto
         currentEnemy = new GameObject[spawnPoints.Length];
         nextSpawnTimePerPoint = new float[spawnPoints.Length];
+        waitingToRespawn = new bool[spawnPoints.Length];
 
         for (int i = 0; i < spawnPoints.Length; i++)
         {
@@ -26,10 +27,19 @@ public class EnemySpawner : MonoBehaviour
     {
         for (int i = 0; i < spawnPoints.Length; i++)
         {
-            // Se o inimigo atual naquele ponto morreu e o tempo de respawn já passou, spawn um novo inimigo
-            if (currentEnemy[i] == null && Time.time >= nextSpawnTimePerPoint[i])
+            if (currentEnemy[i] == null)
             {
-                SpawnAt(i);
+                if (!waitingToRespawn[i])
+                {
+                    // O inimigo morreu, então começa a contar o cooldown para respawn
+                    waitingToRespawn[i] = true;
+                    nextSpawnTimePerPoint[i] = Time.time + respawnCooldown;
+                }
+                else if (Time.time >= nextSpawnTimePerPoint[i])
+                {
+                    SpawnAt(i);
+                    waitingToRespawn[i] = false;
+                }
             }
         }
     }
@@ -38,6 +48,5 @@ public class EnemySpawner : MonoBehaviour
     {
         GameObject enemy = Instantiate(enemyPrefab, spawnPoints[index].position, spawnPoints[index].rotation);
         currentEnemy[index] = enemy;
-        nextSpawnTimePerPoint[index] = Time.time + respawnCooldown;
     }
 }

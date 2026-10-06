@@ -94,4 +94,12 @@ public class EnemyHealth : MonoBehaviour
     {
     Destroy(gameObject);
     }
+
+    public void ResetHealth()
+    {
+        if (isDead) return;
+        currentHealth = maxHealth;
+        EnemyHealthBar bar = GetComponentInChildren<EnemyHealthBar>();
+        if (bar != null) bar.UpdateBar();
+    }
 }

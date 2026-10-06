@@ -13,11 +13,12 @@ MonoBehaviour:
   m_Name: ValinaEspada
   m_EditorClassIdentifier: Assembly-CSharp::ItemData
   itemName: Espada Valina
-  description: Aumenta o dano causado pelo ataque basico.
+  description: Aumenta o dano causado pelo ataque basico e dash attack.
   icon: {fileID: -5812363640341889155, guid: 70984a5069196c841b1b311b506488e0, type: 3}
   effectType: 0
-  effectValue: 40
-  hasSecondaryEffect: 0
-  secondaryEffectType: 0
-  secondaryEffectValue: 0
+  effectValue: 50
+  hasSecondaryEffect: 1
+  secondaryEffectType: 7
+  secondaryEffectValue: 50
   usableBy: 0
+  oneTimePerRun: 0

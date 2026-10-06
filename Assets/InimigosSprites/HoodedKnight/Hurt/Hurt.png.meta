@@ -1,28 +1,19 @@
 fileFormatVersion: 2
-guid: 08a382a8e5ea2a446bab38096d2f44bc
+guid: d54652dacd988024e9f70a9aa57ce1db
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6325687867974268694
-    second: image-ezgif.com-crop_0
+      213: 7199705072138568028
+    second: 111_0
   - first:
-      213: -6817899496604984446
-    second: image-ezgif.com-crop_1
+      213: -8120009013454381639
+    second: 111_1
   - first:
-      213: 1191413370116127882
-    second: image-ezgif.com-crop_2
+      213: -9174883922138326762
+    second: 111_2
   - first:
-      213: -2742826316724654738
-    second: image-ezgif.com-crop_3
-  - first:
-      213: 2312276620003334639
-    second: image-ezgif.com-crop_4
-  - first:
-      213: 5192804339102767593
-    second: image-ezgif.com-crop_5
-  - first:
-      213: -3157955336074957232
-    second: image-ezgif.com-crop_6
+      213: -4761438502268982923
+    second: 111_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -131,89 +122,89 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: image-ezgif.com-crop_0
+      name: 111_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 167
-        height: 140
+        width: 216
+        height: 170
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 617ba9ad99b59c750800000000000000
-      internalID: 6325687867974268694
+      spriteID: c51c5601e9d7ae360800000000000000
+      internalID: 7199705072138568028
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: image-ezgif.com-crop_1
+      name: 111_1
       rect:
         serializedVersion: 2
-        x: 224
+        x: 257
         y: 0
-        width: 206
-        height: 140
+        width: 246
+        height: 169
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: f26f96afabe845640b493a501e766073
-      internalID: -6817899496604984446
+      spriteID: 9bdd41ce2deef4f80800000000000000
+      internalID: -8120009013454381639
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: image-ezgif.com-crop_2
+      name: 111_2
       rect:
         serializedVersion: 2
-        x: 476
+        x: 527
         y: 0
-        width: 173
-        height: 140
+        width: 220
+        height: 169
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 71eee6df807e559418bdb602a6ce781e
-      internalID: 1191413370116127882
+      spriteID: 6199085fea34ca080800000000000000
+      internalID: -9174883922138326762
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: image-ezgif.com-crop_3
+      name: 111_3
       rect:
         serializedVersion: 2
-        x: 700
+        x: 799
         y: 0
-        width: 141
-        height: 140
+        width: 209
+        height: 170
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 179ca73de9621e34cb4e57d728acecb8
-      internalID: -2742826316724654738
+      spriteID: 579a36cc8e8fbedb0800000000000000
+      internalID: -4761438502268982923
       vertices: []
       indices: 
       edges: []
@@ -222,7 +213,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: a5e29bb830ba8884ea431438c4cbc3ec
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -230,14 +221,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries:
-      - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":763.0,"y":156.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+      entries: []
     nameFileIdTable:
-      image-ezgif.com-crop_0: 6325687867974268694
-      image-ezgif.com-crop_1: -6817899496604984446
-      image-ezgif.com-crop_2: 1191413370116127882
-      image-ezgif.com-crop_3: -2742826316724654738
+      111_0: 7199705072138568028
+      111_1: -8120009013454381639
+      111_2: -9174883922138326762
+      111_3: -4761438502268982923
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

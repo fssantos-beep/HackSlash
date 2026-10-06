@@ -18,6 +18,7 @@ MonoBehaviour:
   effectType: 6
   effectValue: 40
   hasSecondaryEffect: 1
-  secondaryEffectType: 0
+  secondaryEffectType: 7
   secondaryEffectValue: 20
   usableBy: 1
+  oneTimePerRun: 0

@@ -128,12 +128,12 @@ TextureImporter:
       name: ValinaEspada
       rect:
         serializedVersion: 2
-        x: 6
-        y: 238
-        width: 176
-        height: 197
+        x: 5
+        y: 246
+        width: 154
+        height: 200
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -150,12 +150,12 @@ TextureImporter:
       name: ValinaVida
       rect:
         serializedVersion: 2
-        x: 107
-        y: 0
-        width: 168
-        height: 203
+        x: 157
+        y: 7
+        width: 157
+        height: 199
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -172,12 +172,12 @@ TextureImporter:
       name: ValinaArmadura
       rect:
         serializedVersion: 2
-        x: 207
-        y: 235
+        x: 202
+        y: 247
         width: 232
         height: 197
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -194,12 +194,12 @@ TextureImporter:
       name: ValinaShield
       rect:
         serializedVersion: 2
-        x: 362
-        y: 0
-        width: 161
-        height: 198
+        x: 405
+        y: 7
+        width: 163
+        height: 201
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -216,12 +216,12 @@ TextureImporter:
       name: ValinaBota
       rect:
         serializedVersion: 2
-        x: 511
-        y: 237
+        x: 510
+        y: 248
         width: 172
-        height: 196
+        height: 198
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []

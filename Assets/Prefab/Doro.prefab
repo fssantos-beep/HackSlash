@@ -136,9 +136,10 @@ MonoBehaviour:
   firePoint: {fileID: 1045388291842853193}
   specialAttackDamage: 100
   specialAttackCooldown: 10
-  forcaDash: 15
-  dashTime: 0.3
+  dashSpeed: 15
+  dashDuration: 0.2
   dashCooldown: 1
+  specialIcon: {fileID: -6843223616810656267, guid: 29e08b3c0657e1941b143d253f5d9c83, type: 3}
 --- !u!50 &8498606546419631227
 Rigidbody2D:
   serializedVersion: 5

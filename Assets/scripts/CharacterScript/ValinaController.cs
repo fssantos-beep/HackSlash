@@ -44,9 +44,11 @@ public class ValinaController : MonoBehaviour, IAttackable, IUpgradable
     [Header("Dash Attack")]
     public float dashAttackDamage = 20f;
     public float dashAttackRange = 0.8f;
+    public float dashAttackCooldown = 1.5f;
+    private float nextDashAttackTime = 0f;
     private bool dashAttackActivated = false;  // vira true se o jogador atacar NO MEIO do dash
-
     private bool isAttacking = false;
+    public Sprite dashAttackIcon;
 
     // Evita que o mesmo inimigo tome dano várias vezes num único ataque
     // (sem isso, um dash de 0.3s podia acertar o mesmo bicho várias vezes por causa do FixedUpdate/Update)
@@ -59,6 +61,11 @@ public class ValinaController : MonoBehaviour, IAttackable, IUpgradable
             spriteRenderer = GetComponentInChildren<SpriteRenderer>();
         }
         playerHealth = GetComponent<PlayerHealth>();
+
+        if (PlayerHUD.Instance != null && dashAttackIcon != null)
+        {
+            PlayerHUD.Instance.SetSpecialIcon(dashAttackIcon);
+        }
     }
 
     void Update()
@@ -94,9 +101,10 @@ public class ValinaController : MonoBehaviour, IAttackable, IUpgradable
         if (Input.GetMouseButtonDown(0))
         {
             // Se ja estiver no meio do dash e apertar o botão de ataque, ativa o dash attack
-            if (isDashing && !dashAttackActivated)
+            if (isDashing && !dashAttackActivated && Time.time >= nextDashAttackTime)
             {
                 dashAttackActivated = true;
+                nextDashAttackTime = Time.time + dashAttackCooldown; // evita spam de dash attack
                 animator.SetTrigger("DashAttack");
                 if (AudioManager.Instance != null)
                 {
@@ -112,6 +120,13 @@ public class ValinaController : MonoBehaviour, IAttackable, IUpgradable
         if (Input.GetKeyDown(KeyCode.LeftShift) && !isAttacking && !isDashing && Time.time >= nextDashTime)
         {
             StartCoroutine(DashRoutine());
+        }
+
+        if (PlayerHUD.Instance != null)
+        {
+            // Atualiza o HUD todo frame com quanto falta pro dash attack ficar disponível de novo
+            float remaining = Mathf.Max(0f, nextDashAttackTime - Time.time);
+            PlayerHUD.Instance.UpdateSpecialAttackCooldown(remaining, dashAttackCooldown);
         }
     }
 
@@ -272,7 +287,7 @@ public class ValinaController : MonoBehaviour, IAttackable, IUpgradable
             break;
 
             case ItemData.EffectType.SpecialCooldownPercent:
-            dashCooldown = Mathf.Max(0.1f, dashCooldown * (1f - value / 100f));
+            dashAttackCooldown = Mathf.Max(0.1f, dashAttackCooldown * (1f - value / 100f));
             break;
 
             case ItemData.EffectType.SpecialAttackDamage:

@@ -519,7 +519,7 @@ MonoBehaviour:
   minWalkTime: 1
   maxWalkTime: 2.5
   detectionRange: 17.12
-  attackCooldown: 1
+  attackCooldown: 3
   hasSecondaryAttack: 1
   secondaryAttackRange: 10
   secondaryAttackCooldown: 15

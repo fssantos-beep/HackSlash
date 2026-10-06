@@ -216,6 +216,12 @@ public class PlayerHealth : MonoBehaviour
             transform.position = CheckpointManager.Instance.GetCheckpoint();
         }
 
+        EnemyHealth[] enemies = FindObjectsOfType<EnemyHealth>();
+        foreach (EnemyHealth enemy in enemies)
+        {
+            enemy.ResetHealth();
+        }
+
         ValinaController valina = GetComponent<ValinaController>();
         if (valina != null) valina.enabled = true;
 

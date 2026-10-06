@@ -41,16 +41,23 @@ public class DoroController : MonoBehaviour, IAttackable, IUpgradable
     private int currentAttackDamage;
 
     [Header("Dash")]
-    public float forcaDash = 15f;
-    public float dashTime = 0.2f;
+    public float dashSpeed = 15f;
+    public float dashDuration = 0.2f;
     public float dashCooldown = 1f;
     private bool isDashing = false;
     private float nextDashTime = 0f;
 
+    [Header("UI")]
+    public Sprite specialIcon;
+
     void Awake()
     {
-        if (spriteRenderer == null)
-            spriteRenderer = GetComponentInChildren<SpriteRenderer>();
+        if (spriteRenderer == null) spriteRenderer = GetComponentInChildren<SpriteRenderer>();
+
+        if (PlayerHUD.Instance != null && specialIcon != null)
+        {
+            PlayerHUD.Instance.SetSpecialIcon(specialIcon);
+        }
     }
 
     void Update()
@@ -166,11 +173,11 @@ public class DoroController : MonoBehaviour, IAttackable, IUpgradable
         animator.SetTrigger("Dash");
 
         float dashDirection = facingRight ? 1f : -1f;
-        float dashEndTime = Time.time + dashTime;
+        float dashEndTime = Time.time + dashDuration;
 
         while (Time.time < dashEndTime)
         {
-            rb.linearVelocity = new Vector2(dashDirection * forcaDash, rb.linearVelocity.y);
+            rb.linearVelocity = new Vector2(dashDirection * dashSpeed, rb.linearVelocity.y);
             yield return null;
         }
 

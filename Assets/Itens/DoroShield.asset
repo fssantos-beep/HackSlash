@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: DoroShield
   m_EditorClassIdentifier: Assembly-CSharp::ItemData
   itemName: Doro Escudo
-  description: 50% Chance de ignorar dano recebio.
+  description: 50% Chance de ignorar dano recebio. (Limitado 1 vez).
   icon: {fileID: -7191594679274997640, guid: 7387e58643413814fa6f5ff6ffdb5a41, type: 3}
   effectType: 9
   effectValue: 50

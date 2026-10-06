@@ -20,6 +20,17 @@ public class PlayerHUD : MonoBehaviour
 
     [Header("Special Attack Cooldown")]
     public Image SpecialAttackCooldownOverlay;
+
+    [Header("Special Icon")]
+    public Image specialIcon;
+    public void SetSpecialIcon(Sprite icon)
+    {
+        if (specialIcon != null && icon != null)
+        {
+            specialIcon.sprite = icon;
+        }
+    }
+
     public TextMeshProUGUI SpecialAttackCooldownText;
 
     private int currentXP = 0;

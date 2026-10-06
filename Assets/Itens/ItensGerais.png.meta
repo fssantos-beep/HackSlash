@@ -121,7 +121,7 @@ TextureImporter:
         serializedVersion: 2
         x: 6
         y: 0
-        width: 187
+        width: 155
         height: 203
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -141,10 +141,10 @@ TextureImporter:
       name: EscudoGeral
       rect:
         serializedVersion: 2
-        x: 198
-        y: 2
-        width: 189
-        height: 194
+        x: 189
+        y: 4
+        width: 190
+        height: 196
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
