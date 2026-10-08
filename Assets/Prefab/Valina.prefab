@@ -132,7 +132,7 @@ MonoBehaviour:
   basicAttackRange: 0.4
   attackCooldown: 1
   attackCooldownAfterDash: 0.3
-  dashSpeed: 10
+  dashSpeed: 13
   dashDuration: 0.3
   dashCooldown: 2
   dashAttackDamage: 100

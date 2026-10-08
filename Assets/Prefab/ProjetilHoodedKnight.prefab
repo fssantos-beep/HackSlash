@@ -130,7 +130,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Projetil
   speed: 6
   lifeTime: 3
-  damage: 150
+  damage: 500
   hitLayers:
     serializedVersion: 2
     m_Bits: 384

@@ -622,7 +622,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyMeleeAttack
   attackPoint: {fileID: 5673032455230593805}
-  attackRange: 1.47
+  attackRange: 1
   damage: 300
   playerLayer:
     serializedVersion: 2
@@ -652,7 +652,7 @@ Transform:
   m_GameObject: {fileID: 5203919905363821167}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.774, y: 0, z: 0}
+  m_LocalPosition: {x: 0.235, y: -0.078, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
