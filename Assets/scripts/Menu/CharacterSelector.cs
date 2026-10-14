@@ -1,4 +1,4 @@
-// Gerencia a seleção de personagens, permitindo que o jogador escolha entre Valina e Doro antes de iniciar o jogo
+// Gerencia a seleção de personagens, permitindo que o jogador escolha entre Valina, Doro e Doro Ronin antes de iniciar o jogo
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
@@ -9,10 +9,12 @@ public class CharacterSelector : MonoBehaviour
     [Header("Personagens")]
     public Image valinaImg;
     public Image doroImg;
+    public Image doroRoninImg;
 
     [Header("Textos")]
     public TMP_Text Valinatxt;
     public TMP_Text Dorotxt;
+    public TMP_Text DoroRonintxt;
 
     [Header("Botões")]
     public Button ConfirmarButton;
@@ -37,6 +39,12 @@ public class CharacterSelector : MonoBehaviour
         UpdateSelection();
     }
 
+    public void SelectDoroRonin()
+    {
+        selectedIndex = 2;
+        UpdateSelection();
+    }
+
     // Atualiza o visual pra deixar claro qual personagem está selecionado no momento
     void UpdateSelection()
     {
@@ -56,6 +64,15 @@ public class CharacterSelector : MonoBehaviour
         {
             Dorotxt.color = (selectedIndex == 1) ? Color.white : new Color(0.7f, 0.7f, 0.7f);
             Dorotxt.fontStyle = (selectedIndex == 1) ? FontStyles.Bold : FontStyles.Normal;
+        }
+
+        if (doroRoninImg != null)
+            doroRoninImg.color = (selectedIndex == 2) ? Color.white : new Color(0.5f, 0.5f, 0.5f, 0.8f);
+
+        if (DoroRonintxt != null)
+        {
+            DoroRonintxt.color = (selectedIndex == 2) ? Color.white : new Color(0.7f, 0.7f, 0.7f);
+            DoroRonintxt.fontStyle = (selectedIndex == 2) ? FontStyles.Bold : FontStyles.Normal;
         }
     }
 

@@ -6,6 +6,7 @@ public class CharacterSpawner : MonoBehaviour
     [Header("Prefabs dos Personagens")]
     public GameObject Valina;
     public GameObject Doro;
+    public GameObject DoroRonin;
 
     [Header("Configurações")]
     public Transform spawnPoint;
@@ -14,7 +15,14 @@ public class CharacterSpawner : MonoBehaviour
     void Start()
     {
         int selectedIndex = PlayerPrefs.GetInt("SelectedCharacter", 0);
-        GameObject prefabToSpawn = (selectedIndex == 0) ? Valina : Doro;
+        GameObject prefabToSpawn;
+
+        switch (selectedIndex)
+        {
+            case 1: prefabToSpawn = Doro; break;
+            case 2: prefabToSpawn = DoroRonin; break;
+            default: prefabToSpawn = Valina; break;
+        }
 
         if (spawnPoint == null)
         {
@@ -24,8 +32,6 @@ public class CharacterSpawner : MonoBehaviour
 
         GameObject spawnedPlayer = Instantiate(prefabToSpawn, spawnPoint.position, spawnPoint.rotation);
 
-        // Reaplica todos os upgrades já coletados em cenas/áreas anteriores
-        // Aponta a câmera pro personagem que acabou de nascer na cena
         IUpgradable upgradable = spawnedPlayer.GetComponent<IUpgradable>();
         if (upgradable != null)
         {

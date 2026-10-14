@@ -1,0 +1,312 @@
+fileFormatVersion: 2
+guid: 730fe5669de83454fac8e3ba4945be91
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3736284066466483060
+    second: Quatro quadros de queda do mascote chibi_0
+  - first:
+      213: 2418604446299075648
+    second: Quatro quadros de queda do mascote chibi_1
+  - first:
+      213: -6591668003408875853
+    second: Quatro quadros de queda do mascote chibi_2
+  - first:
+      213: -5933047356590364659
+    second: Quatro quadros de queda do mascote chibi_3
+  - first:
+      213: 5857118476735935956
+    second: Quatro quadros de queda do mascote chibi_4
+  - first:
+      213: 745744676851075119
+    second: Quatro quadros de queda do mascote chibi_5
+  - first:
+      213: -5732379364042211284
+    second: Quatro quadros de queda do mascote chibi_6
+  - first:
+      213: -8263584154073177382
+    second: Quatro quadros de queda do mascote chibi_7
+  - first:
+      213: 2885140731484294657
+    second: Quatro quadros de queda do mascote chibi_8
+  - first:
+      213: 5908746158352636623
+    second: Quatro quadros de queda do mascote chibi_9
+  - first:
+      213: -3493277572402793578
+    second: Quatro quadros de queda do mascote chibi_10
+  - first:
+      213: -6914649758053530750
+    second: Quatro quadros de queda do mascote chibi_11
+  - first:
+      213: 7174325401212380371
+    second: Quatro quadros de queda do mascote chibi_12
+  - first:
+      213: 5001581526634726199
+    second: Quatro quadros de queda do mascote chibi_13
+  - first:
+      213: -7013035723492545277
+    second: Quatro quadros de queda do mascote chibi_14
+  - first:
+      213: 3518429499892304260
+    second: Quatro quadros de queda do mascote chibi_15
+  - first:
+      213: -3919055940042092972
+    second: Quatro quadros de queda do mascote chibi_16
+  - first:
+      213: -5023928506317161472
+    second: Quatro quadros de queda do mascote chibi_17
+  - first:
+      213: -6048449702938581313
+    second: Quatro quadros de queda do mascote chibi_18
+  - first:
+      213: 825191207316013532
+    second: Quatro quadros de queda do mascote chibi_19
+  - first:
+      213: 1718312664676166401
+    second: Quatro quadros de queda do mascote chibi_20
+  - first:
+      213: -2641606551696360809
+    second: Quatro quadros de queda do mascote chibi_21
+  - first:
+      213: -933003515809736812
+    second: Quatro quadros de queda do mascote chibi_22
+  - first:
+      213: 661184444859611296
+    second: Quatro quadros de queda do mascote chibi_23
+  - first:
+      213: -531659277610531404
+    second: Quatro quadros de queda do mascote chibi_24
+  - first:
+      213: 4983072566920713303
+    second: Quatro quadros de queda do mascote chibi_25
+  - first:
+      213: -5102352408592174621
+    second: Quatro quadros de queda do mascote chibi_26
+  - first:
+      213: -6617945358344252781
+    second: Quatro quadros de queda do mascote chibi_27
+  - first:
+      213: -4601366907180017246
+    second: Quatro quadros de queda do mascote chibi_28
+  - first:
+      213: 4957507293918570064
+    second: Quatro quadros de queda do mascote chibi_29
+  - first:
+      213: -560786571320382221
+    second: Quatro quadros de queda do mascote chibi_30
+  - first:
+      213: -8356601738461874647
+    second: Quatro quadros de queda do mascote chibi_31
+  - first:
+      213: -4874783327353910101
+    second: Quatro quadros de queda do mascote chibi_32
+  - first:
+      213: -146718909874776561
+    second: Quatro quadros de queda do mascote chibi_33
+  - first:
+      213: -805708909117586197
+    second: Quatro quadros de queda do mascote chibi_34
+  - first:
+      213: 724629580390058785
+    second: Quatro quadros de queda do mascote chibi_35
+  - first:
+      213: -4450668660889935983
+    second: Quatro quadros de queda do mascote chibi_36
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Fall_0
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 354
+        width: 356
+        height: 448
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47bcfa11092f9d330800000000000000
+      internalID: 3736284066466483060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fall_1
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 290
+        width: 334
+        height: 420
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c610b83774b20d042ab423fd57e85062
+      internalID: 2418604446299075648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fall_2
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 222
+        width: 350
+        height: 414
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86d43c1f652539d49a034e127226f1f6
+      internalID: -6591668003408875853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 13acba9607dd3354bab8ee6d238a8efb
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":1448.0,"y":1086.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Fall_0: 3736284066466483060
+      Fall_1: 2418604446299075648
+      Fall_2: -6591668003408875853
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

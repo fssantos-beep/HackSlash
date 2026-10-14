@@ -21,7 +21,7 @@ public class ItemData : ScriptableObject
         AttackDamageMultiplier   // multiplica o dano do ataque básico atual (2 = dobra)
     }
 
-    public enum CharacterType { Valina, Doro, Universal }
+    public enum CharacterType { Valina, Doro, DoroRonin, Universal }
 
     [Header("Aparência")]
     public string itemName;

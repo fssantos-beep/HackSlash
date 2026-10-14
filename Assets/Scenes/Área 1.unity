@@ -2132,6 +2132,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::CharacterSpawner
   Valina: {fileID: 5690919579092431109, guid: 18720b563c94abe4e9c60479d4f7744a, type: 3}
   Doro: {fileID: 4625520557934875499, guid: 2beecd833f9b6fb4eb07da3a909fba4b, type: 3}
+  DoroRonin: {fileID: 8704274975879124919, guid: 1eef19e66577d51488fbf3dd0516b3c5, type: 3}
   spawnPoint: {fileID: 416003727}
   mainCamera: {fileID: 519420031}
 --- !u!1 &447975693
@@ -3976,9 +3977,9 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1066124282}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1986040623}
@@ -3987,8 +3988,8 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1920, y: 1080}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
 --- !u!114 &1066124284
 MonoBehaviour:
   m_ObjectHideFlags: 0
