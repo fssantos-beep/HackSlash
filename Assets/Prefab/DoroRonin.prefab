@@ -215,11 +215,15 @@ MonoBehaviour:
   dashSpeed: 15
   dashDuration: 0.2
   dashCooldown: 0.5
-  iaiSpeed: 5
-  iaiDuration: 1.1
+  iaiSpeed: 9
+  iaiDuration: 2
   iaiDamage: 200
   iaiRange: 0.2
   specialAttackCooldown: 2.5
+  iaiHits: 3
+  iaiHitInterval: 0.1
+  iaiSlashAnimDuration: 1
+  iaiSlashDelay: 0.5
   specialIcon: {fileID: -1258076821, guid: e3fcbcd1df8dd3b4fa04d3c09c9dc536, type: 3}
 --- !u!114 &5504169407936156684
 MonoBehaviour:

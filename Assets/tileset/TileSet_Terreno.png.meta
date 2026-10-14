@@ -1,0 +1,906 @@
+fileFormatVersion: 2
+guid: fd16bbabb88ddd24daae9bb1aedec3e6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2329181176928555885
+    second: TileSet_Terreno_0
+  - first:
+      213: 6192917057162716878
+    second: TileSet_Terreno_1
+  - first:
+      213: -7194202011006844916
+    second: TileSet_Terreno_2
+  - first:
+      213: 1632127230967311765
+    second: TileSet_Terreno_3
+  - first:
+      213: 8865721661801053436
+    second: TileSet_Terreno_4
+  - first:
+      213: -1700387687408773617
+    second: TileSet_Terreno_5
+  - first:
+      213: -3279081722559957025
+    second: TileSet_Terreno_6
+  - first:
+      213: 7500139637176616189
+    second: TileSet_Terreno_7
+  - first:
+      213: -1060773589287794158
+    second: TileSet_Terreno_8
+  - first:
+      213: 6820785047809484628
+    second: TileSet_Terreno_9
+  - first:
+      213: 3955547978856684166
+    second: TileSet_Terreno_10
+  - first:
+      213: -3444322422831318601
+    second: TileSet_Terreno_11
+  - first:
+      213: 3968476281507557117
+    second: TileSet_Terreno_12
+  - first:
+      213: -3666132783447645035
+    second: TileSet_Terreno_13
+  - first:
+      213: -7532582389800484538
+    second: TileSet_Terreno_14
+  - first:
+      213: 8738570314872116965
+    second: TileSet_Terreno_15
+  - first:
+      213: 3375028271884871918
+    second: TileSet_Terreno_16
+  - first:
+      213: -8653106532164470289
+    second: TileSet_Terreno_17
+  - first:
+      213: 8387208946631330481
+    second: TileSet_Terreno_18
+  - first:
+      213: 820979143780362776
+    second: TileSet_Terreno_19
+  - first:
+      213: 2456716547085983215
+    second: TileSet_Terreno_20
+  - first:
+      213: -7872494529921528040
+    second: TileSet_Terreno_21
+  - first:
+      213: 7191583499205775812
+    second: TileSet_Terreno_22
+  - first:
+      213: -1805338677143597117
+    second: TileSet_Terreno_23
+  - first:
+      213: -1527947748347413876
+    second: TileSet_Terreno_24
+  - first:
+      213: -7828459063889656267
+    second: TileSet_Terreno_25
+  - first:
+      213: 2508687192768055594
+    second: TileSet_Terreno_26
+  - first:
+      213: -1459357300006459474
+    second: TileSet_Terreno_27
+  - first:
+      213: -5153472706089790723
+    second: TileSet_Terreno_28
+  - first:
+      213: -6326632338073687834
+    second: TileSet_Terreno_29
+  - first:
+      213: 6585763616132390321
+    second: TileSet_Terreno_30
+  - first:
+      213: -7967281603475714728
+    second: TileSet_Terreno_31
+  - first:
+      213: 7389695259832355050
+    second: TileSet_Terreno_32
+  - first:
+      213: 7992795097988959213
+    second: TileSet_Terreno_33
+  - first:
+      213: 1425658741189083149
+    second: TileSet_Terreno_34
+  - first:
+      213: -6545237351489032585
+    second: TileSet_Terreno_35
+  - first:
+      213: -9049695927601344510
+    second: TileSet_Terreno_36
+  - first:
+      213: 7762501847455359721
+    second: TileSet_Terreno_37
+  - first:
+      213: -5523030935909854187
+    second: TileSet_Terreno_38
+  - first:
+      213: -2066542175010131048
+    second: TileSet_Terreno_39
+  - first:
+      213: 7601575115425353070
+    second: TileSet_Terreno_40
+  - first:
+      213: 1320615869333076609
+    second: TileSet_Terreno_41
+  - first:
+      213: -6800549601778084271
+    second: TileSet_Terreno_42
+  - first:
+      213: 4547485440229878287
+    second: TileSet_Terreno_43
+  - first:
+      213: 4513440121799481982
+    second: TileSet_Terreno_44
+  - first:
+      213: 4704325314877508757
+    second: TileSet_Terreno_45
+  - first:
+      213: 7176500855585286975
+    second: TileSet_Terreno_46
+  - first:
+      213: -7962729094217828542
+    second: TileSet_Terreno_47
+  - first:
+      213: 6591404190078824081
+    second: TileSet_Terreno_48
+  - first:
+      213: 874774098186950398
+    second: TileSet_Terreno_49
+  - first:
+      213: 3086308253102523654
+    second: TileSet_Terreno_50
+  - first:
+      213: 8330461286722917448
+    second: TileSet_Terreno_51
+  - first:
+      213: -8243997685921419273
+    second: TileSet_Terreno_52
+  - first:
+      213: -6102291216748617198
+    second: TileSet_Terreno_53
+  - first:
+      213: -9180875190507238432
+    second: TileSet_Terreno_54
+  - first:
+      213: -912520479415587746
+    second: TileSet_Terreno_55
+  - first:
+      213: 7701754250426450852
+    second: TileSet_Terreno_56
+  - first:
+      213: 7144641512009750396
+    second: TileSet_Terreno_57
+  - first:
+      213: 4010530275220960053
+    second: TileSet_Terreno_58
+  - first:
+      213: 4304318736578968771
+    second: TileSet_Terreno_59
+  - first:
+      213: -7273874586073329938
+    second: TileSet_Terreno_60
+  - first:
+      213: 4144348653435160876
+    second: TileSet_Terreno_61
+  - first:
+      213: 8996122818016324190
+    second: TileSet_Terreno_62
+  - first:
+      213: 4692399753354125696
+    second: TileSet_Terreno_63
+  - first:
+      213: -1322996409870660590
+    second: TileSet_Terreno_64
+  - first:
+      213: 4816000358175792894
+    second: TileSet_Terreno_65
+  - first:
+      213: 8205464980700975064
+    second: TileSet_Terreno_66
+  - first:
+      213: -5321841187826131543
+    second: TileSet_Terreno_67
+  - first:
+      213: -6079436950411047506
+    second: TileSet_Terreno_68
+  - first:
+      213: -5700135373765542784
+    second: TileSet_Terreno_69
+  - first:
+      213: -7082359399940703033
+    second: TileSet_Terreno_70
+  - first:
+      213: -2154400723525245487
+    second: TileSet_Terreno_71
+  - first:
+      213: 151273777751564488
+    second: TileSet_Terreno_72
+  - first:
+      213: -5573689233601530231
+    second: TileSet_Terreno_73
+  - first:
+      213: 6274641899203655165
+    second: TileSet_Terreno_74
+  - first:
+      213: 6000197256142717498
+    second: TileSet_Terreno_75
+  - first:
+      213: 3112140451494782832
+    second: TileSet_Terreno_76
+  - first:
+      213: -3681753855638105699
+    second: TileSet_Terreno_77
+  - first:
+      213: -384996184829386771
+    second: TileSet_Terreno_78
+  - first:
+      213: -4036158213064081850
+    second: TileSet_Terreno_79
+  - first:
+      213: -2549429799090803574
+    second: TileSet_Terreno_80
+  - first:
+      213: -3734455056490318341
+    second: TileSet_Terreno_81
+  - first:
+      213: 1980136018680458838
+    second: TileSet_Terreno_82
+  - first:
+      213: 2831677083262405479
+    second: TileSet_Terreno_83
+  - first:
+      213: 2286291787614603134
+    second: TileSet_Terreno_84
+  - first:
+      213: -8173372415340815524
+    second: TileSet_Terreno_85
+  - first:
+      213: -2925933367720151950
+    second: TileSet_Terreno_86
+  - first:
+      213: 2463737096615695089
+    second: TileSet_Terreno_87
+  - first:
+      213: 5051573647037077699
+    second: TileSet_Terreno_88
+  - first:
+      213: -7181424143978176221
+    second: TileSet_Terreno_89
+  - first:
+      213: 3200560206603294928
+    second: TileSet_Terreno_90
+  - first:
+      213: -5256566411170190556
+    second: TileSet_Terreno_91
+  - first:
+      213: 6772900533515876903
+    second: TileSet_Terreno_92
+  - first:
+      213: -2017135096485284205
+    second: TileSet_Terreno_93
+  - first:
+      213: -4456959119517249558
+    second: TileSet_Terreno_94
+  - first:
+      213: -4097571889587317654
+    second: TileSet_Terreno_95
+  - first:
+      213: 486150897318530443
+    second: TileSet_Terreno_96
+  - first:
+      213: -8507029445416797961
+    second: TileSet_Terreno_97
+  - first:
+      213: -3990912245162292621
+    second: TileSet_Terreno_98
+  - first:
+      213: 766719977257713431
+    second: TileSet_Terreno_99
+  - first:
+      213: 8161546740805446541
+    second: TileSet_Terreno_100
+  - first:
+      213: -7846215936281977579
+    second: TileSet_Terreno_101
+  - first:
+      213: -4359691193211282538
+    second: TileSet_Terreno_102
+  - first:
+      213: -106912705309756960
+    second: TileSet_Terreno_103
+  - first:
+      213: -6514087275019457937
+    second: TileSet_Terreno_104
+  - first:
+      213: 8559547434808527909
+    second: TileSet_Terreno_105
+  - first:
+      213: -5894266857943713366
+    second: TileSet_Terreno_106
+  - first:
+      213: 3741250033952493703
+    second: TileSet_Terreno_107
+  - first:
+      213: 606980721999193316
+    second: TileSet_Terreno_108
+  - first:
+      213: -1605579053790045849
+    second: TileSet_Terreno_109
+  - first:
+      213: -8592723383799489550
+    second: TileSet_Terreno_110
+  - first:
+      213: 4113137616618453093
+    second: TileSet_Terreno_111
+  - first:
+      213: -3595693368695505926
+    second: TileSet_Terreno_112
+  - first:
+      213: -365692583964658066
+    second: TileSet_Terreno_113
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 128
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TileSet_Terreno
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 917
+        width: 202
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85d435718978e6190800000000000000
+      internalID: -7967281603475714728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSet_Terreno_1
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 917
+        width: 251
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: deb8d124bcc1cee60800000000000000
+      internalID: 7992795097988959213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSet_Terreno_2
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 917
+        width: 241
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0081875215f8c310800000000000000
+      internalID: 1425658741189083149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSet_Terreno_3
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 917
+        width: 194
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77ea0e59e45aa25a0800000000000000
+      internalID: -6545237351489032585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSet_Terreno_4
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 667
+        width: 207
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 514999540a04a53b0800000000000000
+      internalID: -5523030935909854187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSet_Terreno_5
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 667
+        width: 250
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 893782147da2253e0800000000000000
+      internalID: -2066542175010131048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSet_Terreno_6
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 668
+        width: 255
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18a7750e225c35210800000000000000
+      internalID: 1320615869333076609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSet_Terreno_7
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 665
+        width: 204
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 156d7940b289f91a0800000000000000
+      internalID: -6800549601778084271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSet_Terreno_8
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 386
+        width: 232
+        height: 227
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3ba273618d089360800000000000000
+      internalID: 7176500855585286975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSet_Terreno_9
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 390
+        width: 275
+        height: 225
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19e6ba8203f597b50800000000000000
+      internalID: 6591404190078824081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSet_Terreno_10
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 390
+        width: 271
+        height: 225
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef655255862d32c00800000000000000
+      internalID: 874774098186950398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSet_Terreno_11
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 389
+        width: 230
+        height: 225
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60548851105c4da20800000000000000
+      internalID: 3086308253102523654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSet_Terreno_12
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 142
+        width: 231
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c77d9dae99dd62360800000000000000
+      internalID: 7144641512009750396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSet_Terreno_13
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 127
+        width: 276
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eee8b544a910e0b90800000000000000
+      internalID: -7273874586073329938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSet_Terreno_14
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 123
+        width: 275
+        height: 231
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c290f51842fa38930800000000000000
+      internalID: 4144348653435160876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 70eae5143b1860846842f74f131d1c43
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceOnImport
+        value: False
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":128.0,"y":128.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      TileSet_Terreno: -7967281603475714728
+      TileSet_Terreno_0: 2329181176928555885
+      TileSet_Terreno_1: 7992795097988959213
+      TileSet_Terreno_10: 874774098186950398
+      TileSet_Terreno_100: 8161546740805446541
+      TileSet_Terreno_101: -7846215936281977579
+      TileSet_Terreno_102: -4359691193211282538
+      TileSet_Terreno_103: -106912705309756960
+      TileSet_Terreno_104: -6514087275019457937
+      TileSet_Terreno_105: 8559547434808527909
+      TileSet_Terreno_106: -5894266857943713366
+      TileSet_Terreno_107: 3741250033952493703
+      TileSet_Terreno_108: 606980721999193316
+      TileSet_Terreno_109: -1605579053790045849
+      TileSet_Terreno_11: 3086308253102523654
+      TileSet_Terreno_110: -8592723383799489550
+      TileSet_Terreno_111: 4113137616618453093
+      TileSet_Terreno_112: -3595693368695505926
+      TileSet_Terreno_113: -365692583964658066
+      TileSet_Terreno_12: 7144641512009750396
+      TileSet_Terreno_13: -7273874586073329938
+      TileSet_Terreno_14: 4144348653435160876
+      TileSet_Terreno_15: 8738570314872116965
+      TileSet_Terreno_16: 3375028271884871918
+      TileSet_Terreno_17: -8653106532164470289
+      TileSet_Terreno_18: 8387208946631330481
+      TileSet_Terreno_19: 820979143780362776
+      TileSet_Terreno_2: 1425658741189083149
+      TileSet_Terreno_20: 2456716547085983215
+      TileSet_Terreno_21: -7872494529921528040
+      TileSet_Terreno_22: 7191583499205775812
+      TileSet_Terreno_23: -1805338677143597117
+      TileSet_Terreno_24: -1527947748347413876
+      TileSet_Terreno_25: -7828459063889656267
+      TileSet_Terreno_26: 2508687192768055594
+      TileSet_Terreno_27: -1459357300006459474
+      TileSet_Terreno_28: -5153472706089790723
+      TileSet_Terreno_29: -6326632338073687834
+      TileSet_Terreno_3: -6545237351489032585
+      TileSet_Terreno_30: 6585763616132390321
+      TileSet_Terreno_32: 7389695259832355050
+      TileSet_Terreno_36: -9049695927601344510
+      TileSet_Terreno_37: 7762501847455359721
+      TileSet_Terreno_4: -5523030935909854187
+      TileSet_Terreno_40: 7601575115425353070
+      TileSet_Terreno_43: 4547485440229878287
+      TileSet_Terreno_44: 4513440121799481982
+      TileSet_Terreno_45: 4704325314877508757
+      TileSet_Terreno_47: -7962729094217828542
+      TileSet_Terreno_5: -2066542175010131048
+      TileSet_Terreno_51: 8330461286722917448
+      TileSet_Terreno_52: -8243997685921419273
+      TileSet_Terreno_53: -6102291216748617198
+      TileSet_Terreno_54: -9180875190507238432
+      TileSet_Terreno_55: -912520479415587746
+      TileSet_Terreno_56: 7701754250426450852
+      TileSet_Terreno_58: 4010530275220960053
+      TileSet_Terreno_59: 4304318736578968771
+      TileSet_Terreno_6: 1320615869333076609
+      TileSet_Terreno_62: 8996122818016324190
+      TileSet_Terreno_63: 4692399753354125696
+      TileSet_Terreno_64: -1322996409870660590
+      TileSet_Terreno_65: 4816000358175792894
+      TileSet_Terreno_66: 8205464980700975064
+      TileSet_Terreno_67: -5321841187826131543
+      TileSet_Terreno_68: -6079436950411047506
+      TileSet_Terreno_69: -5700135373765542784
+      TileSet_Terreno_7: -6800549601778084271
+      TileSet_Terreno_70: -7082359399940703033
+      TileSet_Terreno_71: -2154400723525245487
+      TileSet_Terreno_72: 151273777751564488
+      TileSet_Terreno_73: -5573689233601530231
+      TileSet_Terreno_74: 6274641899203655165
+      TileSet_Terreno_75: 6000197256142717498
+      TileSet_Terreno_76: 3112140451494782832
+      TileSet_Terreno_77: -3681753855638105699
+      TileSet_Terreno_78: -384996184829386771
+      TileSet_Terreno_79: -4036158213064081850
+      TileSet_Terreno_8: 7176500855585286975
+      TileSet_Terreno_80: -2549429799090803574
+      TileSet_Terreno_81: -3734455056490318341
+      TileSet_Terreno_82: 1980136018680458838
+      TileSet_Terreno_83: 2831677083262405479
+      TileSet_Terreno_84: 2286291787614603134
+      TileSet_Terreno_85: -8173372415340815524
+      TileSet_Terreno_86: -2925933367720151950
+      TileSet_Terreno_87: 2463737096615695089
+      TileSet_Terreno_88: 5051573647037077699
+      TileSet_Terreno_89: -7181424143978176221
+      TileSet_Terreno_9: 6591404190078824081
+      TileSet_Terreno_90: 3200560206603294928
+      TileSet_Terreno_91: -5256566411170190556
+      TileSet_Terreno_92: 6772900533515876903
+      TileSet_Terreno_93: -2017135096485284205
+      TileSet_Terreno_94: -4456959119517249558
+      TileSet_Terreno_95: -4097571889587317654
+      TileSet_Terreno_96: 486150897318530443
+      TileSet_Terreno_97: -8507029445416797961
+      TileSet_Terreno_98: -3990912245162292621
+      TileSet_Terreno_99: 766719977257713431
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

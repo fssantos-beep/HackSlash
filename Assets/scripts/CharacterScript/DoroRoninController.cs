@@ -40,19 +40,27 @@ public class DoroRoninController : MonoBehaviour, IAttackable, IUpgradable
     private bool isDashing = false;
     private float nextDashTime = 0f;
 
-    [Header("Special Attack (Iaijutsu — golpe de desembainhar)")]
-    public float iaiSpeed = 22f;
-    public float iaiDuration = 0.25f;
-    public int iaiDamage = 45;
-    public float iaiRange = 1.2f;
-    public float specialAttackCooldown = 2.5f;
+    [Header("Special Attack (Iaijutsu)")]
+    public float iaiSpeed = 22f; // velocidade do dash do iai
+    public float iaiDuration = 0.25f; // duração do dash do iai
+    public int iaiDamage = 45; // dano total do iai (dividido entre os cortes)
+    public float iaiRange = 1.2f; // alcance do iai (raio da detecção de inimigos)
+    public float specialAttackCooldown = 2.5f; // tempo de recarga do iai
+    
+    public int iaiHits = 3; // número de cortes que o iai pode causar no inimigo atingido
+    public float iaiHitInterval = 0.1f; // intervalo entre os cortes do iai
+
+    //  Campos para controle da animação de cortes/desembainhar
+    public float iaiSlashAnimDuration = 0.6f; // duração do clip SpecialSlash (cortes + guardar espada)
+    public float iaiSlashDelay = 0f; // atraso até o 1º corte aparecer no clip
+
     private float nextSpecialAttackTime = 0f;
     private bool isUsingSpecial = false;
 
     [Header("UI")]
     public Sprite specialIcon;
 
-    // Evita que o mesmo inimigo tome dano várias vezes durante o Iaijutsu
+    // Lista para armazenar inimigos atingidos pelo iai, evitando múltiplos hits no mesmo inimigo durante o mesmo ataque
     private readonly List<Collider2D> hitEnemiesSpecial = new List<Collider2D>();
 
     void Awake()
@@ -165,7 +173,6 @@ public class DoroRoninController : MonoBehaviour, IAttackable, IUpgradable
         isDashing = false;
     }
 
-    // Golpe de desembainhar: avança rápido com dano alto numa tacada só, invencível durante o avanço
     IEnumerator SpecialAttackRoutine()
     {
         isUsingSpecial = true;
@@ -181,13 +188,16 @@ public class DoroRoninController : MonoBehaviour, IAttackable, IUpgradable
             AudioManager.Instance.PlaySFX(AudioManager.Instance.doroSpecialAttackClip);
         }
 
+        // Limpa o trigger SpecialSlash antes de ativar o SpecialAttack
+        animator.ResetTrigger("SpecialSlash");
         animator.SetTrigger("SpecialAttack");
 
         float dashDirection = facingRight ? 1f : -1f;
         float endTime = Time.time + iaiDuration;
-        hitEnemiesSpecial.Clear(); // lista separada, pra permitir atingir VÁRIOS inimigos no caminho
+        hitEnemiesSpecial.Clear();
+        bool stoppedOnEnemy = false;
 
-        // Fase 1: avança cortando tudo que encontrar pelo caminho
+        // Fase 1: avança até encontrar um inimigo
         while (Time.time < endTime)
         {
             rb.linearVelocity = new Vector2(dashDirection * iaiSpeed, rb.linearVelocity.y);
@@ -198,21 +208,27 @@ public class DoroRoninController : MonoBehaviour, IAttackable, IUpgradable
                 if (!hitEnemiesSpecial.Contains(hit))
                 {
                     EnemyHealth enemyHealth = hit.GetComponent<EnemyHealth>();
-                    if (enemyHealth != null)
+                    if (enemyHealth != null && enemyHealth.currentHealth > 0)
                     {
-                        enemyHealth.TakeDamage(iaiDamage);
                         hitEnemiesSpecial.Add(hit);
-
-                        if (enemyHealth.currentHealth <= 0 && PlayerHUD.Instance != null)
-                            PlayerHUD.Instance.AddXP(10);
+                        StartCoroutine(SpecialMultiHit(enemyHealth));
+                        stoppedOnEnemy = true;
                     }
                 }
             }
 
+            if (stoppedOnEnemy) break;
+
             yield return null;
         }
 
+        // Zera a velocidade e sincroniza a execução do SpecialSlash com a duração do clip
         rb.linearVelocity = Vector2.zero;
+        if (stoppedOnEnemy)
+        {
+            animator.SetTrigger("SpecialSlash");
+            yield return new WaitForSeconds(iaiSlashAnimDuration); // cortes + guardar a espada
+        }
 
         // Fase 2: reaparece na posição original (efeito "afterimage")
         rb.position = startPosition;
@@ -222,6 +238,29 @@ public class DoroRoninController : MonoBehaviour, IAttackable, IUpgradable
             playerHealth.SetDashInvincibility(false);
 
         isUsingSpecial = false;
+    }
+
+    // Aplica o iaiSlashDelay no início para sincronizar o primeiro hit com a animação
+    // e depois aplica os hits subsequentes com base no iaiHitInterval
+    IEnumerator SpecialMultiHit(EnemyHealth enemyHealth)
+    {
+        if (iaiSlashDelay > 0f) yield return new WaitForSeconds(iaiSlashDelay);
+
+        int hits = Mathf.Max(1, iaiHits);
+        for (int i = 0; i < hits; i++)
+        {
+            if (enemyHealth != null && enemyHealth.currentHealth > 0)
+            {
+                enemyHealth.TakeDamage(iaiDamage);
+                
+                if (enemyHealth.currentHealth <= 0 && PlayerHUD.Instance != null)
+                {
+                    PlayerHUD.Instance.AddXP(10);
+                    break; // Interrompe os cortes se o inimigo já morreu
+                }
+            }
+            yield return new WaitForSeconds(iaiHitInterval);
+        }
     }
 
     // Chamado via Animation Event no frame de impacto do ataque básico

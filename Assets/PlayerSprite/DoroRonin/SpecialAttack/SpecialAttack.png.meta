@@ -116,10 +116,10 @@ TextureImporter:
       name: SpecialAttack_0
       rect:
         serializedVersion: 2
-        x: 37
-        y: 745
-        width: 328
-        height: 312
+        x: 26
+        y: 775
+        width: 377
+        height: 331
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -138,10 +138,10 @@ TextureImporter:
       name: SpecialAttack_1
       rect:
         serializedVersion: 2
-        x: 408
-        y: 749
-        width: 339
-        height: 317
+        x: 451
+        y: 772
+        width: 386
+        height: 335
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -160,10 +160,10 @@ TextureImporter:
       name: SpecialAttack_2
       rect:
         serializedVersion: 2
-        x: 764
-        y: 758
-        width: 330
-        height: 284
+        x: 879
+        y: 776
+        width: 361
+        height: 331
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -182,12 +182,12 @@ TextureImporter:
       name: SpecialAttack_3
       rect:
         serializedVersion: 2
-        x: 1122
-        y: 756
-        width: 333
-        height: 290
+        x: 1293
+        y: 776
+        width: 382
+        height: 331
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -204,12 +204,12 @@ TextureImporter:
       name: SpecialAttack_4
       rect:
         serializedVersion: 2
-        x: 17
-        y: 384
-        width: 390
-        height: 294
+        x: 20
+        y: 360
+        width: 436
+        height: 316
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -226,12 +226,12 @@ TextureImporter:
       name: SpecialAttack_5
       rect:
         serializedVersion: 2
-        x: 409
-        y: 402
-        width: 346
-        height: 333
+        x: 487
+        y: 361
+        width: 415
+        height: 403
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -248,12 +248,12 @@ TextureImporter:
       name: SpecialAttack_6
       rect:
         serializedVersion: 2
-        x: 769
-        y: 399
-        width: 347
-        height: 329
+        x: 925
+        y: 366
+        width: 425
+        height: 384
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -270,12 +270,12 @@ TextureImporter:
       name: SpecialAttack_7
       rect:
         serializedVersion: 2
-        x: 1119
-        y: 412
-        width: 353
-        height: 288
+        x: 1353
+        y: 375
+        width: 441
+        height: 355
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -292,12 +292,12 @@ TextureImporter:
       name: SpecialAttack_8
       rect:
         serializedVersion: 2
-        x: 53
-        y: 42
-        width: 333
-        height: 270
+        x: 55
+        y: 19
+        width: 374
+        height: 312
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -314,12 +314,12 @@ TextureImporter:
       name: SpecialAttack_9
       rect:
         serializedVersion: 2
-        x: 410
-        y: 31
-        width: 334
-        height: 286
+        x: 460
+        y: 11
+        width: 381
+        height: 318
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -336,12 +336,12 @@ TextureImporter:
       name: SpecialAttack_10
       rect:
         serializedVersion: 2
-        x: 823
-        y: 31
-        width: 333
-        height: 289
+        x: 937
+        y: 10
+        width: 388
+        height: 317
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
